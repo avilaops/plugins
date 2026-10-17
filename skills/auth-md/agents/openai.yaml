@@ -1,0 +1,19 @@
+interface:
+  display_name: auth md
+  short_description: 'Generate, validate, and explain `auth.md` files — the open protocol
+    for AI agent registration.
+
+    Use when making apps agent-ready, generating Protected Resource Metadata (RFC
+    9728),
+
+    validating auth.md files, or implementing agent registration endpoints. Triggers
+    on
+
+    "auth.md", "agent registration", "agent auth", "make my app agent-ready", "ID-JAG",
+
+    "identity_assertion", "service_auth", "protected resource metadata", "agentic
+    registration".'
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true

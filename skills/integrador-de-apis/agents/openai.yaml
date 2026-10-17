@@ -1,0 +1,7 @@
+interface:
+  display_name: Integrador de APIs
+  short_description: OAuth, webhooks, retries e contratos
+  default_prompt: "Use $integrador-de-apis para conectar APIs com autentica\xE7\xE3\
+    o, webhooks e testes de integra\xE7\xE3o."
+policy:
+  allow_implicit_invocation: true

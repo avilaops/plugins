@@ -1,0 +1,7 @@
+interface:
+  display_name: Sincronizador Puro
+  short_description: "Sincroniza\xE7\xE3o consistente entre sistemas"
+  default_prompt: "Use $sincronizador-puro para desenhar ou corrigir uma sincroniza\xE7\
+    \xE3o entre sistemas e cat\xE1logos."
+policy:
+  allow_implicit_invocation: true

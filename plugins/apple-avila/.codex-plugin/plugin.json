@@ -1,0 +1,36 @@
+{
+  "author": {
+    "email": "avilacargasrapidas@gmail.com",
+    "name": "Nicolas"
+  },
+  "description": "Arquitetura, design, desenvolvimento e distribuição de aplicativos Apple integrados ao CMS e aos sistemas Ávila Ops.",
+  "interface": {
+    "capabilities": [
+      "Interactive"
+    ],
+    "category": "Developer Tools",
+    "defaultPrompt": [
+      "Arquitetar um novo aplicativo iOS integrado ao CMS Ávila Ops.",
+      "Auditar telas iOS segundo as diretrizes atuais da Apple.",
+      "Preparar um aplicativo para TestFlight e App Store Connect."
+    ],
+    "developerName": "Nicolas",
+    "displayName": "Apple Ávila",
+    "longDescription": "Assistente de arquitetura e fluxos de trabalho para criação de apps iOS, design alinhado ao Human Interface Guidelines, integração com o CMS Ávila Ops, automação de testes e preparação para App Store Connect.",
+    "shortDescription": "Apps Apple na Ávila Ops",
+    "logo": "./assets/plugin-icon.svg",
+    "composerIcon": "./assets/plugin-icon.svg"
+  },
+  "keywords": [
+    "Apple",
+    "SwiftUI",
+    "iOS",
+    "App Store Connect",
+    "CMS",
+    "App Builder",
+    "Ávila Ops"
+  ],
+  "name": "apple-avila",
+  "skills": "./skills",
+  "version": "0.1.1"
+}

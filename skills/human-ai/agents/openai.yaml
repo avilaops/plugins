@@ -1,0 +1,16 @@
+interface:
+  display_name: human ai
+  short_description: 'Edit English prose to remove repetitive AI phrasing, inflated
+    language, and
+
+    mechanical structure while preserving meaning and the author''s voice. Use for
+
+    requests to humanize, de-slop, rewrite naturally, or fix tone. Also compose from
+
+    the author''s English notes or transcripts and ask targeted questions when real
+
+    details are missing. For Brazilian Portuguese, use the companion humanizar skill.'
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true

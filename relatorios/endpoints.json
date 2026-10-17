@@ -1,0 +1,22 @@
+{
+  "checked_at": "2026-10-17T07:33:36.595781+00:00",
+  "note": "Unauthenticated GET only; an HTTP response does not prove MCP initialization or module access.",
+  "endpoints": [
+    {
+      "url": "https://mcp.avilaops.com/mcp",
+      "http_status": 401,
+      "content_type": "application/json; charset=utf-8",
+      "status": "REQUER_AUTENTICACAO",
+      "authenticated": false,
+      "mcp_session": "NAO_TESTADA"
+    },
+    {
+      "url": "https://n8n.avilaops.com/mcp-server/http",
+      "http_status": 401,
+      "content_type": "application/json; charset=utf-8",
+      "status": "REQUER_AUTENTICACAO",
+      "authenticated": false,
+      "mcp_session": "NAO_TESTADA"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "avilacargasrapidas@gmail.com",
+    "name": "Nicolas"
+  },
+  "description": "Apoio às lojas, produtos, pedidos e estoque.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [],
+        "category": "Productivity",
+        "composerIcon": "./assets/plugin-icon.svg",
+        "defaultPrompt": "Verifique as ferramentas de Ávila Lojas disponíveis e apresente o que é possível fazer sem alterar dados.",
+        "developerName": "Nicolas",
+        "displayName": "Avila Lojas",
+        "logo": "./assets/plugin-icon.svg",
+        "longDescription": "Apoio às lojas, produtos, pedidos e estoque. Ligação ao MCP central, sujeita à autenticação e às ferramentas realmente expostas.",
+        "shortDescription": "Catálogo e vendas"
+      }
+    }
+  },
+  "name": "avila-lojas",
+  "version": "0.1.1"
+}

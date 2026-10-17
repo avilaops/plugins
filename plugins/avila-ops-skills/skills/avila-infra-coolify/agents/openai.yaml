@@ -1,0 +1,5 @@
+interface:
+  display_name: Infra Ávila Ops
+  short_description: 'Operar Coolify e diagnosticar deploys da Ávila Ops quando o '
+  default_prompt: Use $avila-infra-coolify para executar a tarefa no contexto da Ávila
+    Ops.

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title id="title">Lojas e vendas</title>
+  <rect width="256" height="256" rx="56" fill="#10243A"/>
+  <g fill="none" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M66 92h124l12 112H54Z" stroke="#F8FAFC"/>
+    <path d="M98 98V78a30 30 0 0 1 60 0v20" stroke="#38BDF8"/>
+    <path d="m105 153 17 17 33-35" stroke="#FBBF24"/>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+{
+  "author": {
+    "email": "avilacargasrapidas@gmail.com",
+    "name": "Nicolas"
+  },
+  "description": "Operações de CRM e relacionamento com clientes.",
+  "interface": {
+    "capabilities": [],
+    "category": "Productivity",
+    "composerIcon": "./assets/plugin-icon.svg",
+    "defaultPrompt": "Verifique as ferramentas de Ávila CRM disponíveis e apresente o que é possível fazer sem alterar dados.",
+    "developerName": "Nicolas",
+    "displayName": "Ávila CRM",
+    "logo": "./assets/plugin-icon.svg",
+    "longDescription": "Operações de CRM e relacionamento com clientes. Ligação ao MCP central, sujeita à autenticação e às ferramentas realmente expostas.",
+    "shortDescription": "Clientes e atendimentos"
+  },
+  "keywords": [],
+  "mcpServers": "./.mcp.json",
+  "name": "avila-crm",
+  "skills": "./skills",
+  "version": "0.1.1"
+}

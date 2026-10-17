@@ -1,0 +1,5 @@
+interface:
+  display_name: Agent Ready Ávila Ops
+  short_description: 'Auditar e melhorar descoberta e uso por agentes nos sites e '
+  default_prompt: Use $avila-agent-ready para executar a tarefa no contexto da Ávila
+    Ops.

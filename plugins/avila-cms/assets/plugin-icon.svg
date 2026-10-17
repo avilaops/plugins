@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title id="title">Gestao de conteudo e paginas</title>
+  <rect width="256" height="256" rx="56" fill="#10243A"/>
+  <g fill="none" stroke="#F8FAFC" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="48" y="48" width="160" height="160" rx="18"/>
+    <path d="M48 84h160M128 110h52M128 138h52M76 174h104"/>
+    <rect x="76" y="110" width="28" height="28" rx="4" fill="#38BDF8" stroke="#38BDF8"/>
+  </g>
+  <circle cx="72" cy="66" r="5" fill="#FBBF24"/>
+  <circle cx="90" cy="66" r="5" fill="#F45B69"/>
+</svg>

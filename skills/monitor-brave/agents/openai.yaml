@@ -1,0 +1,9 @@
+interface:
+  display_name: Monitor Brave
+  short_description: Diagnóstico de vídeos, carregamento e RAM no Brave
+  default_prompt: Use $monitor-brave para testar a extensão, conferir buffer e RAM
+    e verificar a integração n8n.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true

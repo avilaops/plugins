@@ -1,0 +1,25 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "avilacargasrapidas@gmail.com",
+    "name": "Nicolas"
+  },
+  "description": "Assistente de e-mail corporativo da Ávila Ops.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [],
+        "category": "Productivity",
+        "composerIcon": "./assets/plugin-icon.svg",
+        "defaultPrompt": "Verifique as ferramentas de Ávila Mail disponíveis e apresente o que é possível fazer sem alterar dados.",
+        "developerName": "Nicolas",
+        "displayName": "Ávila Mail",
+        "logo": "./assets/plugin-icon.svg",
+        "longDescription": "Assistente de e-mail corporativo da Ávila Ops. Ligação ao MCP central, sujeita à autenticação e às ferramentas realmente expostas.",
+        "shortDescription": "E-mail profissional"
+      }
+    }
+  },
+  "name": "avila-mail",
+  "version": "0.1.1"
+}

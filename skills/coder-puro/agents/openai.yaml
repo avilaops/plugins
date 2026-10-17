@@ -1,0 +1,7 @@
+interface:
+  display_name: Coder Puro
+  short_description: "Documenta\xE7\xE3o, arquitetura, c\xF3digo e valida\xE7\xE3o"
+  default_prompt: Use $coder-puro para entender a arquitetura e implementar esta tarefa
+    diretamente.
+policy:
+  allow_implicit_invocation: true

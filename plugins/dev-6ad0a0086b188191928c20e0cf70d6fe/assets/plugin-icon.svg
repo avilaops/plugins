@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title id="title">App conectado</title>
+  <rect width="256" height="256" rx="48" fill="#10243A"/>
+  <rect x="52" y="52" width="152" height="152" rx="28" fill="none" stroke="#F8FAFC" stroke-width="12"/>
+  <g fill="none" stroke="#38BDF8" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M108 84v30M148 84v30M96 114h64v18a32 32 0 0 1-64 0ZM128 164v22"/>
+  </g>
+</svg>

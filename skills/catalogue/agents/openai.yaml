@@ -1,0 +1,9 @@
+interface:
+  display_name: Catalogue
+  short_description: Catalogue documentação técnica com fontes e contexto
+  default_prompt: Use $catalogue para catalogar esta documentação técnica e registrar
+    onde ela se aplica.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true

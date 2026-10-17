@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title id="title">n8n Avila Ops</title>
+  <rect width="256" height="256" rx="48" fill="#10243A"/>
+  <g fill="none" stroke="#F8FAFC" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M80 128h40M140 78h22v98h-22M120 98v58M120 128h42M162 80h18M162 176h18"/>
+    <rect x="44" y="108" width="36" height="40" rx="10"/>
+    <rect x="100" y="58" width="40" height="40" rx="10"/>
+    <rect x="100" y="156" width="40" height="40" rx="10"/>
+  </g>
+  <rect x="180" y="60" width="36" height="40" rx="10" fill="#38BDF8"/>
+  <rect x="180" y="156" width="36" height="40" rx="10" fill="#FBBF24"/>
+</svg>

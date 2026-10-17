@@ -1,0 +1,5 @@
+interface:
+  display_name: Vigia Ávila Ops
+  short_description: Diagnosticar integrações, workflows n8n, filas, tokens e div
+  default_prompt: Use $avila-vigia-integracoes para executar a tarefa no contexto
+    da Ávila Ops.

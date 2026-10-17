@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "avilaops-central": {
+      "type": "streamable-http",
+      "url": "https://mcp.avilaops.com/mcp",
+      "headers": {},
+      "extensions": {
+        "com.openai": {
+          "auth": {
+            "type": "api_key",
+            "headerScheme": "bearer"
+          }
+        }
+      }
+    }
+  }
+}

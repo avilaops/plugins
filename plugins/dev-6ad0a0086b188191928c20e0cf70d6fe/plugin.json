@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "dev-6ad0a0086b188191928c20e0cf70d6fe",
+  "version": "1.0.1",
+  "description": "Referência ao app existente 6ad0a008; função de negócio ainda não identificada.",
+  "author": {
+    "name": "App developer"
+  },
+  "extensions": {
+    "com.openai": {
+      "apps": "./.app.json",
+      "interface": {
+        "displayName": "App conectado 6ad0a008",
+        "shortDescription": "App com função a identificar",
+        "longDescription": "Mantém a referência ao app registrado. O pacote original não informa sua função; disponibilidade e identidade precisam ser confirmadas no host antes de utilizá-lo.",
+        "developerName": "App developer",
+        "category": "Other",
+        "capabilities": [],
+        "logo": "./assets/plugin-icon.svg",
+        "composerIcon": "./assets/plugin-icon.svg"
+      }
+    }
+  }
+}

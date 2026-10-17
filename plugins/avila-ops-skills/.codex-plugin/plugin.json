@@ -1,0 +1,22 @@
+{
+  "author": {
+    "email": "avilacargasrapidas@gmail.com",
+    "name": "Nicolas"
+  },
+  "description": "Engenharia, infraestrutura, integrações, design e prontidão para agentes adaptados à Ávila Ops.",
+  "interface": {
+    "capabilities": [],
+    "category": "Productivity",
+    "defaultPrompt": "Use as skills da Avila Ops para trabalhar no meu projeto.",
+    "developerName": "Nicolas",
+    "displayName": "Avila Ops • Skills",
+    "longDescription": "Cinco skills adaptadas aos projetos, infraestrutura e preferências da Ávila Ops. Usa conexões existentes quando disponíveis.",
+    "shortDescription": "Skills para sua operação",
+    "logo": "./assets/plugin-icon.svg",
+    "composerIcon": "./assets/plugin-icon.svg"
+  },
+  "keywords": [],
+  "name": "avila-ops-skills",
+  "skills": "./skills",
+  "version": "0.1.1"
+}

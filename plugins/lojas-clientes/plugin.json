@@ -1,0 +1,29 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "avilacargasrapidas@gmail.com",
+    "name": "Nicolas"
+  },
+  "description": "Ajuda clientes da Lojas Ávila Ops a preencher sua loja e organizar seu catálogo.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [],
+        "category": "Productivity",
+        "defaultPrompt": [
+          "Quero preencher minha loja. Confira o que falta e me guie por etapas.",
+          "Cadastre os produtos deste arquivo na minha loja.",
+          "Revise meu catálogo e mostre os dados que faltam."
+        ],
+        "developerName": "Nicolas",
+        "displayName": "Lojas Minha loja",
+        "longDescription": "Organize dados da loja, categorias, produtos, fotos e descrições a partir de arquivos e informações fornecidos. Conecta ao MCP existente da Ávila Ops com credencial individual. As permissões e o isolamento da loja devem ser impostos pelo servidor.",
+        "shortDescription": "Preencha sua loja pelo chat",
+        "logo": "./assets/plugin-icon.svg",
+        "composerIcon": "./assets/plugin-icon.svg"
+      }
+    }
+  },
+  "name": "lojas-clientes",
+  "version": "0.1.1"
+}

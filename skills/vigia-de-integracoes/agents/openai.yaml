@@ -1,0 +1,7 @@
+interface:
+  display_name: "Vigia de Integra\xE7\xF5es"
+  short_description: "Monitora integra\xE7\xF5es e recupera falhas"
+  default_prompt: "Use $vigia-de-integracoes para diagnosticar uma integra\xE7\xE3\
+    o parada ou criar uma rotina de monitoramento."
+policy:
+  allow_implicit_invocation: true

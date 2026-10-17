@@ -1,0 +1,1487 @@
+{
+  "status": "VERIFICADO",
+  "pastasAnalisadas": 32,
+  "pastasRenomeadas": 25,
+  "pastasMantidas": 7,
+  "arquivosComparados": 295,
+  "algoritmo": "SHA-256",
+  "arquivosAlterados": 0,
+  "identificadoresInternosAlterados": 0,
+  "arquivos": [
+    {
+      "pasta": "avaliar-plugins",
+      "arquivo": "LICENSE",
+      "sha256": "AA41FAFFCF88908B495D7D318E96E889FF78AA53138E51E48C4EF4E6DA076AD8"
+    },
+    {
+      "pasta": "avaliar-plugins",
+      "arquivo": "SKILL.md",
+      "sha256": "A8F39DEE2F58028D1C71596E13C543A151437E245496E2703A98721793D66FA4"
+    },
+    {
+      "pasta": "avaliar-plugins",
+      "arquivo": "agents\\default.yaml",
+      "sha256": "EFD5A21C1068DC94E95F272462A3EC69EB471E8FCF3AFBEE8B13DCB32329D6CD"
+    },
+    {
+      "pasta": "avaliar-plugins",
+      "arquivo": "agents\\openai.yaml",
+      "sha256": "672B386367675BAB1C030573EEEC6B5C67A0464D885F8C8FDDED20616AB0836C"
+    },
+    {
+      "pasta": "avaliar-plugins",
+      "arquivo": "assets\\icon.svg",
+      "sha256": "E9301497FA98EF56AACA7EDE0857B9A18DC06C34040F0679C609A6BF49B1D38B"
+    },
+    {
+      "pasta": "avaliar-plugins",
+      "arquivo": "references\\jev-integration.md",
+      "sha256": "7DDE2B7FA944DDC6D9A7A91C8AA2393D27454D4CF01E505C8C41B4570BDA3B1F"
+    },
+    {
+      "pasta": "avaliar-plugins",
+      "arquivo": "references\\output-template.md",
+      "sha256": "4C052EDE0AF7B98E7336BF75E4C34D43CE9043B28D28467046C8D228444BBB41"
+    },
+    {
+      "pasta": "avaliar-plugins",
+      "arquivo": "references\\rubric.md",
+      "sha256": "3581D144088A5FDC988E80F911AEE8EA6BF84F7A4CDE8B7DB695E71FA7ECAD5A"
+    },
+    {
+      "pasta": "avaliar-plugins",
+      "arquivo": "references\\spec-checklist.md",
+      "sha256": "2BEC2C6386C673E4BD0A10365F7B38845DFEE45FCE239D0146DA70BB4B53DBE8"
+    },
+    {
+      "pasta": "avaliar-plugins",
+      "arquivo": "scripts\\inspect_plugin.py",
+      "sha256": "0D625E8F741E3B6026CB4BA735F50B3D8CECADF35F86A787162AE41002E35A63"
+    },
+    {
+      "pasta": "avaliar-plugins",
+      "arquivo": "scripts\\jev_questions.json",
+      "sha256": "BBA0A31790A29C71AEBF451CC7574E29875B2D6295B51ADAB6F5EA3C0C689F64"
+    },
+    {
+      "pasta": "avaliar-plugins",
+      "arquivo": "scripts\\score.py",
+      "sha256": "CE9CC2BA1952A96779FC9D9DC59C094C9F3369ED1B00EE60A37D858D94E67A2D"
+    },
+    {
+      "pasta": "auditar-prontidao-agentes",
+      "arquivo": "LICENSE",
+      "sha256": "AA41FAFFCF88908B495D7D318E96E889FF78AA53138E51E48C4EF4E6DA076AD8"
+    },
+    {
+      "pasta": "auditar-prontidao-agentes",
+      "arquivo": "README.md",
+      "sha256": "2A6F0F98CE74F80F8630DBC01B05FFD8E69E39231D1F29B3F721FE581E70F37E"
+    },
+    {
+      "pasta": "auditar-prontidao-agentes",
+      "arquivo": "SKILL.md",
+      "sha256": "B1DCC28EAE6967807CBC4924A7AD07E4DFF726B82470DAB6126A10728EE3C6DF"
+    },
+    {
+      "pasta": "auditar-prontidao-agentes",
+      "arquivo": "a2a-agent-card\\GUIDE.md",
+      "sha256": "13F688025F8A0A19833F968673780530B4ED9BF0FC0839CB495513F99C20063E"
+    },
+    {
+      "pasta": "auditar-prontidao-agentes",
+      "arquivo": "acp\\GUIDE.md",
+      "sha256": "FD137B83D203EF310302C68E70504FF2F8F34F283E17734088020E8B86741171"
+    },
+    {
+      "pasta": "auditar-prontidao-agentes",
+      "arquivo": "agent-skills\\GUIDE.md",
+      "sha256": "F3505DB03F7F75EC4E99104BBA59811C647B7005D5F9559874F2FC3E7C702C3E"
+    },
+    {
+      "pasta": "auditar-prontidao-agentes",
+      "arquivo": "agents\\openai.yaml",
+      "sha256": "501486355461A25488A1CFA1E168E0B5050C2FCD2A7B4AC3FF17001B746AAB45"
+    },
+    {
+      "pasta": "auditar-prontidao-agentes",
+      "arquivo": "ai-rules\\GUIDE.md",
+      "sha256": "9B1566F2770822FBCED61000161868E04C84D50F79CA7B6D6F167A2D67B7AA5A"
+    },
+    {
+      "pasta": "auditar-prontidao-agentes",
+      "arquivo": "api-catalog\\GUIDE.md",
+      "sha256": "99D53F84A1E11C5219A2330EC3E6A57C11908297FDFBC3552F7FEBB79068DC4D"
+    },
+    {
+      "pasta": "auditar-prontidao-agentes",
+      "arquivo": "ard\\GUIDE.md",
+      "sha256": "438EEDB2144163AD31D1EDF8D20815CF80D75A9DBF6C2EC38B78CD0C7AF6C1D1"
+    },
+    {
+      "pasta": "auditar-prontidao-agentes",
+      "arquivo": "assets\\icon.svg",
+      "sha256": "E9301497FA98EF56AACA7EDE0857B9A18DC06C34040F0679C609A6BF49B1D38B"
+    },
+    {
+      "pasta": "auditar-prontidao-agentes",
+      "arquivo": "auth-md\\GUIDE.md",
+      "sha256": "BEEADDD6640BF3A2B793414CEBD37F0FB89558BF12E2B15E77B0F43ECF333FF3"
+    },
+    {
+      "pasta": "auditar-prontidao-agentes",
+      "arquivo": "content-signals\\GUIDE.md",
+      "sha256": "77E23BAAC4C4867344621D49E03249CA7153461CD2855EE6F8C8CAA7E069FF32"
+    },
+    {
+      "pasta": "auditar-prontidao-agentes",
+      "arquivo": "dns-aid\\GUIDE.md",
+      "sha256": "C590582726F80C00021056A7DA42D4D1DEF11995825718FA7C6343BBF0BD0ADC"
+    },
+    {
+      "pasta": "auditar-prontidao-agentes",
+      "arquivo": "link-headers\\GUIDE.md",
+      "sha256": "072C27A2A659FC350981545CE3AA87866D062C1006980573044FF9CB1A572E22"
+    },
+    {
+      "pasta": "auditar-prontidao-agentes",
+      "arquivo": "llms-full-txt\\GUIDE.md",
+      "sha256": "FAE01EAA9B16B75FF4F40958D8E852BD4EB2A0D534E86B87A21E3BA91790DB87"
+    },
+    {
+      "pasta": "auditar-prontidao-agentes",
+      "arquivo": "llms-txt\\GUIDE.md",
+      "sha256": "EE9639D657EE147D558CDC950DD7A7A22D6B28CA0BC74B400CCEA76E70770BA2"
+    },
+    {
+      "pasta": "auditar-prontidao-agentes",
+      "arquivo": "markdown-negotiation\\GUIDE.md",
+      "sha256": "DA88DC0A976039E561C91C13E6D019A9CDE7C95309461B4652752E20F668DBD4"
+    },
+    {
+      "pasta": "auditar-prontidao-agentes",
+      "arquivo": "mcp-server-card\\GUIDE.md",
+      "sha256": "649D9BAA5105DA8B4059EA324B5E792EA10A57FFB0725471A3899C402FE904B4"
+    },
+    {
+      "pasta": "auditar-prontidao-agentes",
+      "arquivo": "mpp\\GUIDE.md",
+      "sha256": "A8342D0C0D99C1B9FAD4CA9017846D5A052EC725C5CDAE0DAD4EC7D81E9DBCBC"
+    },
+    {
+      "pasta": "auditar-prontidao-agentes",
+      "arquivo": "oauth-discovery\\GUIDE.md",
+      "sha256": "3040D58B002B6A49D3EEF60229B6DFF979EB5E03B5811AF1CC02C03A0E6CBBCB"
+    },
+    {
+      "pasta": "auditar-prontidao-agentes",
+      "arquivo": "oauth-protected-resource\\GUIDE.md",
+      "sha256": "0188C679C44F8235849C185FFE27B3C9F9588BBB8DC8FBAE3A7C10A90FC457CB"
+    },
+    {
+      "pasta": "auditar-prontidao-agentes",
+      "arquivo": "robots-txt\\GUIDE.md",
+      "sha256": "5F96B7CD115534CFCC8CCEE85985CDB857C32A8D01C86E2A4EAC22395F1B1C68"
+    },
+    {
+      "pasta": "auditar-prontidao-agentes",
+      "arquivo": "scan-site\\GUIDE.md",
+      "sha256": "FE8222AE248A4DD3B18CA96A1AA6DC8DFE049BCF8E56B732851A9E80F46D1193"
+    },
+    {
+      "pasta": "auditar-prontidao-agentes",
+      "arquivo": "sitemap\\GUIDE.md",
+      "sha256": "207CF0AD5070CBA69A7729F76D134231EFB0D68F4A72F046935A9F700D7C083C"
+    },
+    {
+      "pasta": "auditar-prontidao-agentes",
+      "arquivo": "ucp\\GUIDE.md",
+      "sha256": "E26948D9A77D0E7A314E0995326053CA20576F02E234B500119A66DDD7BB52CC"
+    },
+    {
+      "pasta": "auditar-prontidao-agentes",
+      "arquivo": "web-bot-auth\\GUIDE.md",
+      "sha256": "F3250374E0BF554E14745A4AC9FB05EF0DA7005E32FB12C650B28061CFC94D08"
+    },
+    {
+      "pasta": "auditar-prontidao-agentes",
+      "arquivo": "webmcp\\GUIDE.md",
+      "sha256": "85EB7054DD73645C130E2369206035CD36818DC96CE2B6A04CEB128F8633D3D8"
+    },
+    {
+      "pasta": "auditar-prontidao-agentes",
+      "arquivo": "x402\\GUIDE.md",
+      "sha256": "62E266D1FC8FF56A21F4ACCCBEB4722CB42D3DDD064391E5F2249426C0BC5B51"
+    },
+    {
+      "pasta": "avila-apple",
+      "arquivo": "plugin.json",
+      "sha256": "238E6C71016E429BEF24E79828D9FA7101F4636286FEFAD2EC037778F9491B55"
+    },
+    {
+      "pasta": "avila-apple",
+      "arquivo": ".codex-plugin\\plugin.json",
+      "sha256": "E623FCC8744127D18030037B9C3A8D9CE22E2C12625807C3E55DE01D5F9E4EE7"
+    },
+    {
+      "pasta": "avila-apple",
+      "arquivo": "skills\\app-store-release\\SKILL.md",
+      "sha256": "2E80E0EE341C86C11F3C62310769B02F6EFC503E62CD34F2A8D0C7C5619993A1"
+    },
+    {
+      "pasta": "avila-apple",
+      "arquivo": "skills\\apple-design-audit\\SKILL.md",
+      "sha256": "96654313EE27B4455E820AC60E5AB825BD708A70302BBFC9E043CA2462E10F7B"
+    },
+    {
+      "pasta": "avila-apple",
+      "arquivo": "skills\\cms-app-builder\\SKILL.md",
+      "sha256": "A28613665B531DD3446B9199F945DE4F20C9A3924BBE7271858921ED58EC7A4F"
+    },
+    {
+      "pasta": "avila-apple",
+      "arquivo": "skills\\ios-app-architecture\\SKILL.md",
+      "sha256": "C9DBCF04F1B3EB4FA91C8E1879AED2691B159416D1B8D0DBFBE0BE84C60432A2"
+    },
+    {
+      "pasta": "gerenciar-sites-astro",
+      "arquivo": "LICENSE",
+      "sha256": "AA41FAFFCF88908B495D7D318E96E889FF78AA53138E51E48C4EF4E6DA076AD8"
+    },
+    {
+      "pasta": "gerenciar-sites-astro",
+      "arquivo": "SKILL.md",
+      "sha256": "E2AE20CDE9448DAFF00BFF37D1F5813D1286278A336C124CA8E07674D7D37BE8"
+    },
+    {
+      "pasta": "gerenciar-sites-astro",
+      "arquivo": "agents\\openai.yaml",
+      "sha256": "27EC5EE582F8EBA9C6D21CBFAD0BD6C2BB86CB93D0AC3A2DD7827C51EB9D0EB2"
+    },
+    {
+      "pasta": "gerenciar-sites-astro",
+      "arquivo": "assets\\icon.svg",
+      "sha256": "8936B24F674A1250D999E2C2B5901374FB4240426F32BD1AE340C352A90D617D"
+    },
+    {
+      "pasta": "gerenciar-sites-astro",
+      "arquivo": "references\\ai-dev-server.md",
+      "sha256": "C24F292600EADD826480D38C642C934EFBA4F7EC94253DDC4B027AE181EE2DE1"
+    },
+    {
+      "pasta": "gerenciar-sites-astro",
+      "arquivo": "references\\coolify-deploy.md",
+      "sha256": "DEE1C7DEF39CA7088D4D47C129404F9CBB9F7681F58E37041CF57E18E4850C7D"
+    },
+    {
+      "pasta": "gerenciar-sites-astro",
+      "arquivo": "references\\deployment.md",
+      "sha256": "A644F079712C429A1E1D93D8778DB4EA02781C1C573B403EDD133A3086B7BC19"
+    },
+    {
+      "pasta": "gerenciar-sites-astro",
+      "arquivo": "references\\install-mcp.md",
+      "sha256": "2627C6A1CDBDCA59CEFED579F924D92E814EA5016713FE829ABD05DD995959B6"
+    },
+    {
+      "pasta": "gerenciar-sites-astro",
+      "arquivo": "references\\migration-v6-to-v7.md",
+      "sha256": "D70947A3668EA006CB452259F41F4139DF0FA449239DF253D8E105B71F4C06AD"
+    },
+    {
+      "pasta": "gerenciar-sites-astro",
+      "arquivo": "references\\related-content.md",
+      "sha256": "70CDD16657834549E294372C034BC29E9FF12FD11DDC49F729A9CF362CE1B2E2"
+    },
+    {
+      "pasta": "gerenciar-sites-astro",
+      "arquivo": "references\\seo-full-stack.md",
+      "sha256": "9364CF8209867CC292767715020BF376161FEFAA9114D537C573184A00CC8066"
+    },
+    {
+      "pasta": "gerenciar-sites-astro",
+      "arquivo": "references\\starlight-and-patterns.md",
+      "sha256": "78BE9417324CFBA50908F2CADCC5C492E1F90582F1046E99236714D1F2C17507"
+    },
+    {
+      "pasta": "gerenciar-sites-astro",
+      "arquivo": "references\\testing.md",
+      "sha256": "B8B85896F02BE552047C56E4967471B00C709F7CAD1190BA7D13F82BB73538D6"
+    },
+    {
+      "pasta": "gerenciar-sites-astro",
+      "arquivo": "references\\v6-features.md",
+      "sha256": "AAE1DDA8B315AF07116D0A759C3968D30450F9548E3C4B4070B2DA0EB63EB5C8"
+    },
+    {
+      "pasta": "gerenciar-sites-astro",
+      "arquivo": "references\\v7-features.md",
+      "sha256": "388B484F7728EC8E9F7431143FAE227AE67B5C140F458195AF4F776B6C731CDA"
+    },
+    {
+      "pasta": "gerenciar-sites-astro",
+      "arquivo": "references\\validation-checklist.md",
+      "sha256": "1232A0441AC1EEC959AE380573F81D9AE36D3DBDB40329856F2C026AF8DBE1CD"
+    },
+    {
+      "pasta": "autenticacao-agentes-auth-md",
+      "arquivo": "auth-md\\LICENSE",
+      "sha256": "AA41FAFFCF88908B495D7D318E96E889FF78AA53138E51E48C4EF4E6DA076AD8"
+    },
+    {
+      "pasta": "autenticacao-agentes-auth-md",
+      "arquivo": "auth-md\\SKILL.md",
+      "sha256": "1D97A35CB172A126942B3E257FF0EBC97A8D11368668E47FC544273107680CC9"
+    },
+    {
+      "pasta": "autenticacao-agentes-auth-md",
+      "arquivo": "auth-md\\UPSTREAM_COMMIT",
+      "sha256": "B82C8DAF2E43A3169647B448583D5BB307B798839C378EF0B5EA6CCF83C9E8D6"
+    },
+    {
+      "pasta": "autenticacao-agentes-auth-md",
+      "arquivo": "auth-md\\agents\\openai.yaml",
+      "sha256": "A72DBFEA2F5D9539C546722BB0540456880784F3D8FC530DE8F4343456F85187"
+    },
+    {
+      "pasta": "autenticacao-agentes-auth-md",
+      "arquivo": "auth-md\\assets\\icon.svg",
+      "sha256": "8936B24F674A1250D999E2C2B5901374FB4240426F32BD1AE340C352A90D617D"
+    },
+    {
+      "pasta": "autenticacao-agentes-auth-md",
+      "arquivo": "auth-md\\references\\example-auth-md.md",
+      "sha256": "145CC6A93668AA1E7182D69CF8E5BF4B16598B0253D2A086049762932BC5C14C"
+    },
+    {
+      "pasta": "autenticacao-agentes-auth-md",
+      "arquivo": "auth-md\\references\\implementation-guide.md",
+      "sha256": "75032D03444EF8A83D757C66CD31D284BFB33816003B674DD4DF20905C3CABFE"
+    },
+    {
+      "pasta": "autenticacao-agentes-auth-md",
+      "arquivo": "auth-md\\references\\metadata-schema.md",
+      "sha256": "EBB87DBB5476505FCF9BC0C9B64278B6BD1904A5AF7647BF1DF5AE545AD0C22A"
+    },
+    {
+      "pasta": "autenticacao-agentes-auth-md",
+      "arquivo": "auth-md\\references\\protocol-template.md",
+      "sha256": "696F950D47E49701177A483DD52FA6560353014060DAFDE8C7989F67277CC567"
+    },
+    {
+      "pasta": "autenticacao-agentes-auth-md",
+      "arquivo": "auth-md\\references\\validation-rules.md",
+      "sha256": "A1BA9CCD56BFA382A983A7F29E6F59B1005D09EB9CC3A84053E6D98E075F4B98"
+    },
+    {
+      "pasta": "automatizar-operacoes",
+      "arquivo": "automador-puro\\SKILL.md",
+      "sha256": "4A727D23596314F61C0661EC6B14C51F77BAA45E5091F167DE3A7D466E0DB256"
+    },
+    {
+      "pasta": "automatizar-operacoes",
+      "arquivo": "automador-puro\\agents\\openai.yaml",
+      "sha256": "0B5FF73F4D1825B5884555D43C435532379B0AE185B626D8D1D9E563752684D2"
+    },
+    {
+      "pasta": "avila-cms",
+      "arquivo": ".mcp.json",
+      "sha256": "8E0A9F097F5477CD089CAD6A5F4AE3ABFDB3F4E2FA18349FA876C14B9B395A27"
+    },
+    {
+      "pasta": "avila-cms",
+      "arquivo": "mcp.json",
+      "sha256": "F5839A055A13EB835167C5A10FDABB8AFDC8D2DF26BF2FBF6F28864625E15419"
+    },
+    {
+      "pasta": "avila-cms",
+      "arquivo": "plugin.json",
+      "sha256": "BE40E4E5A3B479C7147D618960F39A2DC001B9009EB96C58A99B3747A7AA311F"
+    },
+    {
+      "pasta": "avila-cms",
+      "arquivo": ".codex-plugin\\plugin.json",
+      "sha256": "27D359C83E055F80479D0F533DDBAFB9E1CEC77F726477C93B03614E2BF9C3BA"
+    },
+    {
+      "pasta": "avila-cms",
+      "arquivo": "assets\\icon.png",
+      "sha256": "CA50AE54CCA559023359516345406C6E6A6169BE8EC0713DFA8B984F278E4EA0"
+    },
+    {
+      "pasta": "avila-cms",
+      "arquivo": "skills\\avila-cms\\SKILL.md",
+      "sha256": "78176854BA94A6DBAA86B945F8B894168CE2259EE6EDD20A9402BDEBD7688DDD"
+    },
+    {
+      "pasta": "avila-crm",
+      "arquivo": ".mcp.json",
+      "sha256": "8E0A9F097F5477CD089CAD6A5F4AE3ABFDB3F4E2FA18349FA876C14B9B395A27"
+    },
+    {
+      "pasta": "avila-crm",
+      "arquivo": "mcp.json",
+      "sha256": "F5839A055A13EB835167C5A10FDABB8AFDC8D2DF26BF2FBF6F28864625E15419"
+    },
+    {
+      "pasta": "avila-crm",
+      "arquivo": "plugin.json",
+      "sha256": "E8E7A9B77412D11E7DBF4B5DDCE99C85185959AA9FA1F4C60F01C3D730F48C57"
+    },
+    {
+      "pasta": "avila-crm",
+      "arquivo": ".codex-plugin\\plugin.json",
+      "sha256": "4935C31BC20DF161A25E44FE379F774EAECCA6C3C5CA69CFBA0B102E2C3A291A"
+    },
+    {
+      "pasta": "avila-crm",
+      "arquivo": "assets\\icon.png",
+      "sha256": "61CE0265D61ECBDAC36E16242207A372B3549C1047CF3375607BA60757A850BE"
+    },
+    {
+      "pasta": "avila-crm",
+      "arquivo": "skills\\avila-crm\\SKILL.md",
+      "sha256": "260DAA055868374F15A7311F0D73029BD25FDE80299DB07E714CB73AD5D1CFEE"
+    },
+    {
+      "pasta": "avila-design",
+      "arquivo": "plugin.json",
+      "sha256": "647F7A7C9DCEE4BA2672F10DC7A656080CC1B043909DE94AE611BCA8DC040A30"
+    },
+    {
+      "pasta": "avila-design",
+      "arquivo": ".codex-plugin\\plugin.json",
+      "sha256": "BAB1F0472321044BBB69E4556E720BACC9D3731E130F69410718CF8036486A29"
+    },
+    {
+      "pasta": "avila-design",
+      "arquivo": "skills\\design-puro\\SKILL.md",
+      "sha256": "807898002C4812CE824892014BC9CECE9B513CEC56F84468091FB332D494B75D"
+    },
+    {
+      "pasta": "avila-design",
+      "arquivo": "skills\\design-puro\\agents\\openai.yaml",
+      "sha256": "0C0D22A5EA6A899E428A57A4B55D958BBCD4679F168E3E89E69CB0FF0DB98230"
+    },
+    {
+      "pasta": "avila-design",
+      "arquivo": "skills\\design-puro\\references\\marcas.md",
+      "sha256": "3B73CAE11E7C5286A567835C37BEFF46400CFA7E5ACA29761761BBC3A5CD179D"
+    },
+    {
+      "pasta": "avila-lojas",
+      "arquivo": ".mcp.json",
+      "sha256": "8E0A9F097F5477CD089CAD6A5F4AE3ABFDB3F4E2FA18349FA876C14B9B395A27"
+    },
+    {
+      "pasta": "avila-lojas",
+      "arquivo": "mcp.json",
+      "sha256": "F5839A055A13EB835167C5A10FDABB8AFDC8D2DF26BF2FBF6F28864625E15419"
+    },
+    {
+      "pasta": "avila-lojas",
+      "arquivo": "plugin.json",
+      "sha256": "1B0FB2A1FCC67D8B52B2C55145819A15C7BDF82E937630083F17B2ABF40CF544"
+    },
+    {
+      "pasta": "avila-lojas",
+      "arquivo": ".codex-plugin\\plugin.json",
+      "sha256": "1244FA13FDB7BC11DD75D404AAA481374B8B3675DD27DC5398D3C0CA11465758"
+    },
+    {
+      "pasta": "avila-lojas",
+      "arquivo": "assets\\icon.png",
+      "sha256": "919F9DFC2223EEF7506AA4996324D263FA919FAD034366F60A040007EC389124"
+    },
+    {
+      "pasta": "avila-lojas",
+      "arquivo": "skills\\avila-lojas\\SKILL.md",
+      "sha256": "B5788E48EAC9017168F5D9D4C6B907EAFE1E22F438AFF2A4B8AFA8D4FA31B9BD"
+    },
+    {
+      "pasta": "avila-mail",
+      "arquivo": ".mcp.json",
+      "sha256": "8E0A9F097F5477CD089CAD6A5F4AE3ABFDB3F4E2FA18349FA876C14B9B395A27"
+    },
+    {
+      "pasta": "avila-mail",
+      "arquivo": "mcp.json",
+      "sha256": "F5839A055A13EB835167C5A10FDABB8AFDC8D2DF26BF2FBF6F28864625E15419"
+    },
+    {
+      "pasta": "avila-mail",
+      "arquivo": "plugin.json",
+      "sha256": "D4493E037965FBA9D033259EDF6525E17FB13BD4519EE8830C9C83D89EB846E8"
+    },
+    {
+      "pasta": "avila-mail",
+      "arquivo": ".codex-plugin\\plugin.json",
+      "sha256": "2D6D896D43733D8C57F2EFDC55BD50984A68A8545528AD158D81E28A8F5E9553"
+    },
+    {
+      "pasta": "avila-mail",
+      "arquivo": "assets\\icon.png",
+      "sha256": "E607D4F93442063380BCDDFD5FC2694CA22991EFAF790D24C15D807DD9E484F8"
+    },
+    {
+      "pasta": "avila-mail",
+      "arquivo": "skills\\avila-mail\\SKILL.md",
+      "sha256": "661ED8AF43D87FCFC2087E15CE546E2F299CE4FA83DF0411E6A558B7DC06B58B"
+    },
+    {
+      "pasta": "avila-notas",
+      "arquivo": ".mcp.json",
+      "sha256": "8E0A9F097F5477CD089CAD6A5F4AE3ABFDB3F4E2FA18349FA876C14B9B395A27"
+    },
+    {
+      "pasta": "avila-notas",
+      "arquivo": "mcp.json",
+      "sha256": "F5839A055A13EB835167C5A10FDABB8AFDC8D2DF26BF2FBF6F28864625E15419"
+    },
+    {
+      "pasta": "avila-notas",
+      "arquivo": "plugin.json",
+      "sha256": "2B35B34CB3C4FF2C45A72BE5CC608B8E74B7810ADDBC2BADBA357D9B51EEEBF9"
+    },
+    {
+      "pasta": "avila-notas",
+      "arquivo": ".codex-plugin\\plugin.json",
+      "sha256": "164218A1552351EF45E12AB0969C7D8B8EE7651C4E50F23B6BA7256F7FAEA70F"
+    },
+    {
+      "pasta": "avila-notas",
+      "arquivo": "assets\\icon.png",
+      "sha256": "7BA671ABFACEF790679E84DB89D662596398CB7C555E10DFC11C953673940826"
+    },
+    {
+      "pasta": "avila-notas",
+      "arquivo": "skills\\avila-notas\\SKILL.md",
+      "sha256": "5AF8315AC647960D4FA13E80DAB1907155B80C61C4C81D3F93DFBA04EA0839BD"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "plugin.json",
+      "sha256": "6D70560E0B85D9A79542B64A857291EEA42AB636F72CF577709310A1A780A955"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": ".codex-plugin\\plugin.json",
+      "sha256": "A77A4FCC9788EFE606AD995623D299D85FFFEA22C4CA1AAD6C75357E930B1850"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-agent-ready\\LICENSE",
+      "sha256": "AA41FAFFCF88908B495D7D318E96E889FF78AA53138E51E48C4EF4E6DA076AD8"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-agent-ready\\original.md",
+      "sha256": "B1DCC28EAE6967807CBC4924A7AD07E4DFF726B82470DAB6126A10728EE3C6DF"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-agent-ready\\SKILL.md",
+      "sha256": "DEACF4015176C7C5932BC0E03EFF4D6F406F1666AFD2B5294A79AB49A867827E"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-agent-ready\\a2a-agent-card\\GUIDE.md",
+      "sha256": "13F688025F8A0A19833F968673780530B4ED9BF0FC0839CB495513F99C20063E"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-agent-ready\\acp\\GUIDE.md",
+      "sha256": "FD137B83D203EF310302C68E70504FF2F8F34F283E17734088020E8B86741171"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-agent-ready\\agent-skills\\GUIDE.md",
+      "sha256": "F3505DB03F7F75EC4E99104BBA59811C647B7005D5F9559874F2FC3E7C702C3E"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-agent-ready\\agents\\openai.yaml",
+      "sha256": "CAF02E1CEB4B9B1A3F40918D62664707738538CF323174F14F251E8BEC5E3985"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-agent-ready\\ai-rules\\GUIDE.md",
+      "sha256": "9B1566F2770822FBCED61000161868E04C84D50F79CA7B6D6F167A2D67B7AA5A"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-agent-ready\\api-catalog\\GUIDE.md",
+      "sha256": "99D53F84A1E11C5219A2330EC3E6A57C11908297FDFBC3552F7FEBB79068DC4D"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-agent-ready\\ard\\GUIDE.md",
+      "sha256": "438EEDB2144163AD31D1EDF8D20815CF80D75A9DBF6C2EC38B78CD0C7AF6C1D1"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-agent-ready\\assets\\icon.svg",
+      "sha256": "E9301497FA98EF56AACA7EDE0857B9A18DC06C34040F0679C609A6BF49B1D38B"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-agent-ready\\auth-md\\GUIDE.md",
+      "sha256": "BEEADDD6640BF3A2B793414CEBD37F0FB89558BF12E2B15E77B0F43ECF333FF3"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-agent-ready\\content-signals\\GUIDE.md",
+      "sha256": "77E23BAAC4C4867344621D49E03249CA7153461CD2855EE6F8C8CAA7E069FF32"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-agent-ready\\dns-aid\\GUIDE.md",
+      "sha256": "C590582726F80C00021056A7DA42D4D1DEF11995825718FA7C6343BBF0BD0ADC"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-agent-ready\\link-headers\\GUIDE.md",
+      "sha256": "072C27A2A659FC350981545CE3AA87866D062C1006980573044FF9CB1A572E22"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-agent-ready\\llms-full-txt\\GUIDE.md",
+      "sha256": "FAE01EAA9B16B75FF4F40958D8E852BD4EB2A0D534E86B87A21E3BA91790DB87"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-agent-ready\\llms-txt\\GUIDE.md",
+      "sha256": "EE9639D657EE147D558CDC950DD7A7A22D6B28CA0BC74B400CCEA76E70770BA2"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-agent-ready\\markdown-negotiation\\GUIDE.md",
+      "sha256": "DA88DC0A976039E561C91C13E6D019A9CDE7C95309461B4652752E20F668DBD4"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-agent-ready\\mcp-server-card\\GUIDE.md",
+      "sha256": "649D9BAA5105DA8B4059EA324B5E792EA10A57FFB0725471A3899C402FE904B4"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-agent-ready\\mpp\\GUIDE.md",
+      "sha256": "A8342D0C0D99C1B9FAD4CA9017846D5A052EC725C5CDAE0DAD4EC7D81E9DBCBC"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-agent-ready\\oauth-discovery\\GUIDE.md",
+      "sha256": "3040D58B002B6A49D3EEF60229B6DFF979EB5E03B5811AF1CC02C03A0E6CBBCB"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-agent-ready\\oauth-protected-resource\\GUIDE.md",
+      "sha256": "0188C679C44F8235849C185FFE27B3C9F9588BBB8DC8FBAE3A7C10A90FC457CB"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-agent-ready\\robots-txt\\GUIDE.md",
+      "sha256": "5F96B7CD115534CFCC8CCEE85985CDB857C32A8D01C86E2A4EAC22395F1B1C68"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-agent-ready\\scan-site\\GUIDE.md",
+      "sha256": "FE8222AE248A4DD3B18CA96A1AA6DC8DFE049BCF8E56B732851A9E80F46D1193"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-agent-ready\\sitemap\\GUIDE.md",
+      "sha256": "207CF0AD5070CBA69A7729F76D134231EFB0D68F4A72F046935A9F700D7C083C"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-agent-ready\\ucp\\GUIDE.md",
+      "sha256": "E26948D9A77D0E7A314E0995326053CA20576F02E234B500119A66DDD7BB52CC"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-agent-ready\\web-bot-auth\\GUIDE.md",
+      "sha256": "F3250374E0BF554E14745A4AC9FB05EF0DA7005E32FB12C650B28061CFC94D08"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-agent-ready\\webmcp\\GUIDE.md",
+      "sha256": "85EB7054DD73645C130E2369206035CD36818DC96CE2B6A04CEB128F8633D3D8"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-agent-ready\\x402\\GUIDE.md",
+      "sha256": "62E266D1FC8FF56A21F4ACCCBEB4722CB42D3DDD064391E5F2249426C0BC5B51"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-coder\\SKILL.md",
+      "sha256": "42EB4A8C90864EDC9721BB667F8FBB28B03470BD44AF1276C1C5649C1DA3EDC9"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-coder\\agents\\openai.yaml",
+      "sha256": "EE5734D937514E4AC830EB6841E3E5FA538CE3346C6F69CD402EF099E01F8FAE"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-coder\\references\\original.md",
+      "sha256": "33ABCF9654A3F279088C5A3ADC88204CF8F604FEF4B3BF7026AD786CD509C0BE"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-design-system\\LICENSE",
+      "sha256": "AA41FAFFCF88908B495D7D318E96E889FF78AA53138E51E48C4EF4E6DA076AD8"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-design-system\\SKILL.md",
+      "sha256": "91D515A797C1D4B24B3187A9C5C2FE0796532A6988E433CD983359AFD14395E0"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-design-system\\agents\\openai.yaml",
+      "sha256": "CD3FCB9684D904ADC4E052253ACF3EA64D45114BE5879BD64148E5E5F4DB12EB"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-design-system\\assets\\icon.svg",
+      "sha256": "49315DDA7125EC5FC77EF5F2B96126D8B2121C6E72944B4702972E90F321D3EE"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-design-system\\references\\briefing-questionnaire.md",
+      "sha256": "6BCD9EFEA6C973562D3F0E097EE1EC5722E5B07D0655DBDA36D898303EEA80F0"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-design-system\\references\\original.md",
+      "sha256": "0D192F347CB368091755DDC7B0EE07ACE5CF217A14B14001152AE6471F8DA212"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-design-system\\references\\prompt-01-design-system-architect.md",
+      "sha256": "45553BE5DA41C1A2474C54FD970E22DD6B60CD93017A679DA854C590EEA37B94"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-design-system\\references\\prompt-02-brand-identity-creator.md",
+      "sha256": "02A42937BEF4A10B972B05D37A19F34F0A42305379DD44E129B8B2052E527DD5"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-design-system\\references\\prompt-03-ui-ux-pattern-master.md",
+      "sha256": "91C3B68A86FAA0B175E254D491E0939B1152A24889272FB08ED3D997B585C82B"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-design-system\\references\\prompt-04-marketing-asset-factory.md",
+      "sha256": "5A8107ED9661E50A69F55FB15F3F97DC39B731B2860BE90B6DED38716928BECB"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-design-system\\references\\prompt-05-figma-auto-layout-expert.md",
+      "sha256": "0C56574A6C0756C5C22D15495955E8AAB4CFE9DC293A70B62BDD348DB1786FF5"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-design-system\\references\\prompt-06-design-critique-partner.md",
+      "sha256": "43D3C16417205B4DB41B7D0771AFB3EE07D3520629368BA3634EEB8A5000B4B0"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-design-system\\references\\prompt-07-design-trend-synthesizer.md",
+      "sha256": "8DFB8C7C1B316E10FCF1B6CE7D555B33EDDF824D4C06FF9F4AF97FCE17713309"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-design-system\\references\\prompt-08-accessibility-auditor.md",
+      "sha256": "D7FAA3E8D1B28EF8113942473FBECFC301392BD7DAA6BF74E925F6C2C24BF6AD"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-design-system\\references\\prompt-09-design-to-code-translator.md",
+      "sha256": "38E4837E214AA325CD2A08F0C934FE41D6D1A4A2153F467FFFE13024E91EEE89"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-design-system\\references\\prompt-10-presentation-designer.md",
+      "sha256": "39966A6A82D0C6FE23A31EB9D9CB1D95C37C36FD190E48436BBDFEEF45E8593F"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-infra-coolify\\LICENSE",
+      "sha256": "AA41FAFFCF88908B495D7D318E96E889FF78AA53138E51E48C4EF4E6DA076AD8"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-infra-coolify\\SKILL.md",
+      "sha256": "157E8D65C6FA7EB75FAF70614FC5E55E57CF49BF8704EC23BFA6D61BE65738F3"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-infra-coolify\\agents\\openai.yaml",
+      "sha256": "D819D0535A6972A4A3107AC399E453BEA51F66EFD7AE553F0D89C54BD14E0F6C"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-infra-coolify\\assets\\icon.svg",
+      "sha256": "72343CC4B66256AE7DE8474C7CAD14E711AD84A94C473732A44F96A56124C42D"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-infra-coolify\\references\\original.md",
+      "sha256": "26C36AE471090E83DC6E13301C068BD5813AB4E4229AB58BE756090CA36A22E0"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-vigia-integracoes\\SKILL.md",
+      "sha256": "218B8FE12BAA16A1E462D01C24362F00564E4E147E477CD1E79556F3E44BBB88"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-vigia-integracoes\\agents\\openai.yaml",
+      "sha256": "6CCA514EA2F880F9FB0ECFC867DBB0850B65327218A55ACC42C36565D0F40EA0"
+    },
+    {
+      "pasta": "avila-engenharia-operacoes",
+      "arquivo": "skills\\avila-vigia-integracoes\\references\\original.md",
+      "sha256": "11288481FE09DD6D54C8B854D0C8D5A599855A521F813A93A953C92987755AB1"
+    },
+    {
+      "pasta": "avila-tms",
+      "arquivo": ".mcp.json",
+      "sha256": "8E0A9F097F5477CD089CAD6A5F4AE3ABFDB3F4E2FA18349FA876C14B9B395A27"
+    },
+    {
+      "pasta": "avila-tms",
+      "arquivo": "mcp.json",
+      "sha256": "F5839A055A13EB835167C5A10FDABB8AFDC8D2DF26BF2FBF6F28864625E15419"
+    },
+    {
+      "pasta": "avila-tms",
+      "arquivo": "plugin.json",
+      "sha256": "FA937E19F404206EA36F0D56E6ED5FBBB47F474656F5054DB39E5E2E43CDC22E"
+    },
+    {
+      "pasta": "avila-tms",
+      "arquivo": ".codex-plugin\\plugin.json",
+      "sha256": "D2798639DBA479871585D0A846DCC14B92FE755B2D617417A13785B0D548A497"
+    },
+    {
+      "pasta": "avila-tms",
+      "arquivo": "assets\\icon.png",
+      "sha256": "9C2AE8367785DED4F678DF02E5A14C47B1E8A5C717C8C9741548A101CDD995BA"
+    },
+    {
+      "pasta": "avila-tms",
+      "arquivo": "skills\\avila-tms\\SKILL.md",
+      "sha256": "9662AD4D4D3D5577D18D9D1551AF5DF5ADD07AFB4827F0733E9D4E1C7ADF14AD"
+    },
+    {
+      "pasta": "catalogar-documentacao",
+      "arquivo": "SKILL.md",
+      "sha256": "068D7CBD1326116BD981A5E8CDE9846AD98345A6F4DAEE2D4BD0076A7ECA5375"
+    },
+    {
+      "pasta": "catalogar-documentacao",
+      "arquivo": "agents\\openai.yaml",
+      "sha256": "AD3F27DABBDDFCDC71C910B72FDED721995E24FA8F78EF268895A9AC6A271C6B"
+    },
+    {
+      "pasta": "catalogar-documentacao",
+      "arquivo": "assets\\icon.svg",
+      "sha256": "51A6923974188748638A424AA59B42B6AFAD2D910F910A1D43BB13EE10F3CE26"
+    },
+    {
+      "pasta": "catalogar-documentacao",
+      "arquivo": "references\\exemplos.md",
+      "sha256": "C49B68CF8F034008DD3008CFF5C8CE55D220D01260F5E38C8DF7EDF36FEA3D7C"
+    },
+    {
+      "pasta": "desenvolver-software",
+      "arquivo": "SKILL.md",
+      "sha256": "33ABCF9654A3F279088C5A3ADC88204CF8F604FEF4B3BF7026AD786CD509C0BE"
+    },
+    {
+      "pasta": "desenvolver-software",
+      "arquivo": "agents\\openai.yaml",
+      "sha256": "96F84F6E839233447B9F25D0EA25F8CA7B661194F3FA83513EE2CC19A4726DE5"
+    },
+    {
+      "pasta": "operar-infraestrutura-coolify",
+      "arquivo": ".env.example",
+      "sha256": "E0CBFA1835EE3A42089DB044055EDF7AF80562AD9A65D0421E7736C8D35F3525"
+    },
+    {
+      "pasta": "operar-infraestrutura-coolify",
+      "arquivo": "LICENSE",
+      "sha256": "AA41FAFFCF88908B495D7D318E96E889FF78AA53138E51E48C4EF4E6DA076AD8"
+    },
+    {
+      "pasta": "operar-infraestrutura-coolify",
+      "arquivo": "SKILL.md",
+      "sha256": "26C36AE471090E83DC6E13301C068BD5813AB4E4229AB58BE756090CA36A22E0"
+    },
+    {
+      "pasta": "operar-infraestrutura-coolify",
+      "arquivo": "agents\\openai.yaml",
+      "sha256": "AA450D52F11EF33A7C2D53876D2A0520D31B039587AA5A1E5F07B12454D20600"
+    },
+    {
+      "pasta": "operar-infraestrutura-coolify",
+      "arquivo": "assets\\icon.svg",
+      "sha256": "72343CC4B66256AE7DE8474C7CAD14E711AD84A94C473732A44F96A56124C42D"
+    },
+    {
+      "pasta": "operar-infraestrutura-coolify",
+      "arquivo": "evals\\evals.json",
+      "sha256": "2263C3E4E87E4CE0A845D757B6AC42A2354621368704FB38F8788D44F6D35DFC"
+    },
+    {
+      "pasta": "app-conectado-6ad0a008",
+      "arquivo": ".app.json",
+      "sha256": "050940D6E4CC53C19221E90BC2030ED9F5F685276F5549F003D95E59B2EDFBA3"
+    },
+    {
+      "pasta": "app-conectado-6ad0a008",
+      "arquivo": ".codex-plugin\\plugin.json",
+      "sha256": "789EFB14B0F4064D3F778FA994D37A2EC876560A15465F579CA4E3B4E9603535"
+    },
+    {
+      "pasta": "explicar-documentacao",
+      "arquivo": "SKILL.md",
+      "sha256": "BF648D70C259C12CDD8CBB5ED85334677ED7D1ED2E1377EF50718E3F7326E86F"
+    },
+    {
+      "pasta": "explicar-documentacao",
+      "arquivo": "agents\\openai.yaml",
+      "sha256": "B6DA7626864DF0D2CFD1ABDA6F5DAC5669C5EE69E1C762106C81859C74ED3D8A"
+    },
+    {
+      "pasta": "explicar-documentacao",
+      "arquivo": "assets\\icon.svg",
+      "sha256": "D80A4C3E0FD2EFA7AF88433A53B25A92C78A644175C6669DD78FEE50FB53ACF6"
+    },
+    {
+      "pasta": "explicar-documentacao",
+      "arquivo": "references\\exemplos.md",
+      "sha256": "275DB905A3A4AF5E7958E058C80F5D585B37A6B3131E8B30F3CD355F2787A98A"
+    },
+    {
+      "pasta": "editar-textos-ingles",
+      "arquivo": "EVALUATION.md",
+      "sha256": "14E7DA32BB330F8BB7C50C4820DF41D60BCCEAF9CF631915C7A22739BE6BF17A"
+    },
+    {
+      "pasta": "editar-textos-ingles",
+      "arquivo": "LICENSE",
+      "sha256": "AA41FAFFCF88908B495D7D318E96E889FF78AA53138E51E48C4EF4E6DA076AD8"
+    },
+    {
+      "pasta": "editar-textos-ingles",
+      "arquivo": "SKILL.md",
+      "sha256": "0225EF13F5C7424411E3D5CB312B10D33135FFC5887A0B4EB41FBFAFB46414C1"
+    },
+    {
+      "pasta": "editar-textos-ingles",
+      "arquivo": "agents\\openai.yaml",
+      "sha256": "C3DEE360ECB4EBE62B4286859E5F224F3877E298C1C6C46BCAF8825068F5DE2B"
+    },
+    {
+      "pasta": "editar-textos-ingles",
+      "arquivo": "assets\\icon.svg",
+      "sha256": "49315DDA7125EC5FC77EF5F2B96126D8B2121C6E72944B4702972E90F321D3EE"
+    },
+    {
+      "pasta": "editar-textos-ingles",
+      "arquivo": "references\\jev-integration.md",
+      "sha256": "09E9A83735FC90B1EBDD496A2768D714ADB835B59F55EC9030FCC1602B91C965"
+    },
+    {
+      "pasta": "editar-textos-ingles",
+      "arquivo": "references\\patterns-composition.md",
+      "sha256": "536ECB5CCB6A0014D772A9FD61FEF680C190BBBC13D1940B896B9C0C2CFCAB24"
+    },
+    {
+      "pasta": "editar-textos-ingles",
+      "arquivo": "references\\patterns-content.md",
+      "sha256": "35A58C18DB24669DD97DF3088FB25C382A242879EF709B5641521E8F62AD94AF"
+    },
+    {
+      "pasta": "editar-textos-ingles",
+      "arquivo": "references\\patterns-english-specific.md",
+      "sha256": "0C959B8CE62E543602AE61A933008E4BF0E5CB0C65816F1850ACB23FE53E6A5B"
+    },
+    {
+      "pasta": "editar-textos-ingles",
+      "arquivo": "references\\patterns-language.md",
+      "sha256": "09B6F72F7FF71B6F17EEB421DBBBA7525939A91D3E8CC8EFC8EE43252B7C0ED5"
+    },
+    {
+      "pasta": "editar-textos-ingles",
+      "arquivo": "references\\patterns-style.md",
+      "sha256": "61C085C256CD62E44856C6B42A81C355CAAD9C46FA88EDC0BAED59E371D0A7B3"
+    },
+    {
+      "pasta": "editar-textos-ingles",
+      "arquivo": "references\\patterns-tone.md",
+      "sha256": "6F8F1C67312F5A2A7823DC874FA69CE45BBFC7C1F25037337F1BD4FF7D9435BB"
+    },
+    {
+      "pasta": "editar-textos-ingles",
+      "arquivo": "references\\presets.md",
+      "sha256": "55BD13275E5698FCCCFB84636FEB8C49BDB68C5196D0D49E18D3167326CEFF5C"
+    },
+    {
+      "pasta": "editar-textos-ingles",
+      "arquivo": "references\\summary.md",
+      "sha256": "5CC89D4688F8EBA18DD748F70DDAFA7FDCA1D9C08FD2F4CEAB2BAD2E9E37BF02"
+    },
+    {
+      "pasta": "editar-textos-ingles",
+      "arquivo": "references\\tests.md",
+      "sha256": "AFA4E59D727B22AB284D6FB086242333EC834FC586B923594EBAE7BB89824EA3"
+    },
+    {
+      "pasta": "editar-textos-ingles",
+      "arquivo": "scripts\\jev_questions.json",
+      "sha256": "76C0E7CD22743F05DA37380C19007288F85A879DD72A535E2F512B607EC58847"
+    },
+    {
+      "pasta": "editar-textos-ingles",
+      "arquivo": "scripts\\measure.py",
+      "sha256": "4B03450630647890D81C53858B2F4866960B4790388FD9202FD096095749C266"
+    },
+    {
+      "pasta": "integrar-apis",
+      "arquivo": "SKILL.md",
+      "sha256": "F33CD6C0F2AC4834451901A8E3BC438FA7860AC9585AD77BB29DB240BB8BCF3F"
+    },
+    {
+      "pasta": "integrar-apis",
+      "arquivo": "agents\\openai.yaml",
+      "sha256": "128CB7E9BB1FABD01C09BA237AFB968E4392EE937877A91B4540EF85AFFA6C06"
+    },
+    {
+      "pasta": "avila-lojas-clientes",
+      "arquivo": ".mcp.json",
+      "sha256": "0D238E7CD201C2E904A3FF56500A77FE824905FFFC087626367DEB98C528E88C"
+    },
+    {
+      "pasta": "avila-lojas-clientes",
+      "arquivo": "mcp.json",
+      "sha256": "FADCC79E20E4164DDB99C7E38DE1A24C10DFB40CE7BE3DBA1C106C8FBA84F8B1"
+    },
+    {
+      "pasta": "avila-lojas-clientes",
+      "arquivo": "plugin.json",
+      "sha256": "6F953B52C23E334DE7F93E3E585BC0AF9B4899D3C71C5C369F0A528D45C5F037"
+    },
+    {
+      "pasta": "avila-lojas-clientes",
+      "arquivo": ".codex-plugin\\plugin.json",
+      "sha256": "25C6F609BEADD2DB2411E4D3A315AE180A1ABF957FB77D58199473B80C18FC67"
+    },
+    {
+      "pasta": "avila-lojas-clientes",
+      "arquivo": "skills\\preencher-loja\\SKILL.md",
+      "sha256": "4E9011B5F5ACED6C31BAAEEFDE7C61F4AFAA13E8B8DE2DB815251602DFF70C3E"
+    },
+    {
+      "pasta": "diagnosticar-monitor-brave",
+      "arquivo": "SKILL.md",
+      "sha256": "55F4D82808C0EA83A0C6EFA5C8E11EF501E57B742341446CCA92C6A87BBFBBBE"
+    },
+    {
+      "pasta": "diagnosticar-monitor-brave",
+      "arquivo": "agents\\openai.yaml",
+      "sha256": "B94E6552B71C66C83551316642068068D3C102B4F363F78E3BB62AD8F2245042"
+    },
+    {
+      "pasta": "diagnosticar-monitor-brave",
+      "arquivo": "assets\\icon.svg",
+      "sha256": "E9301497FA98EF56AACA7EDE0857B9A18DC06C34040F0679C609A6BF49B1D38B"
+    },
+    {
+      "pasta": "produzir-anuncios-video",
+      "arquivo": "LICENSE",
+      "sha256": "AA41FAFFCF88908B495D7D318E96E889FF78AA53138E51E48C4EF4E6DA076AD8"
+    },
+    {
+      "pasta": "produzir-anuncios-video",
+      "arquivo": "SKILL.md",
+      "sha256": "7987750CF17E7A65AD4F356AB0E3D9C15E46DB603FF37068BE4E30B35662B4F9"
+    },
+    {
+      "pasta": "produzir-anuncios-video",
+      "arquivo": "agents\\openai.yaml",
+      "sha256": "3EF51FFCF61889B300B4932B2BEA8DDC80AA316EE42E230CDEE1E511F0AAEC7A"
+    },
+    {
+      "pasta": "produzir-anuncios-video",
+      "arquivo": "assets\\icon.svg",
+      "sha256": "72343CC4B66256AE7DE8474C7CAD14E711AD84A94C473732A44F96A56124C42D"
+    },
+    {
+      "pasta": "produzir-anuncios-video",
+      "arquivo": "assets\\template.html",
+      "sha256": "B7777667B067C9B9959A01350CABA264642A0648A9E0AD677C7976CC16A6485D"
+    },
+    {
+      "pasta": "produzir-anuncios-video",
+      "arquivo": "references\\template-map.md",
+      "sha256": "78957E8AF59545D7B29657065E9C5F1FE13CA00E6590468A36D951D5184A1362"
+    },
+    {
+      "pasta": "produzir-anuncios-video",
+      "arquivo": "scripts\\.gitignore",
+      "sha256": "4D56952B0FB13BF8F9B6C13A6D4C34A075BAC3AF447636A1DF4335D7576E2F97"
+    },
+    {
+      "pasta": "produzir-anuncios-video",
+      "arquivo": "scripts\\contact-sheet.py",
+      "sha256": "CA1788B3084DAA6F828888A1A43D8252B04D73A87A872C925795DED9A41CD466"
+    },
+    {
+      "pasta": "produzir-anuncios-video",
+      "arquivo": "scripts\\fetch-images.cjs",
+      "sha256": "A772861256097C9D02D7B56EC26C034E2359468421273E1F93D958E351269722"
+    },
+    {
+      "pasta": "produzir-anuncios-video",
+      "arquivo": "scripts\\package-lock.json",
+      "sha256": "444FE6475BEC836DA91578153809A244ED845CAC21A98D7F8F71955EF03B0E9F"
+    },
+    {
+      "pasta": "produzir-anuncios-video",
+      "arquivo": "scripts\\package.json",
+      "sha256": "6013B9089330FBDB4A1FA9F66E4A3561AA031E5BB1DF76C90EB07C36D6FDCEDE"
+    },
+    {
+      "pasta": "produzir-anuncios-video",
+      "arquivo": "scripts\\render.cjs",
+      "sha256": "FC6B8B1C319AF947DC2239A0BCFDFDF06002885F700786BACB76BFEB0D2E969B"
+    },
+    {
+      "pasta": "avila-n8n",
+      "arquivo": ".mcp.json",
+      "sha256": "D0E75A14AABEF3BD4FF644B5961DA07ACEF24670E3B9E2B60BC70AE4FA1BD895"
+    },
+    {
+      "pasta": "avila-n8n",
+      "arquivo": "mcp.json",
+      "sha256": "EDB2062ABD0B02220CE8CA2F77146BC24668FA7C830FA549D8658658E3358302"
+    },
+    {
+      "pasta": "avila-n8n",
+      "arquivo": "plugin.json",
+      "sha256": "1C61CF25E4BF8AB8472399741FB30E954C5726FCF8F9CD83F5057D49F79ADF69"
+    },
+    {
+      "pasta": "avila-n8n",
+      "arquivo": ".codex-plugin\\plugin.json",
+      "sha256": "9E8D2ACD481A5BCE2EC08315780FB8CDE8CBC9DE7431C08FE5EA4403C648837B"
+    },
+    {
+      "pasta": "integrar-pier-cloud",
+      "arquivo": ".env.example",
+      "sha256": "A476D1193FC334F3875B544065AD3D0A9DFC037DE607F5022E9647FD27BF8FFB"
+    },
+    {
+      "pasta": "integrar-pier-cloud",
+      "arquivo": "LICENSE",
+      "sha256": "AA41FAFFCF88908B495D7D318E96E889FF78AA53138E51E48C4EF4E6DA076AD8"
+    },
+    {
+      "pasta": "integrar-pier-cloud",
+      "arquivo": "SKILL.md",
+      "sha256": "E612B9D53A154D475CBBA9BB4F8599BB15DA767D5C154213B652B8F3652859F3"
+    },
+    {
+      "pasta": "integrar-pier-cloud",
+      "arquivo": "agents\\openai.yaml",
+      "sha256": "A32BD064B8035AA20D04F0B32E07C646D87C8B7C7FD2015F21C3486EB514FF02"
+    },
+    {
+      "pasta": "integrar-pier-cloud",
+      "arquivo": "assets\\icon.svg",
+      "sha256": "8936B24F674A1250D999E2C2B5901374FB4240426F32BD1AE340C352A90D617D"
+    },
+    {
+      "pasta": "integrar-pier-cloud",
+      "arquivo": "references\\REFERENCE.md",
+      "sha256": "1C9B313087AC7430B682E6B38A4BCB5E7CA719B6AFFDFA90C8F0E7462A115162"
+    },
+    {
+      "pasta": "integrar-pier-cloud",
+      "arquivo": "references\\TROUBLESHOOTING.md",
+      "sha256": "3F892AC189FD02A46C62FA3C0754D4A50EA6F0B36B447625C858F0F462B548EA"
+    },
+    {
+      "pasta": "integrar-pier-cloud",
+      "arquivo": "scripts\\pier_cloud_client.py",
+      "sha256": "D9A24970D50A2D7828AD301E8585B07FE2A3AF2F34C195901749C0C73E73487B"
+    },
+    {
+      "pasta": "integrar-pier-cloud",
+      "arquivo": "scripts\\pier-cloud-auth.py",
+      "sha256": "336FD359F9EEEE06336FAC8D2F258D7075F375A87E0C0DE267A96EDDADA5174F"
+    },
+    {
+      "pasta": "integrar-pier-cloud",
+      "arquivo": "scripts\\pier-cloud-get-all-workspaces.py",
+      "sha256": "3BEF2B10ECEE587D8161073563704DDFF3DAD2046192AA3882E864A7C128AD65"
+    },
+    {
+      "pasta": "integrar-pier-cloud",
+      "arquivo": "scripts\\pier-cloud-get-view-data.py",
+      "sha256": "FFAD07C763D9E96CFF85D0107316A91DE4029DFCC89ABE070B3CE2A81BB87035"
+    },
+    {
+      "pasta": "integrar-pier-cloud",
+      "arquivo": "scripts\\pier-cloud-get-view.py",
+      "sha256": "D4DDA8B8CCAB023CD0209209614462DBD06075974D237D6FCEFF5980EDDB0B10"
+    },
+    {
+      "pasta": "integrar-pier-cloud",
+      "arquivo": "scripts\\pier-cloud-get-workspace-group.py",
+      "sha256": "5F7D344F669BCF76755A924303E38E24A584C9EE795A78E38978BAC1D0B92CE0"
+    },
+    {
+      "pasta": "integrar-pier-cloud",
+      "arquivo": "scripts\\pier-cloud-get-workspace.py",
+      "sha256": "BC343DEBC28412B0F42A7B281193C46340363AA1A78223103D9659B6E98B43AA"
+    },
+    {
+      "pasta": "integrar-pier-cloud",
+      "arquivo": "scripts\\pier-cloud-list-contexts.py",
+      "sha256": "A595FD1E5111260E430932C602D36100015FD83F89CF3DEA2D65DDD175D9EAD3"
+    },
+    {
+      "pasta": "integrar-pier-cloud",
+      "arquivo": "scripts\\pier-cloud-list-views.py",
+      "sha256": "3BD01D18206CE89C1991D4E2182454FCE035D66DBB49CD2385D52A29482E0E12"
+    },
+    {
+      "pasta": "integrar-pier-cloud",
+      "arquivo": "scripts\\pier-cloud-list-workspace-groups.py",
+      "sha256": "5AD95B4DCAB9EF914CD653EDF8EF3C6F138609C9AADF40E9CEBABC1EA4D663E0"
+    },
+    {
+      "pasta": "integrar-pier-cloud",
+      "arquivo": "scripts\\pier-cloud-list-workspaces.py",
+      "sha256": "2D3F5BE676C4388125A15BDDAABFAA638A3E6F7AAB65D0B8C1BAE7FBA9A7E138"
+    },
+    {
+      "pasta": "integrar-pier-cloud",
+      "arquivo": "scripts\\README.md",
+      "sha256": "C66C8C1D52A62CB39E14003096220D5070119192FBF1F2EAB7369219998C9DE2"
+    },
+    {
+      "pasta": "sincronizar-dados",
+      "arquivo": "SKILL.md",
+      "sha256": "BDDE207F294C4510AE5FFE24E6DB4EAAF3252627236E2CB667991C9891B49908"
+    },
+    {
+      "pasta": "sincronizar-dados",
+      "arquivo": "agents\\openai.yaml",
+      "sha256": "D92A08E7188F989AB7FA8C8783D95FE479A6E12CF15799D42CE6D368F1974EC3"
+    },
+    {
+      "pasta": "auditar-design-generico",
+      "arquivo": "LICENSE",
+      "sha256": "AA41FAFFCF88908B495D7D318E96E889FF78AA53138E51E48C4EF4E6DA076AD8"
+    },
+    {
+      "pasta": "auditar-design-generico",
+      "arquivo": "SKILL.md",
+      "sha256": "C16F0C60C1BB90AFD1C1AEC8F0F967BA1A83B50D842C16C608811549F5499B6D"
+    },
+    {
+      "pasta": "auditar-design-generico",
+      "arquivo": "agents\\openai.yaml",
+      "sha256": "5FE01C72C9E50F77DAEA77E95AFB364AB720DBB9C916F116A3D1940E2CAEA217"
+    },
+    {
+      "pasta": "auditar-design-generico",
+      "arquivo": "assets\\icon.svg",
+      "sha256": "E9301497FA98EF56AACA7EDE0857B9A18DC06C34040F0679C609A6BF49B1D38B"
+    },
+    {
+      "pasta": "auditar-design-generico",
+      "arquivo": "references\\contexts.md",
+      "sha256": "18FC0079072F1C88B7BADE186FC1D705B03A850DD452FD58553B56299E396751"
+    },
+    {
+      "pasta": "auditar-design-generico",
+      "arquivo": "references\\jev-integration.md",
+      "sha256": "4FFE5530693AA21AAAB7BCBC986A836647329AD7188811B0833FC4ECB8CC86FF"
+    },
+    {
+      "pasta": "auditar-design-generico",
+      "arquivo": "references\\output-template.md",
+      "sha256": "57B14A0DEED99F744EE05B1EF947C295B473A7916EF632B0668868CA51A15D7D"
+    },
+    {
+      "pasta": "auditar-design-generico",
+      "arquivo": "references\\premium-markers.md",
+      "sha256": "91C786A9A02978D64DB1FE01416729363F39B8BF6BFB0E137CCFCE97A7219305"
+    },
+    {
+      "pasta": "auditar-design-generico",
+      "arquivo": "references\\tells.md",
+      "sha256": "5980B121EF9E8D1EDCF50EC484602DE630E3BB960E54D980E1C9A1DAFA9E8B40"
+    },
+    {
+      "pasta": "auditar-design-generico",
+      "arquivo": "scripts\\jev_questions.json",
+      "sha256": "5EC310F0479EAEB96FC3942345DC524F4538423074CF3C9B242781C56D452CBC"
+    },
+    {
+      "pasta": "auditar-design-generico",
+      "arquivo": "scripts\\score.py",
+      "sha256": "6BF2A426031E754F49DB3EE519D647279B3D55BB7E8A049CB699E4B6AC14964F"
+    },
+    {
+      "pasta": "validar-ideias-negocio",
+      "arquivo": "LICENSE",
+      "sha256": "AA41FAFFCF88908B495D7D318E96E889FF78AA53138E51E48C4EF4E6DA076AD8"
+    },
+    {
+      "pasta": "validar-ideias-negocio",
+      "arquivo": "SKILL.md",
+      "sha256": "2B5C82C5321891BC6735BEEF69C2D5B355CC37B29B6F484A5AE52E4AA5E1A358"
+    },
+    {
+      "pasta": "validar-ideias-negocio",
+      "arquivo": "agents\\openai.yaml",
+      "sha256": "ACDDA639E0C8E3B533DDB21E0F19A1C077848F5B1AE62CD1ED3F1A75AE5B6B49"
+    },
+    {
+      "pasta": "validar-ideias-negocio",
+      "arquivo": "assets\\icon.svg",
+      "sha256": "83EDB7FF1FCB54461E60F8BAB4147BF6E24B4F9BB9E5D29283C614F40B811039"
+    },
+    {
+      "pasta": "validar-ideias-negocio",
+      "arquivo": "evals\\evals.json",
+      "sha256": "F1DCD5591ECDE2F82EF8BA83CA1CCD10CDF39F5E91267B52E19832E4A0E87B49"
+    },
+    {
+      "pasta": "gerenciar-newsletter-substack",
+      "arquivo": "LICENSE",
+      "sha256": "AA41FAFFCF88908B495D7D318E96E889FF78AA53138E51E48C4EF4E6DA076AD8"
+    },
+    {
+      "pasta": "gerenciar-newsletter-substack",
+      "arquivo": "SKILL.md",
+      "sha256": "CCC71F803C2FB72A9E31307CECECE67A70E9497985531154D800624731D84FDC"
+    },
+    {
+      "pasta": "gerenciar-newsletter-substack",
+      "arquivo": "agents\\openai.yaml",
+      "sha256": "8F38AA259B209BCEBD0652A86AFCFC60D70FA630EC9890C250170073FABE2B70"
+    },
+    {
+      "pasta": "gerenciar-newsletter-substack",
+      "arquivo": "assets\\icon.svg",
+      "sha256": "E9301497FA98EF56AACA7EDE0857B9A18DC06C34040F0679C609A6BF49B1D38B"
+    },
+    {
+      "pasta": "gerenciar-newsletter-substack",
+      "arquivo": "references\\formatting-best-practices.md",
+      "sha256": "4FE00173C6D5EF488E18571847DE84B1756CB9CF5E33426098DBD7BC1079970D"
+    },
+    {
+      "pasta": "gerenciar-newsletter-substack",
+      "arquivo": "references\\seo-output-example.md",
+      "sha256": "5ABBFD22D7DF76D80B5FFE58996DFA4E727E8BC0F2DC7357744F6678D6399042"
+    },
+    {
+      "pasta": "criar-design-systems",
+      "arquivo": "LICENSE",
+      "sha256": "AA41FAFFCF88908B495D7D318E96E889FF78AA53138E51E48C4EF4E6DA076AD8"
+    },
+    {
+      "pasta": "criar-design-systems",
+      "arquivo": "SKILL.md",
+      "sha256": "0D192F347CB368091755DDC7B0EE07ACE5CF217A14B14001152AE6471F8DA212"
+    },
+    {
+      "pasta": "criar-design-systems",
+      "arquivo": "agents\\openai.yaml",
+      "sha256": "4DC98608737215D3A9FF3F3F6F244D9E8C4DA323CC04C5C2E0CD61D0FC30DC0C"
+    },
+    {
+      "pasta": "criar-design-systems",
+      "arquivo": "assets\\icon.svg",
+      "sha256": "49315DDA7125EC5FC77EF5F2B96126D8B2121C6E72944B4702972E90F321D3EE"
+    },
+    {
+      "pasta": "criar-design-systems",
+      "arquivo": "references\\briefing-questionnaire.md",
+      "sha256": "6BCD9EFEA6C973562D3F0E097EE1EC5722E5B07D0655DBDA36D898303EEA80F0"
+    },
+    {
+      "pasta": "criar-design-systems",
+      "arquivo": "references\\prompt-01-design-system-architect.md",
+      "sha256": "45553BE5DA41C1A2474C54FD970E22DD6B60CD93017A679DA854C590EEA37B94"
+    },
+    {
+      "pasta": "criar-design-systems",
+      "arquivo": "references\\prompt-02-brand-identity-creator.md",
+      "sha256": "02A42937BEF4A10B972B05D37A19F34F0A42305379DD44E129B8B2052E527DD5"
+    },
+    {
+      "pasta": "criar-design-systems",
+      "arquivo": "references\\prompt-03-ui-ux-pattern-master.md",
+      "sha256": "91C3B68A86FAA0B175E254D491E0939B1152A24889272FB08ED3D997B585C82B"
+    },
+    {
+      "pasta": "criar-design-systems",
+      "arquivo": "references\\prompt-04-marketing-asset-factory.md",
+      "sha256": "5A8107ED9661E50A69F55FB15F3F97DC39B731B2860BE90B6DED38716928BECB"
+    },
+    {
+      "pasta": "criar-design-systems",
+      "arquivo": "references\\prompt-05-figma-auto-layout-expert.md",
+      "sha256": "0C56574A6C0756C5C22D15495955E8AAB4CFE9DC293A70B62BDD348DB1786FF5"
+    },
+    {
+      "pasta": "criar-design-systems",
+      "arquivo": "references\\prompt-06-design-critique-partner.md",
+      "sha256": "43D3C16417205B4DB41B7D0771AFB3EE07D3520629368BA3634EEB8A5000B4B0"
+    },
+    {
+      "pasta": "criar-design-systems",
+      "arquivo": "references\\prompt-07-design-trend-synthesizer.md",
+      "sha256": "8DFB8C7C1B316E10FCF1B6CE7D555B33EDDF824D4C06FF9F4AF97FCE17713309"
+    },
+    {
+      "pasta": "criar-design-systems",
+      "arquivo": "references\\prompt-08-accessibility-auditor.md",
+      "sha256": "D7FAA3E8D1B28EF8113942473FBECFC301392BD7DAA6BF74E925F6C2C24BF6AD"
+    },
+    {
+      "pasta": "criar-design-systems",
+      "arquivo": "references\\prompt-09-design-to-code-translator.md",
+      "sha256": "38E4837E214AA325CD2A08F0C934FE41D6D1A4A2153F467FFFE13024E91EEE89"
+    },
+    {
+      "pasta": "criar-design-systems",
+      "arquivo": "references\\prompt-10-presentation-designer.md",
+      "sha256": "39966A6A82D0C6FE23A31EB9D9CB1D95C37C36FD190E48436BBDFEEF45E8593F"
+    },
+    {
+      "pasta": "monitorar-integracoes",
+      "arquivo": "SKILL.md",
+      "sha256": "11288481FE09DD6D54C8B854D0C8D5A599855A521F813A93A953C92987755AB1"
+    },
+    {
+      "pasta": "monitorar-integracoes",
+      "arquivo": "agents\\openai.yaml",
+      "sha256": "2F0AE01F899E510D8F54AC44547ECEEE425BC16D9A9CF2D9EC6DD1289DB84C65"
+    }
+  ]
+}

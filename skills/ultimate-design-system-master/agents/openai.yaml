@@ -1,0 +1,12 @@
+interface:
+  display_name: ultimate design system master
+  short_description: Create comprehensive design systems, brand identities, and UI
+    component libraries. Use when the user says "create design system", "build brand
+    identity", "design UI components", "generate design tokens", "create figma specs",
+    "review my design", "analyze design trends", "audit accessibility", "convert design
+    to code", or "create presentation deck". Covers 10 specialized roles from system
+    architecture to executive presentations.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true

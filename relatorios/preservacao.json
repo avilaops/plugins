@@ -1,0 +1,1502 @@
+{
+  "backup": "_historico/antes-padronizacao-20261017-041457.zip",
+  "backup_verified": true,
+  "original_files": 298,
+  "counts": {
+    "PRESERVADO": 236,
+    "ATUALIZADO": 62,
+    "AUSENTE": 0
+  },
+  "files": [
+    {
+      "before": "avaliar-plugins/LICENSE",
+      "after": "skills/agent-plugin-eval/LICENSE",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avaliar-plugins/SKILL.md",
+      "after": "skills/agent-plugin-eval/SKILL.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avaliar-plugins/agents/default.yaml",
+      "after": "skills/agent-plugin-eval/agents/default.yaml",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avaliar-plugins/agents/openai.yaml",
+      "after": "skills/agent-plugin-eval/agents/openai.yaml",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "avaliar-plugins/assets/icon.svg",
+      "after": "skills/agent-plugin-eval/assets/icon.svg",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avaliar-plugins/references/jev-integration.md",
+      "after": "skills/agent-plugin-eval/references/jev-integration.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avaliar-plugins/references/output-template.md",
+      "after": "skills/agent-plugin-eval/references/output-template.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avaliar-plugins/references/rubric.md",
+      "after": "skills/agent-plugin-eval/references/rubric.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avaliar-plugins/references/spec-checklist.md",
+      "after": "skills/agent-plugin-eval/references/spec-checklist.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avaliar-plugins/scripts/inspect_plugin.py",
+      "after": "skills/agent-plugin-eval/scripts/inspect_plugin.py",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avaliar-plugins/scripts/jev_questions.json",
+      "after": "skills/agent-plugin-eval/scripts/jev_questions.json",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avaliar-plugins/scripts/score.py",
+      "after": "skills/agent-plugin-eval/scripts/score.py",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "auditar-prontidao-agentes/LICENSE",
+      "after": "skills/agent-ready-cloudflare/LICENSE",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "auditar-prontidao-agentes/README.md",
+      "after": "skills/agent-ready-cloudflare/README.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "auditar-prontidao-agentes/SKILL.md",
+      "after": "skills/agent-ready-cloudflare/SKILL.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "auditar-prontidao-agentes/a2a-agent-card/GUIDE.md",
+      "after": "skills/agent-ready-cloudflare/a2a-agent-card/GUIDE.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "auditar-prontidao-agentes/acp/GUIDE.md",
+      "after": "skills/agent-ready-cloudflare/acp/GUIDE.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "auditar-prontidao-agentes/agent-skills/GUIDE.md",
+      "after": "skills/agent-ready-cloudflare/agent-skills/GUIDE.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "auditar-prontidao-agentes/agents/openai.yaml",
+      "after": "skills/agent-ready-cloudflare/agents/openai.yaml",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "auditar-prontidao-agentes/ai-rules/GUIDE.md",
+      "after": "skills/agent-ready-cloudflare/ai-rules/GUIDE.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "auditar-prontidao-agentes/api-catalog/GUIDE.md",
+      "after": "skills/agent-ready-cloudflare/api-catalog/GUIDE.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "auditar-prontidao-agentes/ard/GUIDE.md",
+      "after": "skills/agent-ready-cloudflare/ard/GUIDE.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "auditar-prontidao-agentes/assets/icon.svg",
+      "after": "skills/agent-ready-cloudflare/assets/icon.svg",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "auditar-prontidao-agentes/auth-md/GUIDE.md",
+      "after": "skills/agent-ready-cloudflare/auth-md/GUIDE.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "auditar-prontidao-agentes/content-signals/GUIDE.md",
+      "after": "skills/agent-ready-cloudflare/content-signals/GUIDE.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "auditar-prontidao-agentes/dns-aid/GUIDE.md",
+      "after": "skills/agent-ready-cloudflare/dns-aid/GUIDE.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "auditar-prontidao-agentes/link-headers/GUIDE.md",
+      "after": "skills/agent-ready-cloudflare/link-headers/GUIDE.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "auditar-prontidao-agentes/llms-full-txt/GUIDE.md",
+      "after": "skills/agent-ready-cloudflare/llms-full-txt/GUIDE.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "auditar-prontidao-agentes/llms-txt/GUIDE.md",
+      "after": "skills/agent-ready-cloudflare/llms-txt/GUIDE.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "auditar-prontidao-agentes/markdown-negotiation/GUIDE.md",
+      "after": "skills/agent-ready-cloudflare/markdown-negotiation/GUIDE.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "auditar-prontidao-agentes/mcp-server-card/GUIDE.md",
+      "after": "skills/agent-ready-cloudflare/mcp-server-card/GUIDE.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "auditar-prontidao-agentes/mpp/GUIDE.md",
+      "after": "skills/agent-ready-cloudflare/mpp/GUIDE.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "auditar-prontidao-agentes/oauth-discovery/GUIDE.md",
+      "after": "skills/agent-ready-cloudflare/oauth-discovery/GUIDE.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "auditar-prontidao-agentes/oauth-protected-resource/GUIDE.md",
+      "after": "skills/agent-ready-cloudflare/oauth-protected-resource/GUIDE.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "auditar-prontidao-agentes/robots-txt/GUIDE.md",
+      "after": "skills/agent-ready-cloudflare/robots-txt/GUIDE.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "auditar-prontidao-agentes/scan-site/GUIDE.md",
+      "after": "skills/agent-ready-cloudflare/scan-site/GUIDE.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "auditar-prontidao-agentes/sitemap/GUIDE.md",
+      "after": "skills/agent-ready-cloudflare/sitemap/GUIDE.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "auditar-prontidao-agentes/ucp/GUIDE.md",
+      "after": "skills/agent-ready-cloudflare/ucp/GUIDE.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "auditar-prontidao-agentes/web-bot-auth/GUIDE.md",
+      "after": "skills/agent-ready-cloudflare/web-bot-auth/GUIDE.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "auditar-prontidao-agentes/webmcp/GUIDE.md",
+      "after": "skills/agent-ready-cloudflare/webmcp/GUIDE.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "auditar-prontidao-agentes/x402/GUIDE.md",
+      "after": "skills/agent-ready-cloudflare/x402/GUIDE.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-apple/plugin.json",
+      "after": "plugins/apple-avila/plugin.json",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "avila-apple/.codex-plugin/plugin.json",
+      "after": "plugins/apple-avila/.codex-plugin/plugin.json",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "avila-apple/skills/app-store-release/SKILL.md",
+      "after": "plugins/apple-avila/skills/app-store-release/SKILL.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-apple/skills/apple-design-audit/SKILL.md",
+      "after": "plugins/apple-avila/skills/apple-design-audit/SKILL.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-apple/skills/cms-app-builder/SKILL.md",
+      "after": "plugins/apple-avila/skills/cms-app-builder/SKILL.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-apple/skills/ios-app-architecture/SKILL.md",
+      "after": "plugins/apple-avila/skills/ios-app-architecture/SKILL.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "gerenciar-sites-astro/LICENSE",
+      "after": "skills/astro-sites-manager/LICENSE",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "gerenciar-sites-astro/SKILL.md",
+      "after": "skills/astro-sites-manager/SKILL.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "gerenciar-sites-astro/agents/openai.yaml",
+      "after": "skills/astro-sites-manager/agents/openai.yaml",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "gerenciar-sites-astro/assets/icon.svg",
+      "after": "skills/astro-sites-manager/assets/icon.svg",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "gerenciar-sites-astro/references/ai-dev-server.md",
+      "after": "skills/astro-sites-manager/references/ai-dev-server.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "gerenciar-sites-astro/references/coolify-deploy.md",
+      "after": "skills/astro-sites-manager/references/coolify-deploy.md",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "gerenciar-sites-astro/references/deployment.md",
+      "after": "skills/astro-sites-manager/references/deployment.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "gerenciar-sites-astro/references/install-mcp.md",
+      "after": "skills/astro-sites-manager/references/install-mcp.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "gerenciar-sites-astro/references/migration-v6-to-v7.md",
+      "after": "skills/astro-sites-manager/references/migration-v6-to-v7.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "gerenciar-sites-astro/references/related-content.md",
+      "after": "skills/astro-sites-manager/references/related-content.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "gerenciar-sites-astro/references/seo-full-stack.md",
+      "after": "skills/astro-sites-manager/references/seo-full-stack.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "gerenciar-sites-astro/references/starlight-and-patterns.md",
+      "after": "skills/astro-sites-manager/references/starlight-and-patterns.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "gerenciar-sites-astro/references/testing.md",
+      "after": "skills/astro-sites-manager/references/testing.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "gerenciar-sites-astro/references/v6-features.md",
+      "after": "skills/astro-sites-manager/references/v6-features.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "gerenciar-sites-astro/references/v7-features.md",
+      "after": "skills/astro-sites-manager/references/v7-features.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "gerenciar-sites-astro/references/validation-checklist.md",
+      "after": "skills/astro-sites-manager/references/validation-checklist.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "autenticacao-agentes-auth-md/auth-md/LICENSE",
+      "after": "skills/auth-md/LICENSE",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "autenticacao-agentes-auth-md/auth-md/SKILL.md",
+      "after": "skills/auth-md/SKILL.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "autenticacao-agentes-auth-md/auth-md/UPSTREAM_COMMIT",
+      "after": "skills/auth-md/UPSTREAM_COMMIT",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "autenticacao-agentes-auth-md/auth-md/agents/openai.yaml",
+      "after": "skills/auth-md/agents/openai.yaml",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "autenticacao-agentes-auth-md/auth-md/assets/icon.svg",
+      "after": "skills/auth-md/assets/icon.svg",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "autenticacao-agentes-auth-md/auth-md/references/example-auth-md.md",
+      "after": "skills/auth-md/references/example-auth-md.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "autenticacao-agentes-auth-md/auth-md/references/implementation-guide.md",
+      "after": "skills/auth-md/references/implementation-guide.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "autenticacao-agentes-auth-md/auth-md/references/metadata-schema.md",
+      "after": "skills/auth-md/references/metadata-schema.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "autenticacao-agentes-auth-md/auth-md/references/protocol-template.md",
+      "after": "skills/auth-md/references/protocol-template.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "autenticacao-agentes-auth-md/auth-md/references/validation-rules.md",
+      "after": "skills/auth-md/references/validation-rules.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "automatizar-operacoes/automador-puro/SKILL.md",
+      "after": "skills/automador-puro/SKILL.md",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "automatizar-operacoes/automador-puro/agents/openai.yaml",
+      "after": "skills/automador-puro/agents/openai.yaml",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "avila-cms/.mcp.json",
+      "after": "plugins/avila-cms/.mcp.json",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-cms/mcp.json",
+      "after": "plugins/avila-cms/mcp.json",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-cms/plugin.json",
+      "after": "plugins/avila-cms/plugin.json",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "avila-cms/.codex-plugin/plugin.json",
+      "after": "plugins/avila-cms/.codex-plugin/plugin.json",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "avila-cms/assets/icon.png",
+      "after": "plugins/avila-cms/assets/icon.png",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-cms/skills/avila-cms/SKILL.md",
+      "after": "plugins/avila-cms/skills/avila-cms/SKILL.md",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "avila-crm/.mcp.json",
+      "after": "plugins/avila-crm/.mcp.json",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-crm/mcp.json",
+      "after": "plugins/avila-crm/mcp.json",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-crm/plugin.json",
+      "after": "plugins/avila-crm/plugin.json",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "avila-crm/.codex-plugin/plugin.json",
+      "after": "plugins/avila-crm/.codex-plugin/plugin.json",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "avila-crm/assets/icon.png",
+      "after": "plugins/avila-crm/assets/icon.png",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-crm/skills/avila-crm/SKILL.md",
+      "after": "plugins/avila-crm/skills/avila-crm/SKILL.md",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "avila-design/plugin.json",
+      "after": "plugins/avila-design/plugin.json",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "avila-design/.codex-plugin/plugin.json",
+      "after": "plugins/avila-design/.codex-plugin/plugin.json",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "avila-design/skills/design-puro/SKILL.md",
+      "after": "plugins/avila-design/skills/design-puro/SKILL.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-design/skills/design-puro/agents/openai.yaml",
+      "after": "plugins/avila-design/skills/design-puro/agents/openai.yaml",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-design/skills/design-puro/references/marcas.md",
+      "after": "plugins/avila-design/skills/design-puro/references/marcas.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-lojas/.mcp.json",
+      "after": "plugins/avila-lojas/.mcp.json",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-lojas/mcp.json",
+      "after": "plugins/avila-lojas/mcp.json",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-lojas/plugin.json",
+      "after": "plugins/avila-lojas/plugin.json",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "avila-lojas/.codex-plugin/plugin.json",
+      "after": "plugins/avila-lojas/.codex-plugin/plugin.json",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "avila-lojas/assets/icon.png",
+      "after": "plugins/avila-lojas/assets/icon.png",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-lojas/skills/avila-lojas/SKILL.md",
+      "after": "plugins/avila-lojas/skills/avila-lojas/SKILL.md",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "avila-mail/.mcp.json",
+      "after": "plugins/avila-mail/.mcp.json",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-mail/mcp.json",
+      "after": "plugins/avila-mail/mcp.json",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-mail/plugin.json",
+      "after": "plugins/avila-mail/plugin.json",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "avila-mail/.codex-plugin/plugin.json",
+      "after": "plugins/avila-mail/.codex-plugin/plugin.json",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "avila-mail/assets/icon.png",
+      "after": "plugins/avila-mail/assets/icon.png",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-mail/skills/avila-mail/SKILL.md",
+      "after": "plugins/avila-mail/skills/avila-mail/SKILL.md",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "avila-notas/.mcp.json",
+      "after": "plugins/avila-notas/.mcp.json",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-notas/mcp.json",
+      "after": "plugins/avila-notas/mcp.json",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-notas/plugin.json",
+      "after": "plugins/avila-notas/plugin.json",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "avila-notas/.codex-plugin/plugin.json",
+      "after": "plugins/avila-notas/.codex-plugin/plugin.json",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "avila-notas/assets/icon.png",
+      "after": "plugins/avila-notas/assets/icon.png",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-notas/skills/avila-notas/SKILL.md",
+      "after": "plugins/avila-notas/skills/avila-notas/SKILL.md",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/plugin.json",
+      "after": "plugins/avila-ops-skills/plugin.json",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/.codex-plugin/plugin.json",
+      "after": "plugins/avila-ops-skills/.codex-plugin/plugin.json",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-agent-ready/LICENSE",
+      "after": "plugins/avila-ops-skills/skills/avila-agent-ready/LICENSE",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-agent-ready/original.md",
+      "after": "plugins/avila-ops-skills/skills/avila-agent-ready/original.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-agent-ready/SKILL.md",
+      "after": "plugins/avila-ops-skills/skills/avila-agent-ready/SKILL.md",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-coder/SKILL.md",
+      "after": "plugins/avila-ops-skills/skills/avila-coder/SKILL.md",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-design-system/LICENSE",
+      "after": "plugins/avila-ops-skills/skills/avila-design-system/LICENSE",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-design-system/SKILL.md",
+      "after": "plugins/avila-ops-skills/skills/avila-design-system/SKILL.md",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-infra-coolify/LICENSE",
+      "after": "plugins/avila-ops-skills/skills/avila-infra-coolify/LICENSE",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-infra-coolify/SKILL.md",
+      "after": "plugins/avila-ops-skills/skills/avila-infra-coolify/SKILL.md",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-vigia-integracoes/SKILL.md",
+      "after": "plugins/avila-ops-skills/skills/avila-vigia-integracoes/SKILL.md",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-vigia-integracoes/agents/openai.yaml",
+      "after": "plugins/avila-ops-skills/skills/avila-vigia-integracoes/agents/openai.yaml",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-vigia-integracoes/references/original.md",
+      "after": "plugins/avila-ops-skills/skills/avila-vigia-integracoes/references/original.md",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-infra-coolify/agents/openai.yaml",
+      "after": "plugins/avila-ops-skills/skills/avila-infra-coolify/agents/openai.yaml",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-infra-coolify/assets/icon.svg",
+      "after": "plugins/avila-ops-skills/skills/avila-infra-coolify/assets/icon.svg",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-infra-coolify/references/original.md",
+      "after": "plugins/avila-ops-skills/skills/avila-infra-coolify/references/original.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-design-system/agents/openai.yaml",
+      "after": "plugins/avila-ops-skills/skills/avila-design-system/agents/openai.yaml",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-design-system/assets/icon.svg",
+      "after": "plugins/avila-ops-skills/skills/avila-design-system/assets/icon.svg",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-design-system/references/briefing-questionnaire.md",
+      "after": "plugins/avila-ops-skills/skills/avila-design-system/references/briefing-questionnaire.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-design-system/references/original.md",
+      "after": "plugins/avila-ops-skills/skills/avila-design-system/references/original.md",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-design-system/references/prompt-01-design-system-architect.md",
+      "after": "plugins/avila-ops-skills/skills/avila-design-system/references/prompt-01-design-system-architect.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-design-system/references/prompt-02-brand-identity-creator.md",
+      "after": "plugins/avila-ops-skills/skills/avila-design-system/references/prompt-02-brand-identity-creator.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-design-system/references/prompt-03-ui-ux-pattern-master.md",
+      "after": "plugins/avila-ops-skills/skills/avila-design-system/references/prompt-03-ui-ux-pattern-master.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-design-system/references/prompt-04-marketing-asset-factory.md",
+      "after": "plugins/avila-ops-skills/skills/avila-design-system/references/prompt-04-marketing-asset-factory.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-design-system/references/prompt-05-figma-auto-layout-expert.md",
+      "after": "plugins/avila-ops-skills/skills/avila-design-system/references/prompt-05-figma-auto-layout-expert.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-design-system/references/prompt-06-design-critique-partner.md",
+      "after": "plugins/avila-ops-skills/skills/avila-design-system/references/prompt-06-design-critique-partner.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-design-system/references/prompt-07-design-trend-synthesizer.md",
+      "after": "plugins/avila-ops-skills/skills/avila-design-system/references/prompt-07-design-trend-synthesizer.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-design-system/references/prompt-08-accessibility-auditor.md",
+      "after": "plugins/avila-ops-skills/skills/avila-design-system/references/prompt-08-accessibility-auditor.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-design-system/references/prompt-09-design-to-code-translator.md",
+      "after": "plugins/avila-ops-skills/skills/avila-design-system/references/prompt-09-design-to-code-translator.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-design-system/references/prompt-10-presentation-designer.md",
+      "after": "plugins/avila-ops-skills/skills/avila-design-system/references/prompt-10-presentation-designer.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-coder/agents/openai.yaml",
+      "after": "plugins/avila-ops-skills/skills/avila-coder/agents/openai.yaml",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-coder/references/original.md",
+      "after": "plugins/avila-ops-skills/skills/avila-coder/references/original.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-agent-ready/a2a-agent-card/GUIDE.md",
+      "after": "plugins/avila-ops-skills/skills/avila-agent-ready/a2a-agent-card/GUIDE.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-agent-ready/acp/GUIDE.md",
+      "after": "plugins/avila-ops-skills/skills/avila-agent-ready/acp/GUIDE.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-agent-ready/agent-skills/GUIDE.md",
+      "after": "plugins/avila-ops-skills/skills/avila-agent-ready/agent-skills/GUIDE.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-agent-ready/agents/openai.yaml",
+      "after": "plugins/avila-ops-skills/skills/avila-agent-ready/agents/openai.yaml",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-agent-ready/ai-rules/GUIDE.md",
+      "after": "plugins/avila-ops-skills/skills/avila-agent-ready/ai-rules/GUIDE.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-agent-ready/api-catalog/GUIDE.md",
+      "after": "plugins/avila-ops-skills/skills/avila-agent-ready/api-catalog/GUIDE.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-agent-ready/ard/GUIDE.md",
+      "after": "plugins/avila-ops-skills/skills/avila-agent-ready/ard/GUIDE.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-agent-ready/assets/icon.svg",
+      "after": "plugins/avila-ops-skills/skills/avila-agent-ready/assets/icon.svg",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-agent-ready/auth-md/GUIDE.md",
+      "after": "plugins/avila-ops-skills/skills/avila-agent-ready/auth-md/GUIDE.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-agent-ready/content-signals/GUIDE.md",
+      "after": "plugins/avila-ops-skills/skills/avila-agent-ready/content-signals/GUIDE.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-agent-ready/dns-aid/GUIDE.md",
+      "after": "plugins/avila-ops-skills/skills/avila-agent-ready/dns-aid/GUIDE.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-agent-ready/link-headers/GUIDE.md",
+      "after": "plugins/avila-ops-skills/skills/avila-agent-ready/link-headers/GUIDE.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-agent-ready/llms-full-txt/GUIDE.md",
+      "after": "plugins/avila-ops-skills/skills/avila-agent-ready/llms-full-txt/GUIDE.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-agent-ready/llms-txt/GUIDE.md",
+      "after": "plugins/avila-ops-skills/skills/avila-agent-ready/llms-txt/GUIDE.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-agent-ready/markdown-negotiation/GUIDE.md",
+      "after": "plugins/avila-ops-skills/skills/avila-agent-ready/markdown-negotiation/GUIDE.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-agent-ready/mcp-server-card/GUIDE.md",
+      "after": "plugins/avila-ops-skills/skills/avila-agent-ready/mcp-server-card/GUIDE.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-agent-ready/mpp/GUIDE.md",
+      "after": "plugins/avila-ops-skills/skills/avila-agent-ready/mpp/GUIDE.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-agent-ready/oauth-discovery/GUIDE.md",
+      "after": "plugins/avila-ops-skills/skills/avila-agent-ready/oauth-discovery/GUIDE.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-agent-ready/oauth-protected-resource/GUIDE.md",
+      "after": "plugins/avila-ops-skills/skills/avila-agent-ready/oauth-protected-resource/GUIDE.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-agent-ready/robots-txt/GUIDE.md",
+      "after": "plugins/avila-ops-skills/skills/avila-agent-ready/robots-txt/GUIDE.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-agent-ready/scan-site/GUIDE.md",
+      "after": "plugins/avila-ops-skills/skills/avila-agent-ready/scan-site/GUIDE.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-agent-ready/sitemap/GUIDE.md",
+      "after": "plugins/avila-ops-skills/skills/avila-agent-ready/sitemap/GUIDE.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-agent-ready/ucp/GUIDE.md",
+      "after": "plugins/avila-ops-skills/skills/avila-agent-ready/ucp/GUIDE.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-agent-ready/web-bot-auth/GUIDE.md",
+      "after": "plugins/avila-ops-skills/skills/avila-agent-ready/web-bot-auth/GUIDE.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-agent-ready/webmcp/GUIDE.md",
+      "after": "plugins/avila-ops-skills/skills/avila-agent-ready/webmcp/GUIDE.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-engenharia-operacoes/skills/avila-agent-ready/x402/GUIDE.md",
+      "after": "plugins/avila-ops-skills/skills/avila-agent-ready/x402/GUIDE.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-tms/.mcp.json",
+      "after": "plugins/avila-tms/.mcp.json",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-tms/mcp.json",
+      "after": "plugins/avila-tms/mcp.json",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-tms/plugin.json",
+      "after": "plugins/avila-tms/plugin.json",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "avila-tms/.codex-plugin/plugin.json",
+      "after": "plugins/avila-tms/.codex-plugin/plugin.json",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "avila-tms/assets/icon.png",
+      "after": "plugins/avila-tms/assets/icon.png",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-tms/skills/avila-tms/SKILL.md",
+      "after": "plugins/avila-tms/skills/avila-tms/SKILL.md",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "catalogar-documentacao/SKILL.md",
+      "after": "skills/catalogue/SKILL.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "catalogar-documentacao/agents/openai.yaml",
+      "after": "skills/catalogue/agents/openai.yaml",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "catalogar-documentacao/assets/icon.svg",
+      "after": "skills/catalogue/assets/icon.svg",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "catalogar-documentacao/references/exemplos.md",
+      "after": "skills/catalogue/references/exemplos.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "desenvolver-software/SKILL.md",
+      "after": "skills/coder-puro/SKILL.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "desenvolver-software/agents/openai.yaml",
+      "after": "skills/coder-puro/agents/openai.yaml",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "operar-infraestrutura-coolify/.env.example",
+      "after": "skills/coolify-operator/.env.example",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "operar-infraestrutura-coolify/LICENSE",
+      "after": "skills/coolify-operator/LICENSE",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "operar-infraestrutura-coolify/SKILL.md",
+      "after": "skills/coolify-operator/SKILL.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "operar-infraestrutura-coolify/agents/openai.yaml",
+      "after": "skills/coolify-operator/agents/openai.yaml",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "operar-infraestrutura-coolify/assets/icon.svg",
+      "after": "skills/coolify-operator/assets/icon.svg",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "operar-infraestrutura-coolify/evals/evals.json",
+      "after": "skills/coolify-operator/evals/evals.json",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "app-conectado-6ad0a008/.app.json",
+      "after": "plugins/dev-6ad0a0086b188191928c20e0cf70d6fe/.app.json",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "app-conectado-6ad0a008/.codex-plugin/plugin.json",
+      "after": "plugins/dev-6ad0a0086b188191928c20e0cf70d6fe/.codex-plugin/plugin.json",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "explicar-documentacao/SKILL.md",
+      "after": "skills/explica/SKILL.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "explicar-documentacao/agents/openai.yaml",
+      "after": "skills/explica/agents/openai.yaml",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "explicar-documentacao/assets/icon.svg",
+      "after": "skills/explica/assets/icon.svg",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "explicar-documentacao/references/exemplos.md",
+      "after": "skills/explica/references/exemplos.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "editar-textos-ingles/EVALUATION.md",
+      "after": "skills/human-ai/EVALUATION.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "editar-textos-ingles/LICENSE",
+      "after": "skills/human-ai/LICENSE",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "editar-textos-ingles/SKILL.md",
+      "after": "skills/human-ai/SKILL.md",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "editar-textos-ingles/agents/openai.yaml",
+      "after": "skills/human-ai/agents/openai.yaml",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "editar-textos-ingles/assets/icon.svg",
+      "after": "skills/human-ai/assets/icon.svg",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "editar-textos-ingles/references/jev-integration.md",
+      "after": "skills/human-ai/references/jev-integration.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "editar-textos-ingles/references/patterns-composition.md",
+      "after": "skills/human-ai/references/patterns-composition.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "editar-textos-ingles/references/patterns-content.md",
+      "after": "skills/human-ai/references/patterns-content.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "editar-textos-ingles/references/patterns-english-specific.md",
+      "after": "skills/human-ai/references/patterns-english-specific.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "editar-textos-ingles/references/patterns-language.md",
+      "after": "skills/human-ai/references/patterns-language.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "editar-textos-ingles/references/patterns-style.md",
+      "after": "skills/human-ai/references/patterns-style.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "editar-textos-ingles/references/patterns-tone.md",
+      "after": "skills/human-ai/references/patterns-tone.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "editar-textos-ingles/references/presets.md",
+      "after": "skills/human-ai/references/presets.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "editar-textos-ingles/references/summary.md",
+      "after": "skills/human-ai/references/summary.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "editar-textos-ingles/references/tests.md",
+      "after": "skills/human-ai/references/tests.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "editar-textos-ingles/scripts/jev_questions.json",
+      "after": "skills/human-ai/scripts/jev_questions.json",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "editar-textos-ingles/scripts/measure.py",
+      "after": "skills/human-ai/scripts/measure.py",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "integrar-apis/SKILL.md",
+      "after": "skills/integrador-de-apis/SKILL.md",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "integrar-apis/agents/openai.yaml",
+      "after": "skills/integrador-de-apis/agents/openai.yaml",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "avila-lojas-clientes/.mcp.json",
+      "after": "plugins/lojas-clientes/.mcp.json",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-lojas-clientes/mcp.json",
+      "after": "plugins/lojas-clientes/mcp.json",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-lojas-clientes/plugin.json",
+      "after": "plugins/lojas-clientes/plugin.json",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "avila-lojas-clientes/.codex-plugin/plugin.json",
+      "after": "plugins/lojas-clientes/.codex-plugin/plugin.json",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "avila-lojas-clientes/skills/preencher-loja/SKILL.md",
+      "after": "plugins/lojas-clientes/skills/preencher-loja/SKILL.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "diagnosticar-monitor-brave/SKILL.md",
+      "after": "skills/monitor-brave/SKILL.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "diagnosticar-monitor-brave/agents/openai.yaml",
+      "after": "skills/monitor-brave/agents/openai.yaml",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "diagnosticar-monitor-brave/assets/icon.svg",
+      "after": "skills/monitor-brave/assets/icon.svg",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "produzir-anuncios-video/LICENSE",
+      "after": "skills/motion-ad/LICENSE",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "produzir-anuncios-video/SKILL.md",
+      "after": "skills/motion-ad/SKILL.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "produzir-anuncios-video/agents/openai.yaml",
+      "after": "skills/motion-ad/agents/openai.yaml",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "produzir-anuncios-video/assets/icon.svg",
+      "after": "skills/motion-ad/assets/icon.svg",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "produzir-anuncios-video/assets/template.html",
+      "after": "skills/motion-ad/assets/template.html",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "produzir-anuncios-video/references/template-map.md",
+      "after": "skills/motion-ad/references/template-map.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "produzir-anuncios-video/scripts/.gitignore",
+      "after": "skills/motion-ad/scripts/.gitignore",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "produzir-anuncios-video/scripts/contact-sheet.py",
+      "after": "skills/motion-ad/scripts/contact-sheet.py",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "produzir-anuncios-video/scripts/fetch-images.cjs",
+      "after": "skills/motion-ad/scripts/fetch-images.cjs",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "produzir-anuncios-video/scripts/package-lock.json",
+      "after": "skills/motion-ad/scripts/package-lock.json",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "produzir-anuncios-video/scripts/package.json",
+      "after": "skills/motion-ad/scripts/package.json",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "produzir-anuncios-video/scripts/render.cjs",
+      "after": "skills/motion-ad/scripts/render.cjs",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-n8n/.mcp.json",
+      "after": "plugins/n8n-avilaops/.mcp.json",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-n8n/mcp.json",
+      "after": "plugins/n8n-avilaops/mcp.json",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "avila-n8n/plugin.json",
+      "after": "plugins/n8n-avilaops/plugin.json",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "avila-n8n/.codex-plugin/plugin.json",
+      "after": "plugins/n8n-avilaops/.codex-plugin/plugin.json",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "integrar-pier-cloud/.env.example",
+      "after": "skills/pier-cloud/.env.example",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "integrar-pier-cloud/LICENSE",
+      "after": "skills/pier-cloud/LICENSE",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "integrar-pier-cloud/SKILL.md",
+      "after": "skills/pier-cloud/SKILL.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "integrar-pier-cloud/agents/openai.yaml",
+      "after": "skills/pier-cloud/agents/openai.yaml",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "integrar-pier-cloud/assets/icon.svg",
+      "after": "skills/pier-cloud/assets/icon.svg",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "integrar-pier-cloud/references/REFERENCE.md",
+      "after": "skills/pier-cloud/references/REFERENCE.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "integrar-pier-cloud/references/TROUBLESHOOTING.md",
+      "after": "skills/pier-cloud/references/TROUBLESHOOTING.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "integrar-pier-cloud/scripts/pier-cloud-auth.py",
+      "after": "skills/pier-cloud/scripts/pier-cloud-auth.py",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "integrar-pier-cloud/scripts/pier-cloud-get-all-workspaces.py",
+      "after": "skills/pier-cloud/scripts/pier-cloud-get-all-workspaces.py",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "integrar-pier-cloud/scripts/pier-cloud-get-view-data.py",
+      "after": "skills/pier-cloud/scripts/pier-cloud-get-view-data.py",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "integrar-pier-cloud/scripts/pier-cloud-get-view.py",
+      "after": "skills/pier-cloud/scripts/pier-cloud-get-view.py",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "integrar-pier-cloud/scripts/pier-cloud-get-workspace-group.py",
+      "after": "skills/pier-cloud/scripts/pier-cloud-get-workspace-group.py",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "integrar-pier-cloud/scripts/pier-cloud-get-workspace.py",
+      "after": "skills/pier-cloud/scripts/pier-cloud-get-workspace.py",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "integrar-pier-cloud/scripts/pier-cloud-list-contexts.py",
+      "after": "skills/pier-cloud/scripts/pier-cloud-list-contexts.py",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "integrar-pier-cloud/scripts/pier-cloud-list-views.py",
+      "after": "skills/pier-cloud/scripts/pier-cloud-list-views.py",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "integrar-pier-cloud/scripts/pier-cloud-list-workspace-groups.py",
+      "after": "skills/pier-cloud/scripts/pier-cloud-list-workspace-groups.py",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "integrar-pier-cloud/scripts/pier-cloud-list-workspaces.py",
+      "after": "skills/pier-cloud/scripts/pier-cloud-list-workspaces.py",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "integrar-pier-cloud/scripts/pier_cloud_client.py",
+      "after": "skills/pier-cloud/scripts/pier_cloud_client.py",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "integrar-pier-cloud/scripts/README.md",
+      "after": "skills/pier-cloud/scripts/README.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "sincronizar-dados/SKILL.md",
+      "after": "skills/sincronizador-puro/SKILL.md",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "sincronizar-dados/agents/openai.yaml",
+      "after": "skills/sincronizador-puro/agents/openai.yaml",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "auditar-design-generico/LICENSE",
+      "after": "skills/slop-eval/LICENSE",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "auditar-design-generico/SKILL.md",
+      "after": "skills/slop-eval/SKILL.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "auditar-design-generico/agents/openai.yaml",
+      "after": "skills/slop-eval/agents/openai.yaml",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "auditar-design-generico/assets/icon.svg",
+      "after": "skills/slop-eval/assets/icon.svg",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "auditar-design-generico/references/contexts.md",
+      "after": "skills/slop-eval/references/contexts.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "auditar-design-generico/references/jev-integration.md",
+      "after": "skills/slop-eval/references/jev-integration.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "auditar-design-generico/references/output-template.md",
+      "after": "skills/slop-eval/references/output-template.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "auditar-design-generico/references/premium-markers.md",
+      "after": "skills/slop-eval/references/premium-markers.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "auditar-design-generico/references/tells.md",
+      "after": "skills/slop-eval/references/tells.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "auditar-design-generico/scripts/jev_questions.json",
+      "after": "skills/slop-eval/scripts/jev_questions.json",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "auditar-design-generico/scripts/score.py",
+      "after": "skills/slop-eval/scripts/score.py",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "validar-ideias-negocio/LICENSE",
+      "after": "skills/startup-idea/LICENSE",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "validar-ideias-negocio/SKILL.md",
+      "after": "skills/startup-idea/SKILL.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "validar-ideias-negocio/agents/openai.yaml",
+      "after": "skills/startup-idea/agents/openai.yaml",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "validar-ideias-negocio/assets/icon.svg",
+      "after": "skills/startup-idea/assets/icon.svg",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "validar-ideias-negocio/evals/evals.json",
+      "after": "skills/startup-idea/evals/evals.json",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "gerenciar-newsletter-substack/LICENSE",
+      "after": "skills/substack-expert/LICENSE",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "gerenciar-newsletter-substack/SKILL.md",
+      "after": "skills/substack-expert/SKILL.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "gerenciar-newsletter-substack/agents/openai.yaml",
+      "after": "skills/substack-expert/agents/openai.yaml",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "gerenciar-newsletter-substack/assets/icon.svg",
+      "after": "skills/substack-expert/assets/icon.svg",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "gerenciar-newsletter-substack/references/formatting-best-practices.md",
+      "after": "skills/substack-expert/references/formatting-best-practices.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "gerenciar-newsletter-substack/references/seo-output-example.md",
+      "after": "skills/substack-expert/references/seo-output-example.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "criar-design-systems/LICENSE",
+      "after": "skills/ultimate-design-system-master/LICENSE",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "criar-design-systems/SKILL.md",
+      "after": "skills/ultimate-design-system-master/SKILL.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "criar-design-systems/agents/openai.yaml",
+      "after": "skills/ultimate-design-system-master/agents/openai.yaml",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "criar-design-systems/assets/icon.svg",
+      "after": "skills/ultimate-design-system-master/assets/icon.svg",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "criar-design-systems/references/briefing-questionnaire.md",
+      "after": "skills/ultimate-design-system-master/references/briefing-questionnaire.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "criar-design-systems/references/prompt-01-design-system-architect.md",
+      "after": "skills/ultimate-design-system-master/references/prompt-01-design-system-architect.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "criar-design-systems/references/prompt-02-brand-identity-creator.md",
+      "after": "skills/ultimate-design-system-master/references/prompt-02-brand-identity-creator.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "criar-design-systems/references/prompt-03-ui-ux-pattern-master.md",
+      "after": "skills/ultimate-design-system-master/references/prompt-03-ui-ux-pattern-master.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "criar-design-systems/references/prompt-04-marketing-asset-factory.md",
+      "after": "skills/ultimate-design-system-master/references/prompt-04-marketing-asset-factory.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "criar-design-systems/references/prompt-05-figma-auto-layout-expert.md",
+      "after": "skills/ultimate-design-system-master/references/prompt-05-figma-auto-layout-expert.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "criar-design-systems/references/prompt-06-design-critique-partner.md",
+      "after": "skills/ultimate-design-system-master/references/prompt-06-design-critique-partner.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "criar-design-systems/references/prompt-07-design-trend-synthesizer.md",
+      "after": "skills/ultimate-design-system-master/references/prompt-07-design-trend-synthesizer.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "criar-design-systems/references/prompt-08-accessibility-auditor.md",
+      "after": "skills/ultimate-design-system-master/references/prompt-08-accessibility-auditor.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "criar-design-systems/references/prompt-09-design-to-code-translator.md",
+      "after": "skills/ultimate-design-system-master/references/prompt-09-design-to-code-translator.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "criar-design-systems/references/prompt-10-presentation-designer.md",
+      "after": "skills/ultimate-design-system-master/references/prompt-10-presentation-designer.md",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "monitorar-integracoes/SKILL.md",
+      "after": "skills/vigia-de-integracoes/SKILL.md",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "monitorar-integracoes/agents/openai.yaml",
+      "after": "skills/vigia-de-integracoes/agents/openai.yaml",
+      "state": "ATUALIZADO"
+    },
+    {
+      "before": "renomeacao-pastas.json",
+      "after": "_historico/renomeacao-inicial/renomeacao-pastas.json",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "verificacao-renomeacao.json",
+      "after": "_historico/renomeacao-inicial/verificacao-renomeacao.json",
+      "state": "PRESERVADO"
+    },
+    {
+      "before": "RENOMEACAO.md",
+      "after": "_historico/renomeacao-inicial/RENOMEACAO.md",
+      "state": "PRESERVADO"
+    }
+  ]
+}

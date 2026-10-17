@@ -1,0 +1,23 @@
+{
+  "author": {
+    "email": "avilacargasrapidas@gmail.com",
+    "name": "Nicolas"
+  },
+  "description": "Operação de transportes, entregas e comprovantes.",
+  "interface": {
+    "capabilities": [],
+    "category": "Productivity",
+    "composerIcon": "./assets/plugin-icon.svg",
+    "defaultPrompt": "Verifique as ferramentas de Ávila TMS disponíveis e apresente o que é possível fazer sem alterar dados.",
+    "developerName": "Nicolas",
+    "displayName": "Ávila TMS",
+    "logo": "./assets/plugin-icon.svg",
+    "longDescription": "Operação de transportes, entregas e comprovantes. Ligação ao MCP central, sujeita à autenticação e às ferramentas realmente expostas.",
+    "shortDescription": "Gestão de transportes"
+  },
+  "keywords": [],
+  "mcpServers": "./.mcp.json",
+  "name": "avila-tms",
+  "skills": "./skills",
+  "version": "0.1.1"
+}

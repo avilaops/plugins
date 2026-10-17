@@ -1,0 +1,964 @@
+{
+  "generated_at": "2026-10-17T10:00:38.720079+00:00",
+  "validation": "Portable core JSON Schemas 1.0.0 plus documented OpenAI extensions; static checks do not prove runtime behavior.",
+  "items": [
+    {
+      "name": "agent-plugin-eval",
+      "kind": "skill",
+      "path": "skills/agent-plugin-eval",
+      "errors": [],
+      "warnings": [],
+      "runtime": "NAO_TESTADO",
+      "files": 12,
+      "sha256": {
+        "agents/default.yaml": "efd5a21c1068dc94e95f272462a3ec69eb471e8fcf3afbee8b13dcb32329d6cd",
+        "agents/openai.yaml": "8982142624d195a126981063b3e245801878c01dab47aa014b6542d6927bf767",
+        "assets/icon.svg": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
+        "LICENSE": "aa41faffcf88908b495d7d318e96e889ff78aa53138e51e48c4ef4e6da076ad8",
+        "references/jev-integration.md": "7dde2b7fa944ddc6d9a7a91c8aa2393d27454d4cf01e505c8c41b4570bda3b1f",
+        "references/output-template.md": "4c052ede0af7b98e7336bf75e4c34d43ce9043b28d28467046c8d228444bbb41",
+        "references/rubric.md": "3581d144088a5fdc988e80f911aee8ea6bf84f7a4cde8b7db695e71fa7ecad5a",
+        "references/spec-checklist.md": "2bec2c6386c673e4bd0a10365f7b38845dfee45fce239d0146da70bb4b53dbe8",
+        "scripts/inspect_plugin.py": "0d625e8f741e3b6026cb4ba735f50b3d8cecadf35f86a787162ae41002e35a63",
+        "scripts/jev_questions.json": "bba0a31790a29c71aebf451cc7574e29875b2d6295b51adab6f5ea3c0c689f64",
+        "scripts/score.py": "ce9cc2ba1952a96779fc9d9dc59c094c9f3369ed1b00ee60a37d858d94e67a2d",
+        "SKILL.md": "a8f39dee2f58028d1c71596e13c543a151437e245496e2703a98721793d66fa4"
+      },
+      "description": "Audit, score, and compare repositories containing portable Agent Plugins against the official Agent Plugins specification. Use when asked to review a plugin repo, check plugin.json or mcp.json conformance, assess bundled skills and MCP servers, produce an evidence-cited 0–100 plugin scorecard, identify release blockers, or compare two agent plugins side by side.",
+      "structural": "APROVADO",
+      "label": "avaliar-plugins",
+      "purpose": "Auditoria e pontuacao de pacotes Agent Plugins.",
+      "previous_path": "avaliar-plugins"
+    },
+    {
+      "name": "agent-ready-cloudflare",
+      "kind": "skill",
+      "path": "skills/agent-ready-cloudflare",
+      "errors": [],
+      "warnings": [],
+      "runtime": "NAO_TESTADO",
+      "files": 29,
+      "sha256": {
+        "a2a-agent-card/GUIDE.md": "13f688025f8a0a19833f968673780530b4ed9bf0fc0839cb495513f99c20063e",
+        "acp/GUIDE.md": "fd137b83d203ef310302c68e70504ff2f8f34f283e17734088020e8b86741171",
+        "agent-skills/GUIDE.md": "f3505db03f7f75ec4e99104bba59811c647b7005d5f9559874f2fc3e7c702c3e",
+        "agents/openai.yaml": "a188ebc0b67ae427deb629000a1d010550383a294301a404698dd8349c7e8c86",
+        "ai-rules/GUIDE.md": "9b1566f2770822fbced61000161868e04c84d50f79ca7b6d6f167a2d67b7aa5a",
+        "api-catalog/GUIDE.md": "99d53f84a1e11c5219a2330ec3e6a57c11908297fdfbc3552f7febb79068dc4d",
+        "ard/GUIDE.md": "438eedb2144163ad31d1edf8d20815cf80d75a9dbf6c2ec38b78cd0c7af6c1d1",
+        "assets/icon.svg": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
+        "auth-md/GUIDE.md": "beeaddd6640bf3a2b793414cebd37f0fb89558bf12e2b15e77b0f43ecf333ff3",
+        "content-signals/GUIDE.md": "77e23baac4c4867344621d49e03249ca7153461cd2855ee6f8c8caa7e069ff32",
+        "dns-aid/GUIDE.md": "c590582726f80c00021056a7da42d4d1def11995825718fa7c6343bbf0bd0adc",
+        "LICENSE": "aa41faffcf88908b495d7d318e96e889ff78aa53138e51e48c4ef4e6da076ad8",
+        "link-headers/GUIDE.md": "072c27a2a659fc350981545ce3aa87866d062c1006980573044ff9cb1a572e22",
+        "llms-full-txt/GUIDE.md": "fae01eaa9b16b75ff4f40958d8e852bd4eb2a0d534e86b87a21e3ba91790db87",
+        "llms-txt/GUIDE.md": "ee9639d657ee147d558cdc950dd7a7a22d6b28ca0bc74b400ccea76e70770ba2",
+        "markdown-negotiation/GUIDE.md": "da88dc0a976039e561c91c13e6d019a9cde7c95309461b4652752e20f668dbd4",
+        "mcp-server-card/GUIDE.md": "649d9baa5105da8b4059ea324b5e792ea10a57ffb0725471a3899c402fe904b4",
+        "mpp/GUIDE.md": "a8342d0c0d99c1b9fad4ca9017846d5a052ec725c5cdae0dad4ec7d81e9dbcbc",
+        "oauth-discovery/GUIDE.md": "3040d58b002b6a49d3eef60229b6dff979eb5e03b5811af1cc02c03a0e6cbbcb",
+        "oauth-protected-resource/GUIDE.md": "0188c679c44f8235849c185ffe27b3c9f9588bbb8dc8fbae3a7c10a90fc457cb",
+        "README.md": "2a6f0f98ce74f80f8630dbc01b05ffd8e69e39231d1f29b3f721fe581e70f37e",
+        "robots-txt/GUIDE.md": "5f96b7cd115534cfcc8ccee85985cdb857c32a8d01c86e2a4eac22395f1b1c68",
+        "scan-site/GUIDE.md": "fe8222ae248a4dd3b18ca96a1aa6dc8dfe049bcf8e56b732851a9e80f46d1193",
+        "sitemap/GUIDE.md": "207cf0ad5070cba69a7729f76d134231efb0d68f4a72f046935a9f700d7c083c",
+        "SKILL.md": "b1dcc28eae6967807cbc4924a7ad07e4dff726b82470dab6126a10728ee3c6df",
+        "ucp/GUIDE.md": "e26948d9a77d0e7a314e0995326053ca20576f02e234b500119a66ddd7bb52cc",
+        "web-bot-auth/GUIDE.md": "f3250374e0bf554e14745a4ac9fb05ef0da7005e32fb12c650b28061cfc94d08",
+        "webmcp/GUIDE.md": "85eb7054dd73645c130e2369206035cd36818dc96ce2b6a04ceb128f8633d3d8",
+        "x402/GUIDE.md": "62e266d1fc8ff56a21f4acccbeb4722cb42d3ddd064391e5f2249426c0bc5b51"
+      },
+      "description": "Audit and improve website readiness for AI agents using the Cloudflare \"Is It Agent Ready?\" scanner (isitagentready.com). Covers scanning via API, interpreting results, generating implementation prompts, and fixing every check. Use when the user mentions \"agent ready\", \"isitagentready\", \"AI agent scan\", \"agent readiness\", \"agent-ready score\", \"MCP server card\", \"agent skills index\", \"markdown for agents\", \"content signals\", \"web bot auth\", \"agent discovery\", \"RFC 9727\", \"RFC 8288\", \"RFC 9728\", \"SEP-1649\", \"WebMCP\", \"ARD\", \"ai-catalog\", \"x402\", \"UCP\", \"ACP\", or wants to make a website discoverable and usable by AI agents.\n",
+      "structural": "APROVADO",
+      "label": "auditar-prontidao-agentes",
+      "purpose": "Scanner de prontidao de sites para agentes e guias de implementacao.",
+      "previous_path": "auditar-prontidao-agentes"
+    },
+    {
+      "name": "astro-sites-manager",
+      "kind": "skill",
+      "path": "skills/astro-sites-manager",
+      "errors": [],
+      "warnings": [],
+      "runtime": "NAO_TESTADO",
+      "files": 16,
+      "sha256": {
+        "agents/openai.yaml": "b31cfae9e0858b92eb2da17b0b9db481cdcf4b4a9b26761c04ba43f8390dc720",
+        "assets/icon.svg": "8936b24f674a1250d999e2c2b5901374fb4240426f32bd1ae340c352a90d617d",
+        "LICENSE": "aa41faffcf88908b495d7d318e96e889ff78aa53138e51e48c4ef4e6da076ad8",
+        "references/ai-dev-server.md": "c24f292600eadd826480d38c642c934efba4f7ec94253ddc4b027ae181ee2de1",
+        "references/coolify-deploy.md": "c73717206905b04566e6de79643a040a334f642874d472d6f12cde4163e80cf6",
+        "references/deployment.md": "a644f079712c429a1e1d93d8778db4ea02781c1c573b403edd133a3086b7bc19",
+        "references/install-mcp.md": "2627c6a1cdbdca59cefed579f924d92e814ea5016713fe829abd05dd995959b6",
+        "references/migration-v6-to-v7.md": "d70947a3668ea006cb452259f41f4139df0fa449239df253d8e105b71f4c06ad",
+        "references/related-content.md": "70cdd16657834549e294372c034bc29e9ff12fd11ddc49f729a9cf362ce1b2e2",
+        "references/seo-full-stack.md": "9364cf8209867cc292767715020bf376161fefaa9114d537c573184a00cc8066",
+        "references/starlight-and-patterns.md": "78be9417324cfba50908f2cadcc5c492e1f90582f1046e99236714d1f2c17507",
+        "references/testing.md": "b8b85896f02be552047c56e4967471b00c709f7cad1190ba7d13f82bb73538d6",
+        "references/v6-features.md": "aae1dda8b315af07116d0a759c3968d30450f9548e3c4b4070b2da0eb63eb5c8",
+        "references/v7-features.md": "388b484f7728ec8e9f7431143fae227ae67b5c140f458195af4f776b6c731cda",
+        "references/validation-checklist.md": "1232a0441ac1eec959ae380573f81d9ae36d3dbdb40329856f2c026af8dbe1cd",
+        "SKILL.md": "e2ae20cde9448daff00bff37d1f5813d1286278a336c124ca8e07674d7d37be8"
+      },
+      "description": "Comprehensive skill for building, migrating, and maintaining Astro v7 projects. Covers best practices from the official AGENTS.md, the v6→v7 migration path, validation of breaking/deprecated patterns, AI-enhanced dev server usage (background mode, JSON logging), advanced routing with src/fetch.ts, route caching, Sätteri Markdown, and the Rust compiler. Use when the user mentions 'Astro', '.astro files', 'astro dev', 'astro build', 'islands architecture', 'content collections', 'SSG', 'SSR adapter', 'upgrade to Astro 7', 'migrate Astro', 'Astro v7', 'Astro v6', 'Sätteri', 'route caching', 'Astro.cache', 'astro dev --background', 'src/fetch.ts', 'advanced routing', 'Hono + Astro', 'Rolldown', 'Vite 8', 'queued rendering', 'CDN cache provider', 'Astro AI', 'related content', 'related posts', 'vector embeddings Astro', 'astro-related-content', or asks about static site generation with Astro.\n",
+      "structural": "APROVADO",
+      "label": "gerenciar-sites-astro",
+      "purpose": "Desenvolvimento, migracao e manutencao de sites Astro.",
+      "previous_path": "gerenciar-sites-astro"
+    },
+    {
+      "name": "auth-md",
+      "kind": "skill",
+      "path": "skills/auth-md",
+      "errors": [],
+      "warnings": [],
+      "runtime": "NAO_TESTADO",
+      "files": 10,
+      "sha256": {
+        "agents/openai.yaml": "a00442e381b8c55218d3b56318c5a07eb8d7deef28d69fe51e48b7516f957f40",
+        "assets/icon.svg": "8936b24f674a1250d999e2c2b5901374fb4240426f32bd1ae340c352a90d617d",
+        "LICENSE": "aa41faffcf88908b495d7d318e96e889ff78aa53138e51e48c4ef4e6da076ad8",
+        "references/example-auth-md.md": "145cc6a93668aa1e7182d69cf8e5bf4b16598b0253d2a086049762932bc5c14c",
+        "references/implementation-guide.md": "75032d03444ef8a83d757c66cd31d284bfb33816003b674dd4df20905c3cabfe",
+        "references/metadata-schema.md": "ebb87dbb5476505fcf9bc0c9b64278b6bd1904a5af7647bf1df5ae545ad0c22a",
+        "references/protocol-template.md": "696f950d47e49701177a483dd52fa6560353014060dafde8c7989f67277cc567",
+        "references/validation-rules.md": "a1ba9ccd56bfa382a983a7f29e6f59b1005d09eb9cc3a84053e6d98e075f4b98",
+        "SKILL.md": "1d97a35cb172a126942b3e257ff0ebc97a8d11368668e47fc544273107680cc9",
+        "UPSTREAM_COMMIT": "b82c8daf2e43a3169647b448583d5bb307b798839c378ef0b5ea6ccf83c9e8d6"
+      },
+      "description": "Generate, validate, and explain `auth.md` files — the open protocol for AI agent registration. Use when making apps agent-ready, generating Protected Resource Metadata (RFC 9728), validating auth.md files, or implementing agent registration endpoints. Triggers on \"auth.md\", \"agent registration\", \"agent auth\", \"make my app agent-ready\", \"ID-JAG\", \"identity_assertion\", \"service_auth\", \"protected resource metadata\", \"agentic registration\".\n",
+      "structural": "APROVADO",
+      "label": "autenticacao-agentes-auth-md",
+      "purpose": "Geracao e validacao de auth.md e descoberta de autenticacao de agentes.",
+      "previous_path": "autenticacao-agentes-auth-md"
+    },
+    {
+      "name": "automador-puro",
+      "kind": "skill",
+      "path": "skills/automador-puro",
+      "errors": [],
+      "warnings": [],
+      "runtime": "NAO_TESTADO",
+      "files": 2,
+      "sha256": {
+        "agents/openai.yaml": "1401bac6084e11fb2ced7bf8d44ad3ed196a327fe06e3c77c4869555b79d6b54",
+        "SKILL.md": "e8895acd34343a7ebc2032ccb146802894fb7b0bd154a5f8c87fdfd8ca426f45"
+      },
+      "description": "Criar, corrigir e validar automacoes da plataforma propria Avila Ops com n8n, cron jobs, filas, workers, webhooks e tarefas recorrentes. Usar para workflows, gatilhos, rotinas operacionais e recuperacao de falhas; identificar gatilho, executar a acao autorizada, registrar evidencias e testar.",
+      "structural": "APROVADO",
+      "label": "automatizar-operacoes",
+      "purpose": "Workflows, jobs, filas, webhooks e automacoes operacionais.",
+      "previous_path": "automatizar-operacoes"
+    },
+    {
+      "name": "catalogue",
+      "kind": "skill",
+      "path": "skills/catalogue",
+      "errors": [],
+      "warnings": [],
+      "runtime": "NAO_TESTADO",
+      "files": 4,
+      "sha256": {
+        "agents/openai.yaml": "720b5dbf74f89bbcdbfd85ad0475973b731e8479b09a7f25f5c95f1c25d0cf07",
+        "assets/icon.svg": "51a6923974188748638a424aa59b42b6afad2d910f910a1d43bb13ee10f3ce26",
+        "references/exemplos.md": "c49b68cf8f034008dd3008cff5c8ce55d220d01260f5e38c8df7edf36fea3d7c",
+        "SKILL.md": "068d7cbd1326116bd981a5e8cde9846ad98345a6f4daee2d4bd0076a7eca5375"
+      },
+      "description": "Catalogar documentação técnica, RFCs, padrões, APIs, guias de migração, termos de serviço e artigos enviados como texto, link ou arquivo. Usar quando Nicolas invocar @catalogue ou $catalogue, pedir para catalogar, documentar, organizar referências ou guardar material técnico no NOTAS para consultar e construir seus softwares.",
+      "structural": "APROVADO",
+      "label": "catalogar-documentacao",
+      "purpose": "Catalogacao rastreavel de documentacao tecnica e referencias.",
+      "previous_path": "catalogar-documentacao"
+    },
+    {
+      "name": "coder-puro",
+      "kind": "skill",
+      "path": "skills/coder-puro",
+      "errors": [],
+      "warnings": [],
+      "runtime": "NAO_TESTADO",
+      "files": 2,
+      "sha256": {
+        "agents/openai.yaml": "8ca3e32951a8b24055079ef60106a0fec2a52cd42e4839cdadf97177a4e32153",
+        "SKILL.md": "33abcf9654a3f279088c5a3adc88204cf8f604fef4b3bf7026ad786cd509c0be"
+      },
+      "description": "Agente de engenharia de software orientado à execução que lê apenas a documentação e a arquitetura relevantes, localiza o código afetado, implementa a mudança e valida o resultado. Usar em criação de funcionalidades, correção de bugs, refatoração, integração de APIs, banco de dados, infraestrutura como código, testes, revisão técnica com implementação e manutenção de projetos. Ativar quando o usuário pedir para codar, construir, corrigir, alterar, integrar, migrar, configurar ou implementar em um repositório.",
+      "structural": "APROVADO",
+      "label": "desenvolver-software",
+      "purpose": "Implementacao, correcao e validacao de software.",
+      "previous_path": "desenvolver-software"
+    },
+    {
+      "name": "coolify-operator",
+      "kind": "skill",
+      "path": "skills/coolify-operator",
+      "errors": [],
+      "warnings": [],
+      "runtime": "NAO_TESTADO",
+      "files": 6,
+      "sha256": {
+        ".env.example": "e0cbfa1835ee3a42089db044055edf7af80562ad9a65d0421e7736c8d35f3525",
+        "agents/openai.yaml": "543ecb52ef7b0e75ab5c9df35cb24ed530fd081d9c90421f36d1645f022dd769",
+        "assets/icon.svg": "72343cc4b66256ae7de8474c7cad14e711ad84a94c473732a44f96a56124c42d",
+        "evals/evals.json": "2263c3e4e87e4ce0a845d757b6ac42a2354621368704fb38f8788d44f6d35dfc",
+        "LICENSE": "aa41faffcf88908b495d7d318e96e889ff78aa53138e51e48c4ef4e6da076ad8",
+        "SKILL.md": "26c36ae471090e83dc6e13301c068bd5813ab4e4229ab58be756090ca36a22e0"
+      },
+      "description": "Master Coolify operator for self-hosted deployment platform. Use when the user mentions 'coolify', 'deploy on coolify', 'list/restart/redeploy applications', 'view coolify logs', 'coolify API/CLI', 'manage coolify servers/databases/apps', or 'coolify context'. Automates deployments and management via REST API or official CLI.",
+      "structural": "APROVADO",
+      "label": "operar-infraestrutura-coolify",
+      "purpose": "Deploys, logs, servidores e bancos via Coolify.",
+      "previous_path": "operar-infraestrutura-coolify"
+    },
+    {
+      "name": "explica",
+      "kind": "skill",
+      "path": "skills/explica",
+      "errors": [],
+      "warnings": [],
+      "runtime": "NAO_TESTADO",
+      "files": 4,
+      "sha256": {
+        "agents/openai.yaml": "6d60f48072a4f27e87f9b977c81c1e46305cec771f7bb058b0b3124faa4352df",
+        "assets/icon.svg": "d80a4c3e0fd2efa7af88433a53b25a92c78a644175c6669dd78fee50fb53acf6",
+        "references/exemplos.md": "275db905a3a4af5e7958e058c80f5d585b37a6b3131e8b30f3cd355f2787a98a",
+        "SKILL.md": "bf648d70c259c12cdd8cbb5ed85334677ed7d1ed2e1377ef50718e3f7326e86f"
+      },
+      "description": "Explicar documentação técnica, RFCs, protocolos, APIs, autenticação, infraestrutura, guias de migração e artigos em português claro com exemplos concretos. Usar quando Nicolas invocar @explica ou $explica, perguntar o que significa um trecho, como funciona, onde usar ou como aplicar documentação aos sistemas da Ávila Ops.",
+      "structural": "APROVADO",
+      "label": "explicar-documentacao",
+      "purpose": "Explicacao de conceitos e documentos tecnicos em portugues.",
+      "previous_path": "explicar-documentacao"
+    },
+    {
+      "name": "human-ai",
+      "kind": "skill",
+      "path": "skills/human-ai",
+      "errors": [],
+      "warnings": [],
+      "runtime": "NAO_TESTADO",
+      "files": 17,
+      "sha256": {
+        "agents/openai.yaml": "d29d3b9e420ff39815d84397dff2eb96665c70e10b4974adb8806ee9a8be7bf9",
+        "assets/icon.svg": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee",
+        "EVALUATION.md": "14e7da32bb330f8bb7c50c4820df41d60bcceaf9cf631915c7a22739be6bf17a",
+        "LICENSE": "aa41faffcf88908b495d7d318e96e889ff78aa53138e51e48c4ef4e6da076ad8",
+        "references/jev-integration.md": "09e9a83735fc90b1ebdd496a2768d714adb835b59f55ec9030fcc1602b91c965",
+        "references/patterns-composition.md": "536ecb5ccb6a0014d772a9fd61fef680c190bbbc13d1940b896b9c0c2cfcab24",
+        "references/patterns-content.md": "35a58c18db24669dd97df3088fb25c382a242879ef709b5641521e8f62ad94af",
+        "references/patterns-english-specific.md": "0c959b8ce62e543602ae61a933008e4bf0e5cb0c65816f1850acb23fe53e6a5b",
+        "references/patterns-language.md": "09b6f72f7ff71b6f17eeb421dbbba7525939a91d3e8cc8efc8ee43252b7c0ed5",
+        "references/patterns-style.md": "61c085c256cd62e44856c6b42a81c355caad9c46fa88edc0baed59e371d0a7b3",
+        "references/patterns-tone.md": "6f8f1c67312f5a2a7823dc874fa69ce45bbfc7c1f25037337f1bd4ff7d9435bb",
+        "references/presets.md": "55bd13275e5698fcccfb84636feb8c49bdb68c5196d0d49e18d3167326ceff5c",
+        "references/summary.md": "5cc89d4688f8eba18dd748f70ddafa7fdca1d9c08fd2f4ceab2bad2e9e37bf02",
+        "references/tests.md": "afa4e59d727b22ab284d6fb086242333ec834fc586b923594ebae7bb89824ea3",
+        "scripts/jev_questions.json": "76c0e7cd22743f05da37380c19007288f85a879dd72a535e2f512b607ec58847",
+        "scripts/measure.py": "4b03450630647890d81c53858b2f4866960b4790388fd9202fd096095749c266",
+        "SKILL.md": "0fbedb785931a1f2af200a3c8a76a0dbd18d01aac057dd95b4a1111cb21d314a"
+      },
+      "description": "Edit English prose to remove repetitive AI phrasing, inflated language, and\nmechanical structure while preserving meaning and the author's voice. Use for\nrequests to humanize, de-slop, rewrite naturally, or fix tone. Also compose from\nthe author's English notes or transcripts and ask targeted questions when real\ndetails are missing. For Brazilian Portuguese, use the companion humanizar skill.\n",
+      "structural": "APROVADO",
+      "label": "editar-textos-ingles",
+      "purpose": "Edicao de textos em ingles preservando significado e voz.",
+      "previous_path": "editar-textos-ingles"
+    },
+    {
+      "name": "integrador-de-apis",
+      "kind": "skill",
+      "path": "skills/integrador-de-apis",
+      "errors": [],
+      "warnings": [],
+      "runtime": "NAO_TESTADO",
+      "files": 2,
+      "sha256": {
+        "agents/openai.yaml": "5c559dc9a65a9af252d606f6f14078e9b38198dbd82122cc6f2e73ada0057421",
+        "SKILL.md": "f8ec5fe98bd786a7a4bf01b2e100b17dd34f7a74da2305bd0aed9b232d63d14d"
+      },
+      "description": "Conectar os modulos da plataforma propria Avila Ops a servicos externos por APIs REST, GraphQL, OAuth e webhooks. Usar para contratos, autenticacao, assinatura de eventos, rate limits, paginacao, retries, mapeamento e testes de integracao com provedores efetivamente utilizados pelo projeto.",
+      "structural": "APROVADO",
+      "label": "integrar-apis",
+      "purpose": "Contratos REST e GraphQL, autenticacao e webhooks.",
+      "previous_path": "integrar-apis"
+    },
+    {
+      "name": "monitor-brave",
+      "kind": "skill",
+      "path": "skills/monitor-brave",
+      "errors": [],
+      "warnings": [],
+      "runtime": "NAO_TESTADO",
+      "files": 3,
+      "sha256": {
+        "agents/openai.yaml": "d81f1ff6d0b76c66054e703f2955f07298acf5a47ecefe3651469bb22e630fce",
+        "assets/icon.svg": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
+        "SKILL.md": "55f4d82808c0ea83a0c6efa5c8e11ef501e57b742341446cca92c6a87bbfbbbe"
+      },
+      "description": "Diagnosticar e manter a extensão Avila Ops Monitor do Brave, medir buffer, interrupções, carregamento da página e RAM do computador e conferir a integração n8n. Usar quando Nicolas pedir testes do monitor, DevTools do Brave, reprodução travando, liberar RAM de abas inativas ou melhorias no projeto Monitor-brave.",
+      "structural": "APROVADO",
+      "label": "diagnosticar-monitor-brave",
+      "purpose": "Manutencao da extensao de monitoramento de video, buffer, RAM e n8n.",
+      "previous_path": "diagnosticar-monitor-brave"
+    },
+    {
+      "name": "motion-ad",
+      "kind": "skill",
+      "path": "skills/motion-ad",
+      "errors": [],
+      "warnings": [],
+      "runtime": "NAO_TESTADO",
+      "files": 12,
+      "sha256": {
+        "agents/openai.yaml": "46ce11ee6512f69b10274979cef5b3b0e52846076a5eb3064264acb5d8d5b43e",
+        "assets/icon.svg": "72343cc4b66256ae7de8474c7cad14e711ad84a94c473732a44f96a56124c42d",
+        "assets/template.html": "b7777667b067c9b9959a01350caba264642a0648a9e0ad677c7976cc16a6485d",
+        "LICENSE": "aa41faffcf88908b495d7d318e96e889ff78aa53138e51e48c4ef4e6da076ad8",
+        "references/template-map.md": "78957e8af59545d7b29657065e9c5f1fe13ca00e6590468a36d951d5184a1362",
+        "scripts/.gitignore": "4d56952b0fb13bf8f9b6c13a6d4c34a075bac3af447636a1df4335d7576e2f97",
+        "scripts/contact-sheet.py": "ca1788b3084daa6f828888a1a43d8252b04d73a87a872c925795ded9a41cd466",
+        "scripts/fetch-images.cjs": "a772861256097c9d02d7b56ec26c034e2359468421273e1f93d958e351269722",
+        "scripts/package-lock.json": "444fe6475bec836da91578153809a244ed845cac21a98d7f8f71955ef03b0e9f",
+        "scripts/package.json": "6013b9089330fbdb4a1fa9f66e4a3561aa031e5bb1df76c90eb07c36d6fdcede",
+        "scripts/render.cjs": "fc6b8b1c319af947dc2239a0bcfdfdf06002885f700786bacb76bfeb0d2e969b",
+        "SKILL.md": "7987750cf17e7a65ad4f356ab0e3d9c15e46db603ff37068be4e30b35662b4f9"
+      },
+      "description": "Produce a short motion-graphics video ad — a 15s Facebook/Instagram/TikTok spot — as a rendered MP4. Researches the destination landing page so every on-screen claim matches it, pulls real product imagery off the live site, animates one paused GSAP timeline in a single HTML page, and renders it frame-accurately through Playwright and ffmpeg. Use this whenever the user wants a video ad, promo video, animated ad, \"an ad for my product\", Meta/TikTok/Reels creative in video form, a 9:16 or 1:1 cut of an existing spot, or a re-render of an earlier ad with a different hook, hero or CTA — including when they never say the words \"motion graphics\". Not for animating UI inside an app, not for static image ads, and not for long-form or voiceover-led video.\n",
+      "structural": "APROVADO",
+      "label": "produzir-anuncios-video",
+      "purpose": "Anuncios curtos em MP4 renderizados com GSAP, Playwright e ffmpeg.",
+      "previous_path": "produzir-anuncios-video"
+    },
+    {
+      "name": "pier-cloud",
+      "kind": "skill",
+      "path": "skills/pier-cloud",
+      "errors": [],
+      "warnings": [],
+      "runtime": "NAO_TESTADO",
+      "files": 19,
+      "sha256": {
+        ".env.example": "a476d1193fc334f3875b544065ad3d0a9dfc037de607f5022e9647fd27bf8ffb",
+        "agents/openai.yaml": "7974b7b2195f58f0bc4e0aa325ad9c67963289962c0153b3b8b9d827562e492d",
+        "assets/icon.svg": "8936b24f674a1250d999e2c2b5901374fb4240426f32bd1ae340c352a90d617d",
+        "LICENSE": "aa41faffcf88908b495d7d318e96e889ff78aa53138e51e48c4ef4e6da076ad8",
+        "references/REFERENCE.md": "1c9b313087ac7430b682e6b38a4bcb5e7ca719b6affdfa90c8f0e7462a115162",
+        "references/TROUBLESHOOTING.md": "3f892ac189fd02a46c62fa3c0754d4a50ea6f0b36b447625c858f0f462b548ea",
+        "scripts/pier-cloud-auth.py": "336fd359f9eeee06336fac8d2f258d7075f375a87e0c0de267a96eddada5174f",
+        "scripts/pier-cloud-get-all-workspaces.py": "3bef2b10ecee587d8161073563704ddff3dad2046192aa3882e864a7c128ad65",
+        "scripts/pier-cloud-get-view-data.py": "ffad07c763d9e96cff85d0107316a91de4029dfcc89abe070b3ce2a81bb87035",
+        "scripts/pier-cloud-get-view.py": "d4dda8b8ccab023cd0209209614462dbd06075974d237d6fceff5980eddb0b10",
+        "scripts/pier-cloud-get-workspace-group.py": "5f7d344f669bcf76755a924303e38e24a584c9ee795a78e38978bac1d0b92ce0",
+        "scripts/pier-cloud-get-workspace.py": "bc343debc28412b0f42a7b281193c46340363aa1a78223103d9659b6e98b43aa",
+        "scripts/pier-cloud-list-contexts.py": "a595fd1e5111260e430932c602d36100015fd83f89cf3dea2d65ddd175d9ead3",
+        "scripts/pier-cloud-list-views.py": "3bd01d18206ce89c1991d4e2182454fce035d66dbb49cd2385d52a29482e0e12",
+        "scripts/pier-cloud-list-workspace-groups.py": "5ad95b4dcab9ef914cd653edf8ef3c6f138609c9aadf40e9cebabc1ea4d663e0",
+        "scripts/pier-cloud-list-workspaces.py": "2d3f5be676c4388125a15bddaabfaa638a3e6f7aab65d0b8c1bae7fba9a7e138",
+        "scripts/pier_cloud_client.py": "d9a24970d50a2d7828ad301e8585b07fe2a3af2f34c195901749c0c73e73487b",
+        "scripts/README.md": "c66c8c1d52a62cb39e14003096220d5070119192fbf1f2eab7369219998c9de2",
+        "SKILL.md": "e612b9d53a154d475cbba9bb4f8599bb15da767d5c154213b652b8f3652859f3"
+      },
+      "description": "This skill should be used when the user needs to consume the Pier Cloud (Lighthouse) API for cloud cost management — including JWT authentication, listing contexts, workspaces, workspace groups, and FinOps data views. Trigger whenever there is a need to integrate, automate, or debug calls to the Pier Cloud platform via Python, Node.js, or cURL.",
+      "structural": "APROVADO",
+      "label": "integrar-pier-cloud",
+      "purpose": "Integracao com API Lighthouse para gestao de custos de nuvem.",
+      "previous_path": "integrar-pier-cloud"
+    },
+    {
+      "name": "sincronizador-puro",
+      "kind": "skill",
+      "path": "skills/sincronizador-puro",
+      "errors": [],
+      "warnings": [],
+      "runtime": "NAO_TESTADO",
+      "files": 2,
+      "sha256": {
+        "agents/openai.yaml": "4399b168c0c9bcab85438151af9ddc4734c7e006d032dd2fa08c3aadd9ba1e74",
+        "SKILL.md": "87abf13a95ddef28303925f0bcd5d0921ef8628c221202e3e1b7716fadbde6ea"
+      },
+      "description": "Projetar, implementar e validar sincronizacoes entre os modulos da plataforma propria Avila Ops e integracoes externas existentes. Usar para estoque, precos, pedidos, clientes, produtos, carga incremental, idempotencia, conflitos e reconciliacao. Definir fonte oficial, transformacao, destino e evidencias de divergencia.",
+      "structural": "APROVADO",
+      "label": "sincronizar-dados",
+      "purpose": "Sincronizacao incremental, idempotencia e reconciliacao entre sistemas.",
+      "previous_path": "sincronizar-dados"
+    },
+    {
+      "name": "slop-eval",
+      "kind": "skill",
+      "path": "skills/slop-eval",
+      "errors": [],
+      "warnings": [],
+      "runtime": "NAO_TESTADO",
+      "files": 11,
+      "sha256": {
+        "agents/openai.yaml": "a37d4d345c28d7aff8fd4b13e2fe12e2b58f676afd2121292f5e72a61111dcea",
+        "assets/icon.svg": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
+        "LICENSE": "aa41faffcf88908b495d7d318e96e889ff78aa53138e51e48c4ef4e6da076ad8",
+        "references/contexts.md": "18fc0079072f1c88b7bade186fc1d705b03a850dd452fd58553b56299e396751",
+        "references/jev-integration.md": "4ffe5530693aa21aaab7bcbc986a836647329ad7188811b0833fc4ecb8cc86ff",
+        "references/output-template.md": "57b14a0deed99f744ee05b1ef947c295b473a7916ef632b0668868ca51a15d7d",
+        "references/premium-markers.md": "91c786a9a02978d64db1fe01416729363f39b8bf6bfb0e137ccfce97a7219305",
+        "references/tells.md": "5980b121ef9e8d1edcf50ec484602de630e3bb960e54d980e1c9a1dafa9e8b40",
+        "scripts/jev_questions.json": "5ec310f0479eaeb96fc3942345dc524f4538423074cf3c9b242781c56d452cbc",
+        "scripts/score.py": "6bf2a426031e754f49db3ee519d647279b3d55bb7e8a049cb699e4b6ac14964f",
+        "SKILL.md": "c16f0c60c1bb90afd1c1aec8f0f967ba1a83b50d842c16c608811549f5499b6d"
+      },
+      "description": "Objectively evaluate a UI/web design against the pols.dev anti-slop design law: detect catalogued slop tells with cited evidence, score 8 weighted axes (color, type, components, layout, motion, execution, signature, cohesion), and emit a Slop Report with a 0–100 Slop Index and grade. Use when the user asks to \"evaluate design slop\", \"slop report\", \"is this design AI slop\", \"audit this landing page design\", \"de-slop review\", or wants an objective score of how generic/machine-made a design looks. To fix text (not design), use human-ai or humanizar skills instead.\n",
+      "structural": "APROVADO",
+      "label": "auditar-design-generico",
+      "purpose": "Avaliacao de padroes visuais genericos com evidencias e pontuacao.",
+      "previous_path": "auditar-design-generico"
+    },
+    {
+      "name": "startup-idea",
+      "kind": "skill",
+      "path": "skills/startup-idea",
+      "errors": [],
+      "warnings": [],
+      "runtime": "NAO_TESTADO",
+      "files": 5,
+      "sha256": {
+        "agents/openai.yaml": "08bfdb8e1d9b60e020a7a653906f2db05a6240c9dff33e63ff1ac6f66290857b",
+        "assets/icon.svg": "83edb7ff1fcb54461e60f8bab4147bf6e24b4f9bb9e5d29283c614f40b811039",
+        "evals/evals.json": "f1dcd5591ecde2f82ef8ba83ca1ccd10cdf39f5e91267b52e19832e4a0e87b49",
+        "LICENSE": "aa41faffcf88908b495d7d318e96e889ff78aa53138e51e48c4ef4e6da076ad8",
+        "SKILL.md": "2b5c82c5321891bc6735beef69c2d5b355cc37b29b6f484a5ae52e4aa5e1a358"
+      },
+      "description": "Analyze startups with Paul Graham mindset (pressure, founder-market fit, brutal validation), Dan Koe discipline (monetization, offer, distribution, sales), and Seth Godin principles (differentiation, narrative, smallest viable audience). Triggers on startup idea, business validation, MVP, first customers, revenue model, GTM, product-market fit, \"I have an idea\".\n",
+      "structural": "APROVADO",
+      "label": "validar-ideias-negocio",
+      "purpose": "Analise de negocio, publico, monetizacao, distribuicao e MVP.",
+      "previous_path": "validar-ideias-negocio"
+    },
+    {
+      "name": "substack-expert",
+      "kind": "skill",
+      "path": "skills/substack-expert",
+      "errors": [],
+      "warnings": [],
+      "runtime": "NAO_TESTADO",
+      "files": 6,
+      "sha256": {
+        "agents/openai.yaml": "e6327a9d98baa51a2162e320abe3c168a8103bdaa970ca63fdd9606b298163c9",
+        "assets/icon.svg": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
+        "LICENSE": "aa41faffcf88908b495d7d318e96e889ff78aa53138e51e48c4ef4e6da076ad8",
+        "references/formatting-best-practices.md": "4fe00173c6d5ef488e18571847de84b1756cb9cf5e33426098dbd7bc1079970d",
+        "references/seo-output-example.md": "5abbfd22d7df76d80b5ffe58996dfa4e727e8bc0f2dc7357744f6678d6399042",
+        "SKILL.md": "ccc71f803c2fb72a9e31307cecece67a70e9497985531154d800624731d84fdc"
+      },
+      "description": "This skill should be used when creating, formatting, or optimizing content for a Substack newsletter. Covers post structure, SEO metadata (titles, slugs, meta descriptions), native engagement features (Notes, Polls, Chat), monetization tactics, and free-to-paid conversion strategies.",
+      "structural": "APROVADO",
+      "label": "gerenciar-newsletter-substack",
+      "purpose": "Conteudo, formatacao, SEO, engajamento e monetizacao no Substack.",
+      "previous_path": "gerenciar-newsletter-substack"
+    },
+    {
+      "name": "ultimate-design-system-master",
+      "kind": "skill",
+      "path": "skills/ultimate-design-system-master",
+      "errors": [],
+      "warnings": [],
+      "runtime": "NAO_TESTADO",
+      "files": 15,
+      "sha256": {
+        "agents/openai.yaml": "d6f8a0bc0ed2eaa05681896a056967e2e60836fa29be8720cceb97e68d8feded",
+        "assets/icon.svg": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee",
+        "LICENSE": "aa41faffcf88908b495d7d318e96e889ff78aa53138e51e48c4ef4e6da076ad8",
+        "references/briefing-questionnaire.md": "6bcd9efea6c973562d3f0e097ee1ec5722e5b07d0655dbda36d898303eea80f0",
+        "references/prompt-01-design-system-architect.md": "45553be5da41c1a2474c54fd970e22dd6b60cd93017a679da854c590eea37b94",
+        "references/prompt-02-brand-identity-creator.md": "02a42937bef4a10b972b05d37a19f34f0a42305379dd44e129b8b2052e527dd5",
+        "references/prompt-03-ui-ux-pattern-master.md": "91c3b68a86faa0b175e254d491e0939b1152a24889272fb08ed3d997b585c82b",
+        "references/prompt-04-marketing-asset-factory.md": "5a8107ed9661e50a69f55fb15f3f97dc39b731b2860be90b6ded38716928becb",
+        "references/prompt-05-figma-auto-layout-expert.md": "0c56574a6c0756c5c22d15495955e8aab4cfe9dc293a70b62bdd348db1786ff5",
+        "references/prompt-06-design-critique-partner.md": "43d3c16417205b4db41b7d0771afb3ee07d3520629368ba3634eeb8a5000b4b0",
+        "references/prompt-07-design-trend-synthesizer.md": "8dfb8c7c1b316e10fcf1b6ce7d555b33eddf824d4c06ff9f4af97fce17713309",
+        "references/prompt-08-accessibility-auditor.md": "d7faa3e8d1b28ef8113942473fbecfc301392bd7daa6bf74e925f6c2c24bf6ad",
+        "references/prompt-09-design-to-code-translator.md": "38e4837e214aa325cd2a08f0c934fe41d6d1a4a2153f467fffe13024e91eee89",
+        "references/prompt-10-presentation-designer.md": "39966a6a82d0c6fe23a31eb9d9cb1d95c37c36fd190e48436bbdfeef45e8593f",
+        "SKILL.md": "0d192f347cb368091755ddc7b0ee07ace5cf217a14b14001152ae6471f8da212"
+      },
+      "description": "Create comprehensive design systems, brand identities, and UI component libraries. Use when the user says \"create design system\", \"build brand identity\", \"design UI components\", \"generate design tokens\", \"create figma specs\", \"review my design\", \"analyze design trends\", \"audit accessibility\", \"convert design to code\", or \"create presentation deck\". Covers 10 specialized roles from system architecture to executive presentations.",
+      "structural": "APROVADO",
+      "label": "criar-design-systems",
+      "purpose": "Dez fluxos de identidade, componentes, interfaces, acessibilidade e apresentacoes.",
+      "previous_path": "criar-design-systems"
+    },
+    {
+      "name": "vigia-de-integracoes",
+      "kind": "skill",
+      "path": "skills/vigia-de-integracoes",
+      "errors": [],
+      "warnings": [],
+      "runtime": "NAO_TESTADO",
+      "files": 2,
+      "sha256": {
+        "agents/openai.yaml": "9d8d11127b1e95eaf346e5638977e5af77b1859a9a67f0c639ca409bbe84e322",
+        "SKILL.md": "855ad7287087ed0036fb8cc3ed4e21ad997140784f0cc6717c8a95108d9f7c73"
+      },
+      "description": "Monitorar, diagnosticar e recuperar integracoes existentes sem desenvolver funcionalidades grandes. Usar para verificar sincronizacoes paradas, webhooks falhando, filas travadas, tokens expirados, divergencias de estoque e preco, alertas por WhatsApp, Slack ou e-mail, health checks, recuperacao automatica segura e relatorios operacionais.",
+      "structural": "APROVADO",
+      "label": "monitorar-integracoes",
+      "purpose": "Diagnostico, alertas e recuperacao de integracoes existentes.",
+      "previous_path": "monitorar-integracoes"
+    },
+    {
+      "name": "apple-avila",
+      "kind": "plugin",
+      "path": "plugins/apple-avila",
+      "errors": [],
+      "warnings": [],
+      "runtime": "NAO_TESTADO",
+      "files": 8,
+      "sha256": {
+        ".codex-plugin/plugin.json": "619c708df79a148c9bd2e65df5226c4189dd01d592bc8b03aeee5cf7bacc326d",
+        "assets/plugin-icon.svg": "a4174417d6389e20bf8ff2a45d15550ba07a3e3a2cb6f31f6104a0b2056c2fc5",
+        "plugin.json": "e161442cc5f763e53282726b21ea2756ea93e57c62d92c3c08705d2ee880411e",
+        "README.md": "35498f0f1931dd11d87f6942b9c527f11cd070e9f0e423560564ab78d61e4deb",
+        "skills/app-store-release/SKILL.md": "2e80e0ee341c86c11f3c62310769b02f6efc503e62cd34f2a8d0c7c5619993a1",
+        "skills/apple-design-audit/SKILL.md": "96654313ee27b4455e820ac60e5ab825bd708a70302bbfc9e043ca2462e10f7b",
+        "skills/cms-app-builder/SKILL.md": "a28613665b531dd3446b9199f945de4f20c9a3924bbe7271858921ed58ec7a4f",
+        "skills/ios-app-architecture/SKILL.md": "c9dbcf04f1b3eb4fa91c8e1879aed2691b159416d1b8d0dbfbe0be84c60432a2"
+      },
+      "skills": [
+        "app-store-release",
+        "apple-design-audit",
+        "cms-app-builder",
+        "ios-app-architecture"
+      ],
+      "mcp": [],
+      "apps": {},
+      "structural": "APROVADO",
+      "label": "avila-apple",
+      "purpose": "Arquitetura iOS, design Apple, app builder e distribuicao.",
+      "previous_path": "avila-apple"
+    },
+    {
+      "name": "avila-cms",
+      "kind": "plugin",
+      "path": "plugins/avila-cms",
+      "errors": [],
+      "warnings": [],
+      "runtime": "NAO_TESTADO",
+      "files": 8,
+      "sha256": {
+        ".codex-plugin/plugin.json": "c6636220865cf674ac4c14d16263d57cff4814141a18f1a32c28521069ea0890",
+        ".mcp.json": "8e0a9f097f5477cd089cad6a5f4ae3abfdb3f4e2fa18349fa876c14b9b395a27",
+        "assets/icon.png": "ca50ae54cca559023359516345406c6e6a6169be8ec0713dfa8b984f278e4ea0",
+        "assets/plugin-icon.svg": "d58a64a29ffca0f3744026110725ae9906eb921db9ff0db9e188873e2f779c47",
+        "mcp.json": "f5839a055a13eb835167c5a10fdabb8afdc8d2df26bf2fbf6f28864625e15419",
+        "plugin.json": "958528e25f19fa6eb0ea5686c0b2d34317b2feff274db3acbc49a81a8a8ffc63",
+        "README.md": "d188b0b8e393ff013973fb71f845bac86276340c70b602ad33473b9a44a9093b",
+        "skills/avila-cms/SKILL.md": "6b7a7f7da5079247faff68052a205a7da06b640f5a698ea905fd78108c154090"
+      },
+      "skills": [
+        "avila-cms"
+      ],
+      "mcp": [
+        {
+          "name": "avilaops-central",
+          "url": "https://mcp.avilaops.com/mcp",
+          "auth": {
+            "type": "api_key",
+            "headerScheme": "bearer"
+          }
+        }
+      ],
+      "apps": {},
+      "structural": "APROVADO",
+      "label": "avila-cms",
+      "purpose": "Conteudo e sites no CMS pelo MCP central.",
+      "previous_path": "avila-cms"
+    },
+    {
+      "name": "avila-crm",
+      "kind": "plugin",
+      "path": "plugins/avila-crm",
+      "errors": [],
+      "warnings": [],
+      "runtime": "NAO_TESTADO",
+      "files": 8,
+      "sha256": {
+        ".codex-plugin/plugin.json": "5311b385557940fc65410a3cb0b4bb1856910757eda24d9d19ed4263248c631d",
+        ".mcp.json": "8e0a9f097f5477cd089cad6a5f4ae3abfdb3f4e2fa18349fa876c14b9b395a27",
+        "assets/icon.png": "61ce0265d61ecbdac36e16242207a372b3549c1047cf3375607ba60757a850be",
+        "assets/plugin-icon.svg": "bc631f70d7b1aef096df10b8b45c784c5da114498640427ff8acda084ed64542",
+        "mcp.json": "f5839a055a13eb835167c5a10fdabb8afdc8d2df26bf2fbf6f28864625e15419",
+        "plugin.json": "97502be71c6b6fc7a6e3572ac141518b34708a8473b125105996fb6c01c50a98",
+        "README.md": "c536fc11ef281d23afd51b5c9014bfefd4ecb34a895751b4f039015a545dd613",
+        "skills/avila-crm/SKILL.md": "4a57e5379cc53e7e3c6773d7882a4413cda76dd410bf1be8d5c97badb6a1863e"
+      },
+      "skills": [
+        "avila-crm"
+      ],
+      "mcp": [
+        {
+          "name": "avilaops-central",
+          "url": "https://mcp.avilaops.com/mcp",
+          "auth": {
+            "type": "api_key",
+            "headerScheme": "bearer"
+          }
+        }
+      ],
+      "apps": {},
+      "structural": "APROVADO",
+      "label": "avila-crm",
+      "purpose": "Relacionamento com clientes; a skill registra adaptador pendente.",
+      "previous_path": "avila-crm"
+    },
+    {
+      "name": "avila-design",
+      "kind": "plugin",
+      "path": "plugins/avila-design",
+      "errors": [],
+      "warnings": [],
+      "runtime": "NAO_TESTADO",
+      "files": 7,
+      "sha256": {
+        ".codex-plugin/plugin.json": "9023b0f212f718cc293ead29c96afbe88161b94c24dae40a9ee452df4666462f",
+        "assets/plugin-icon.svg": "44e28438cb5ce5c175a688ea0ac56b582c4644184e0f8687644ecdeb7526c983",
+        "plugin.json": "f698f26e5b247dd848ac80e086517f88db1f9463f92fd3210fd819858690142a",
+        "README.md": "652da581954551880a1f6c98d56cd649ff1d1e004f9430fd251088fb23cd865c",
+        "skills/design-puro/agents/openai.yaml": "0c0d22a5ea6a899e428a57a4b55d958bbcd4679f168e3e89e69cb0ff0db98230",
+        "skills/design-puro/references/marcas.md": "3b73cae11e7c5286a567835c37beff46400cfa7e5aca29761761bbc3a5cd179d",
+        "skills/design-puro/SKILL.md": "807898002c4812ce824892014bc9cece9b513cec56f84468091fb332d494b75d"
+      },
+      "skills": [
+        "design-puro"
+      ],
+      "mcp": [],
+      "apps": {},
+      "structural": "APROVADO",
+      "label": "avila-design",
+      "purpose": "Identidade visual, interfaces e materiais comerciais.",
+      "previous_path": "avila-design"
+    },
+    {
+      "name": "avila-lojas",
+      "kind": "plugin",
+      "path": "plugins/avila-lojas",
+      "errors": [],
+      "warnings": [],
+      "runtime": "NAO_TESTADO",
+      "files": 8,
+      "sha256": {
+        ".codex-plugin/plugin.json": "333b42ee5493b6d58a773dab96267d040f386bad1fa3b5ae9b68a37a3d76567d",
+        ".mcp.json": "8e0a9f097f5477cd089cad6a5f4ae3abfdb3f4e2fa18349fa876c14b9b395a27",
+        "assets/icon.png": "919f9dfc2223eef7506aa4996324d263fa919fad034366f60a040007ec389124",
+        "assets/plugin-icon.svg": "a81fe8d536242fbcb2a96398f991a65f6e44138c59a6d1e13086ded9cd32fe30",
+        "mcp.json": "f5839a055a13eb835167c5a10fdabb8afdc8d2df26bf2fbf6f28864625e15419",
+        "plugin.json": "e2c72f5f329f17abcab2cb56f944b6903a63dd09075560968aa295e403ef1f5c",
+        "README.md": "71f9bd7b5afe791d9f4f6b013082cc7ab405b862036f2ff69b39ec63f023e194",
+        "skills/avila-lojas/SKILL.md": "cdc5109aa261c12e70695d8666d14e287f0b40bb0de152c70ec30ec4bcdea933"
+      },
+      "skills": [
+        "avila-lojas"
+      ],
+      "mcp": [
+        {
+          "name": "avilaops-central",
+          "url": "https://mcp.avilaops.com/mcp",
+          "auth": {
+            "type": "api_key",
+            "headerScheme": "bearer"
+          }
+        }
+      ],
+      "apps": {},
+      "structural": "APROVADO",
+      "label": "avila-lojas",
+      "purpose": "Operacao de lojas, produtos, pedidos e estoque.",
+      "previous_path": "avila-lojas"
+    },
+    {
+      "name": "avila-mail",
+      "kind": "plugin",
+      "path": "plugins/avila-mail",
+      "errors": [],
+      "warnings": [],
+      "runtime": "NAO_TESTADO",
+      "files": 8,
+      "sha256": {
+        ".codex-plugin/plugin.json": "0f3cfdeb3c9a112a7031351e1c5a99645270ef34ca384bbb0bb4a38d4893db88",
+        ".mcp.json": "8e0a9f097f5477cd089cad6a5f4ae3abfdb3f4e2fa18349fa876c14b9b395a27",
+        "assets/icon.png": "e607d4f93442063380bcddfd5fc2694ca22991efaf790d24c15d807dd9e484f8",
+        "assets/plugin-icon.svg": "ba77ddd34819ea6f0b982ae0e09bc0bda3daeca4b03c06676b6758f1b3efa8f8",
+        "mcp.json": "f5839a055a13eb835167c5a10fdabb8afdc8d2df26bf2fbf6f28864625e15419",
+        "plugin.json": "9148fef3ea39886369cf8a41903e6689904e61bcec94ee17cf471f46e6c6d8ad",
+        "README.md": "60c15756eb9b1dd2ffb083785610eae0301d883a858292bc8d05d83d45911b7b",
+        "skills/avila-mail/SKILL.md": "b7515737078dc7bd9fe90a8ba0f1a4e3f4dfa173d7148642bc744360234dce67"
+      },
+      "skills": [
+        "avila-mail"
+      ],
+      "mcp": [
+        {
+          "name": "avilaops-central",
+          "url": "https://mcp.avilaops.com/mcp",
+          "auth": {
+            "type": "api_key",
+            "headerScheme": "bearer"
+          }
+        }
+      ],
+      "apps": {},
+      "structural": "APROVADO",
+      "label": "avila-mail",
+      "purpose": "E-mail corporativo; a skill registra integracao nao confirmada.",
+      "previous_path": "avila-mail"
+    },
+    {
+      "name": "avila-notas",
+      "kind": "plugin",
+      "path": "plugins/avila-notas",
+      "errors": [],
+      "warnings": [],
+      "runtime": "NAO_TESTADO",
+      "files": 8,
+      "sha256": {
+        ".codex-plugin/plugin.json": "b93fe41011d4ad8fa9095a16ae44b8ca4ced45d122e3e888964d29b587931497",
+        ".mcp.json": "8e0a9f097f5477cd089cad6a5f4ae3abfdb3f4e2fa18349fa876c14b9b395a27",
+        "assets/icon.png": "7ba671abfacef790679e84db89d662596398cb7c555e10dfc11c953673940826",
+        "assets/plugin-icon.svg": "e211f988ac09b237726337495acc80f7cc4b9e239bd925e6230038357d83d47c",
+        "mcp.json": "f5839a055a13eb835167c5a10fdabb8afdc8d2df26bf2fbf6f28864625e15419",
+        "plugin.json": "ff8232363e95b798a3ae27a4c7040bde8bcc801f780a0a326b15ec30a34f9bab",
+        "README.md": "ad5d47ef5163554c9e129ae2234470201c908a8778f96058bca7adf525c3ff70",
+        "skills/avila-notas/SKILL.md": "46f5c405287a77a4d402fc9f65474cf82cde84cbca64fa65cd1ca357f43f04a8"
+      },
+      "skills": [
+        "avila-notas"
+      ],
+      "mcp": [
+        {
+          "name": "avilaops-central",
+          "url": "https://mcp.avilaops.com/mcp",
+          "auth": {
+            "type": "api_key",
+            "headerScheme": "bearer"
+          }
+        }
+      ],
+      "apps": {},
+      "structural": "APROVADO",
+      "label": "avila-notas",
+      "purpose": "Consulta e organizacao de documentos e colecoes.",
+      "previous_path": "avila-notas"
+    },
+    {
+      "name": "avila-ops-skills",
+      "kind": "plugin",
+      "path": "plugins/avila-ops-skills",
+      "errors": [],
+      "warnings": [],
+      "runtime": "NAO_TESTADO",
+      "files": 60,
+      "sha256": {
+        ".codex-plugin/plugin.json": "62805a82d68e3600c180d96fcf04d09e75a2c0b78e9d32733eee1ada959e95bf",
+        "assets/plugin-icon.svg": "060b01a648007cc2dbebc3d9e016b2e031cf3e2fa1050dd1fe640c3cbe0ca60d",
+        "plugin.json": "9436c65cdbfe6fdb00269a369f6c5b958c838fd094b277f2972142dc2d359cf1",
+        "README.md": "3ad8e4193a3c03cbdea78b0f14a48db41691c03af2f21e1ccaa463aa2b965d42",
+        "skills/avila-agent-ready/a2a-agent-card/GUIDE.md": "13f688025f8a0a19833f968673780530b4ed9bf0fc0839cb495513f99c20063e",
+        "skills/avila-agent-ready/acp/GUIDE.md": "fd137b83d203ef310302c68e70504ff2f8f34f283e17734088020e8b86741171",
+        "skills/avila-agent-ready/agent-skills/GUIDE.md": "f3505db03f7f75ec4e99104bba59811c647b7005d5f9559874f2fc3e7c702c3e",
+        "skills/avila-agent-ready/agents/openai.yaml": "caf02e1ceb4b9b1a3f40918d62664707738538cf323174f14f251e8bec5e3985",
+        "skills/avila-agent-ready/ai-rules/GUIDE.md": "9b1566f2770822fbced61000161868e04c84d50f79ca7b6d6f167a2d67b7aa5a",
+        "skills/avila-agent-ready/api-catalog/GUIDE.md": "99d53f84a1e11c5219a2330ec3e6a57c11908297fdfbc3552f7febb79068dc4d",
+        "skills/avila-agent-ready/ard/GUIDE.md": "438eedb2144163ad31d1edf8d20815cf80d75a9dbf6c2ec38b78cd0c7af6c1d1",
+        "skills/avila-agent-ready/assets/icon.svg": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
+        "skills/avila-agent-ready/auth-md/GUIDE.md": "beeaddd6640bf3a2b793414cebd37f0fb89558bf12e2b15e77b0f43ecf333ff3",
+        "skills/avila-agent-ready/content-signals/GUIDE.md": "77e23baac4c4867344621d49e03249ca7153461cd2855ee6f8c8caa7e069ff32",
+        "skills/avila-agent-ready/dns-aid/GUIDE.md": "c590582726f80c00021056a7da42d4d1def11995825718fa7c6343bbf0bd0adc",
+        "skills/avila-agent-ready/LICENSE": "aa41faffcf88908b495d7d318e96e889ff78aa53138e51e48c4ef4e6da076ad8",
+        "skills/avila-agent-ready/link-headers/GUIDE.md": "072c27a2a659fc350981545ce3aa87866d062c1006980573044ff9cb1a572e22",
+        "skills/avila-agent-ready/llms-full-txt/GUIDE.md": "fae01eaa9b16b75ff4f40958d8e852bd4eb2a0d534e86b87a21e3ba91790db87",
+        "skills/avila-agent-ready/llms-txt/GUIDE.md": "ee9639d657ee147d558cdc950dd7a7a22d6b28ca0bc74b400ccea76e70770ba2",
+        "skills/avila-agent-ready/markdown-negotiation/GUIDE.md": "da88dc0a976039e561c91c13e6d019a9cde7c95309461b4652752e20f668dbd4",
+        "skills/avila-agent-ready/mcp-server-card/GUIDE.md": "649d9baa5105da8b4059ea324b5e792ea10a57ffb0725471a3899c402fe904b4",
+        "skills/avila-agent-ready/mpp/GUIDE.md": "a8342d0c0d99c1b9fad4ca9017846d5a052ec725c5cdae0dad4ec7d81e9dbcbc",
+        "skills/avila-agent-ready/oauth-discovery/GUIDE.md": "3040d58b002b6a49d3eef60229b6dff979eb5e03b5811af1cc02c03a0e6cbbcb",
+        "skills/avila-agent-ready/oauth-protected-resource/GUIDE.md": "0188c679c44f8235849c185ffe27b3c9f9588bbb8dc8fbae3a7c10a90fc457cb",
+        "skills/avila-agent-ready/original.md": "b1dcc28eae6967807cbc4924a7ad07e4dff726b82470dab6126a10728ee3c6df",
+        "skills/avila-agent-ready/robots-txt/GUIDE.md": "5f96b7cd115534cfcc8ccee85985cdb857c32a8d01c86e2a4eac22395f1b1c68",
+        "skills/avila-agent-ready/scan-site/GUIDE.md": "fe8222ae248a4dd3b18ca96a1aa6dc8dfe049bcf8e56b732851a9e80f46d1193",
+        "skills/avila-agent-ready/sitemap/GUIDE.md": "207cf0ad5070cba69a7729f76d134231efb0d68f4a72f046935a9f700d7c083c",
+        "skills/avila-agent-ready/SKILL.md": "c4c7b177a11eb95ae1c8b13a6335602ff7e4d1f12f860e5e019378438a09ea83",
+        "skills/avila-agent-ready/ucp/GUIDE.md": "e26948d9a77d0e7a314e0995326053ca20576f02e234b500119a66ddd7bb52cc",
+        "skills/avila-agent-ready/web-bot-auth/GUIDE.md": "f3250374e0bf554e14745a4ac9fb05ef0da7005e32fb12c650b28061cfc94d08",
+        "skills/avila-agent-ready/webmcp/GUIDE.md": "85eb7054dd73645c130e2369206035cd36818dc96ce2b6a04ceb128f8633d3d8",
+        "skills/avila-agent-ready/x402/GUIDE.md": "62e266d1fc8ff56a21f4acccbeb4722cb42d3ddd064391e5f2249426c0bc5b51",
+        "skills/avila-coder/agents/openai.yaml": "ee5734d937514e4ac830eb6841e3e5fa538ce3346c6f69cd402ef099e01f8fae",
+        "skills/avila-coder/references/original.md": "33abcf9654a3f279088c5a3adc88204cf8f604fef4b3bf7026ad786cd509c0be",
+        "skills/avila-coder/SKILL.md": "1b1f0222e71eb439a9b6ecea0a616507dac350510b3d8b986132bb65c8d7573b",
+        "skills/avila-design-system/agents/openai.yaml": "cd3fcb9684d904adc4e052253acf3ea64d45114be5879bd64148e5e5f4db12eb",
+        "skills/avila-design-system/assets/icon.svg": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee",
+        "skills/avila-design-system/LICENSE": "aa41faffcf88908b495d7d318e96e889ff78aa53138e51e48c4ef4e6da076ad8",
+        "skills/avila-design-system/references/briefing-questionnaire.md": "6bcd9efea6c973562d3f0e097ee1ec5722e5b07d0655dbda36d898303eea80f0",
+        "skills/avila-design-system/references/original.md": "b2825bf9c01be97b0a92ddfdde32cbc70104e58a0bc795f2363d6e69d3904540",
+        "skills/avila-design-system/references/prompt-01-design-system-architect.md": "45553be5da41c1a2474c54fd970e22dd6b60cd93017a679da854c590eea37b94",
+        "skills/avila-design-system/references/prompt-02-brand-identity-creator.md": "02a42937bef4a10b972b05d37a19f34f0a42305379dd44e129b8b2052e527dd5",
+        "skills/avila-design-system/references/prompt-03-ui-ux-pattern-master.md": "91c3b68a86faa0b175e254d491e0939b1152a24889272fb08ed3d997b585c82b",
+        "skills/avila-design-system/references/prompt-04-marketing-asset-factory.md": "5a8107ed9661e50a69f55fb15f3f97dc39b731b2860be90b6ded38716928becb",
+        "skills/avila-design-system/references/prompt-05-figma-auto-layout-expert.md": "0c56574a6c0756c5c22d15495955e8aab4cfe9dc293a70b62bdd348db1786ff5",
+        "skills/avila-design-system/references/prompt-06-design-critique-partner.md": "43d3c16417205b4db41b7d0771afb3ee07d3520629368ba3634eeb8a5000b4b0",
+        "skills/avila-design-system/references/prompt-07-design-trend-synthesizer.md": "8dfb8c7c1b316e10fcf1b6ce7d555b33eddf824d4c06ff9f4af97fce17713309",
+        "skills/avila-design-system/references/prompt-08-accessibility-auditor.md": "d7faa3e8d1b28ef8113942473fbecfc301392bd7daa6bf74e925f6c2c24bf6ad",
+        "skills/avila-design-system/references/prompt-09-design-to-code-translator.md": "38e4837e214aa325cd2a08f0c934fe41d6d1a4a2153f467fffe13024e91eee89",
+        "skills/avila-design-system/references/prompt-10-presentation-designer.md": "39966a6a82d0c6fe23a31eb9d9cb1d95c37c36fd190e48436bbdfeef45e8593f",
+        "skills/avila-design-system/SKILL.md": "64add8e90dd9339534638be661752f51c68e6dc95450bd182fda6aa4c8f03ac1",
+        "skills/avila-infra-coolify/agents/openai.yaml": "d819d0535a6972a4a3107ac399e453bea51f66efd7ae553f0d89c54bd14e0f6c",
+        "skills/avila-infra-coolify/assets/icon.svg": "72343cc4b66256ae7de8474c7cad14e711ad84a94c473732a44f96a56124c42d",
+        "skills/avila-infra-coolify/LICENSE": "aa41faffcf88908b495d7d318e96e889ff78aa53138e51e48c4ef4e6da076ad8",
+        "skills/avila-infra-coolify/references/original.md": "26c36ae471090e83dc6e13301c068bd5813ab4e4229ab58be756090ca36a22e0",
+        "skills/avila-infra-coolify/SKILL.md": "4597603d577a81c35e0dcd6c5fdeadb9d29e2709b8963749d086dbf0f83bb713",
+        "skills/avila-vigia-integracoes/agents/openai.yaml": "6cca514ea2f880f9fb0ecfc867dbb0850b65327218a55acc42c36565d0f40ea0",
+        "skills/avila-vigia-integracoes/references/original.md": "855ad7287087ed0036fb8cc3ed4e21ad997140784f0cc6717c8a95108d9f7c73",
+        "skills/avila-vigia-integracoes/SKILL.md": "4e8ee9aed58bd5fe0a4144535190d18a721c3304e4488200653b6ed494979ba4"
+      },
+      "skills": [
+        "avila-agent-ready",
+        "avila-coder",
+        "avila-design-system",
+        "avila-infra-coolify",
+        "avila-vigia-integracoes"
+      ],
+      "mcp": [],
+      "apps": {},
+      "structural": "APROVADO",
+      "label": "avila-engenharia-operacoes",
+      "purpose": "Cinco skills de engenharia, design, infraestrutura e integracoes.",
+      "previous_path": "avila-engenharia-operacoes"
+    },
+    {
+      "name": "avila-tms",
+      "kind": "plugin",
+      "path": "plugins/avila-tms",
+      "errors": [],
+      "warnings": [],
+      "runtime": "NAO_TESTADO",
+      "files": 8,
+      "sha256": {
+        ".codex-plugin/plugin.json": "487ebc347ad0a5cdae0484ed19bf985accbc6d5c0600ae5aeaa3f01adc311e03",
+        ".mcp.json": "8e0a9f097f5477cd089cad6a5f4ae3abfdb3f4e2fa18349fa876c14b9b395a27",
+        "assets/icon.png": "9c2ae8367785ded4f678df02e5a14c47b1e8a5c717c8c9741548a101cdd995ba",
+        "assets/plugin-icon.svg": "252632317f507a91cfc73a8393c57e8377fde1944e073a630d19887836254bbc",
+        "mcp.json": "f5839a055a13eb835167c5a10fdabb8afdc8d2df26bf2fbf6f28864625e15419",
+        "plugin.json": "58977ae970ced6dcc4682cb258d97a4118cdfcf1a998ef5a4d85e662ee2ba643",
+        "README.md": "51db57bbdd2f604ef07808593191909fed57a897379eaa1bc90a62670d3a60c5",
+        "skills/avila-tms/SKILL.md": "dd137d540b48e11f2632cc931947f9ee94812bb3a61e40d29f3bb7d049e38f39"
+      },
+      "skills": [
+        "avila-tms"
+      ],
+      "mcp": [
+        {
+          "name": "avilaops-central",
+          "url": "https://mcp.avilaops.com/mcp",
+          "auth": {
+            "type": "api_key",
+            "headerScheme": "bearer"
+          }
+        }
+      ],
+      "apps": {},
+      "structural": "APROVADO",
+      "label": "avila-tms",
+      "purpose": "Transportes; a skill registra adaptador pendente.",
+      "previous_path": "avila-tms"
+    },
+    {
+      "name": "dev-6ad0a0086b188191928c20e0cf70d6fe",
+      "kind": "plugin",
+      "path": "plugins/dev-6ad0a0086b188191928c20e0cf70d6fe",
+      "errors": [],
+      "warnings": [],
+      "runtime": "NAO_TESTADO",
+      "files": 5,
+      "sha256": {
+        ".app.json": "050940d6e4cc53c19221e90bc2030ed9f5f685276f5549f003d95e59b2edfba3",
+        ".codex-plugin/plugin.json": "fb88f334dbf84128d4f43e77dd46139f6371a486ea9037ef6ce149a398f3cb42",
+        "assets/plugin-icon.svg": "39d19598835bc7e2c67032dc6657b4e70be3df4797ec7572f4eb1da50e43443b",
+        "plugin.json": "25f39ab8f8f0baaebd4af4031e9c04d9d87d2eeb2bff0859885fb56b24e278fb",
+        "README.md": "580e49db3826cf21ca3bdfc9b74dd21e70fb7f36121f83aa0691284c86e1c1fd"
+      },
+      "skills": [],
+      "mcp": [],
+      "apps": {
+        "dev-6ad0a0086b188191928c20e0cf70d6fe": {
+          "id": "asdk_app_6ad0a0086b188191928c20e0cf70d6fe"
+        }
+      },
+      "structural": "APROVADO",
+      "label": "app-conectado-6ad0a008",
+      "purpose": "Referencia a app registrado; manifesto descreve apenas app, sem funcao identificavel.",
+      "previous_path": "app-conectado-6ad0a008"
+    },
+    {
+      "name": "lojas-clientes",
+      "kind": "plugin",
+      "path": "plugins/lojas-clientes",
+      "errors": [],
+      "warnings": [],
+      "runtime": "NAO_TESTADO",
+      "files": 7,
+      "sha256": {
+        ".codex-plugin/plugin.json": "2ef5aac791f890f677d9814c07434bd1a45feb8259e0b7db7aeaa1469b185265",
+        ".mcp.json": "0d238e7cd201c2e904a3ff56500a77fe824905fffc087626367deb98c528e88c",
+        "assets/plugin-icon.svg": "ef223cdde11792bd76f269b8a8031892f50ab5982170bccfec049a342b485bbd",
+        "mcp.json": "fadcc79e20e4164ddb99c7e38de1a24c10dfb40ce7be3dba1c106c8fba84f8b1",
+        "plugin.json": "b63f7e455f866b4af7b22d6e5f4e3d04837b2da93a5a3da273044dca7051baad",
+        "README.md": "ffe270f458fcb535d3fd3dd8c9ff8d556502dee03f1b657d8880293005d6d93a",
+        "skills/preencher-loja/SKILL.md": "4e9011b5f5aced6c31baaeefde7c61f4afaa13e8b8de2db815251602dff70c3e"
+      },
+      "skills": [
+        "preencher-loja"
+      ],
+      "mcp": [
+        {
+          "name": "avila-lojas",
+          "url": "https://mcp.avilaops.com/mcp",
+          "auth": {
+            "type": "api_key",
+            "headerScheme": "bearer"
+          }
+        }
+      ],
+      "apps": {},
+      "structural": "APROVADO",
+      "label": "avila-lojas-clientes",
+      "purpose": "Preenchimento de loja e catalogo pelo cliente autorizado.",
+      "previous_path": "avila-lojas-clientes"
+    },
+    {
+      "name": "n8n-avilaops",
+      "kind": "plugin",
+      "path": "plugins/n8n-avilaops",
+      "errors": [],
+      "warnings": [],
+      "runtime": "NAO_TESTADO",
+      "files": 6,
+      "sha256": {
+        ".codex-plugin/plugin.json": "489bb0db5b3d88f709bb2c05f968964d69986b60cbe9fb63e229cc431d97361f",
+        ".mcp.json": "d0e75a14aabef3bd4ff644b5961da07acef24670e3b9e2b60bc70ae4fa1bd895",
+        "assets/plugin-icon.svg": "f9c1f85eb8330164ee672120d042f536915da2d15309e7a19959354f3e90a91d",
+        "mcp.json": "edb2062abd0b02220ce8ca2f77146bc24668fa7c830fa549d8658658e3358302",
+        "plugin.json": "b26145c37c42d959a454277fda8342e674c016c9bad7422cf989cbdbc5d596f1",
+        "README.md": "fb2c917d2fa79c0989343b3af4c0e7e722e3b2f51e43ffadadba910321fcaa8b"
+      },
+      "skills": [],
+      "mcp": [
+        {
+          "name": "n8n-avilaops",
+          "url": "https://n8n.avilaops.com/mcp-server/http",
+          "auth": {
+            "type": "not_declared"
+          }
+        }
+      ],
+      "apps": {},
+      "structural": "APROVADO",
+      "label": "avila-n8n",
+      "purpose": "Conexao MCP autenticada com o n8n, sem skills no pacote.",
+      "previous_path": "avila-n8n"
+    }
+  ]
+}

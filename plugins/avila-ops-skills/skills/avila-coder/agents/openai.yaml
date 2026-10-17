@@ -1,0 +1,4 @@
+interface:
+  display_name: Coder Ávila Ops
+  short_description: Implementar funcionalidades, correções, refatorações e integ
+  default_prompt: Use $avila-coder para executar a tarefa no contexto da Ávila Ops.

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design Puro"
+  short_description: "Design para os projetos da Ávila Ops"
+  default_prompt: "Use $design-puro para criar ou revisar este design conforme a marca e o objetivo."

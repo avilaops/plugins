@@ -1,0 +1,5 @@
+interface:
+  display_name: Design Ávila Ops
+  short_description: Criar ou revisar identidade, componentes, tokens, interfaces
+  default_prompt: Use $avila-design-system para executar a tarefa no contexto da Ávila
+    Ops.

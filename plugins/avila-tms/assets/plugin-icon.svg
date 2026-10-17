@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title id="title">Avila TMS</title>
+  <rect width="256" height="256" rx="48" fill="#10243A"/>
+  <path d="M58 82h102c27 0 36 40 9 49l-80 26c-26 9-18 39 9 39h81" fill="none" stroke="#38BDF8" stroke-width="12" stroke-linecap="round"/>
+  <path d="M86 74c0 23-24 45-24 45S38 97 38 74a24 24 0 0 1 48 0Z" fill="#F8FAFC"/>
+  <circle cx="62" cy="74" r="8" fill="#10243A"/>
+  <g fill="none" stroke="#F8FAFC" stroke-width="12" stroke-linejoin="round">
+    <path d="M147 145h40v42h-40ZM187 159h18l13 16v12h-31"/>
+  </g>
+  <circle cx="161" cy="194" r="10" fill="#FBBF24"/>
+  <circle cx="202" cy="194" r="10" fill="#FBBF24"/>
+</svg>

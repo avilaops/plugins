@@ -1,0 +1,23 @@
+{
+  "author": {
+    "email": "avilacargasrapidas@gmail.com",
+    "name": "Nicolas"
+  },
+  "description": "Consulte e organize documentos da Ávila Ops pelo MCP central.",
+  "interface": {
+    "capabilities": [],
+    "category": "Productivity",
+    "composerIcon": "./assets/plugin-icon.svg",
+    "defaultPrompt": "Verifique as ferramentas de Ávila Notas disponíveis e apresente o que é possível fazer sem alterar dados.",
+    "developerName": "Nicolas",
+    "displayName": "Ávila Notas",
+    "logo": "./assets/plugin-icon.svg",
+    "longDescription": "Consulte e organize documentos da Ávila Ops pelo MCP central. Ligação ao MCP central, sujeita à autenticação e às ferramentas realmente expostas.",
+    "shortDescription": "Documentação e conhecimento"
+  },
+  "keywords": [],
+  "mcpServers": "./.mcp.json",
+  "name": "avila-notas",
+  "skills": "./skills",
+  "version": "0.1.1"
+}

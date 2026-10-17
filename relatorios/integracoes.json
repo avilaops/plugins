@@ -1,0 +1,201 @@
+{
+  "checked_at": "2026-10-17T07:25:47.621Z",
+  "scope": "Leituras sem alterar workflows, contas ou dados de negocio.",
+  "n8n": {
+    "configured": true,
+    "authenticated_read": "CONFIRMADA",
+    "test": "search_workflows e get_workflow_details",
+    "local_package_installed": "NAO",
+    "note": "O conector n8n da sessao respondeu. Isso nao comprova instalacao nem autenticacao do pacote local."
+  },
+  "central_workflow": {
+    "id": "IwW8JvEPEkBb6yah",
+    "active": true,
+    "activeVersionId": "e82fb45d-1a9b-4aa7-b755-ef3de1552bef",
+    "nodes": [
+      {
+        "name": "MCP Avila Ops",
+        "type": "@n8n/n8n-nodes-langchain.mcpTrigger"
+      },
+      {
+        "name": "whatsapp_estado",
+        "type": "n8n-nodes-base.httpRequestTool"
+      },
+      {
+        "name": "catalogo_listar",
+        "type": "n8n-nodes-base.httpRequestTool"
+      },
+      {
+        "name": "catalogo_incluir",
+        "type": "n8n-nodes-base.httpRequestTool"
+      },
+      {
+        "name": "catalogo_excluir",
+        "type": "n8n-nodes-base.httpRequestTool"
+      },
+      {
+        "name": "posts_fila",
+        "type": "n8n-nodes-base.dataTableTool"
+      },
+      {
+        "name": "post_agendar",
+        "type": "n8n-nodes-base.dataTableTool"
+      },
+      {
+        "name": "contato_buscar",
+        "type": "n8n-nodes-base.dataTableTool"
+      },
+      {
+        "name": "catalogo_alterar",
+        "type": "n8n-nodes-base.httpRequestTool"
+      },
+      {
+        "name": "gsc_list_properties",
+        "type": "n8n-nodes-base.httpRequestTool"
+      },
+      {
+        "name": "gsc_search_analytics",
+        "type": "n8n-nodes-base.httpRequestTool"
+      },
+      {
+        "name": "gsc_list_sitemaps",
+        "type": "n8n-nodes-base.httpRequestTool"
+      },
+      {
+        "name": "gsc_inspect_url",
+        "type": "n8n-nodes-base.httpRequestTool"
+      },
+      {
+        "name": "infisical_list_secrets",
+        "type": "n8n-nodes-base.httpRequestTool"
+      },
+      {
+        "name": "infisical_get_secret",
+        "type": "n8n-nodes-base.httpRequestTool"
+      },
+      {
+        "name": "fiscal",
+        "type": "@n8n/n8n-nodes-langchain.mcpClientTool"
+      },
+      {
+        "name": "notas",
+        "type": "@n8n/n8n-nodes-langchain.mcpClientTool"
+      },
+      {
+        "name": "planejador_rascunhos",
+        "type": "n8n-nodes-base.dataTableTool"
+      },
+      {
+        "name": "planejador_redigir",
+        "type": "n8n-nodes-base.dataTableTool"
+      },
+      {
+        "name": "cms",
+        "type": "@n8n/n8n-nodes-langchain.mcpClientTool"
+      },
+      {
+        "name": "credencial_listar",
+        "type": "n8n-nodes-base.httpRequestTool"
+      },
+      {
+        "name": "credencial_criar",
+        "type": "n8n-nodes-base.httpRequestTool"
+      },
+      {
+        "name": "credencial_alterar",
+        "type": "n8n-nodes-base.httpRequestTool"
+      },
+      {
+        "name": "credencial_apagar",
+        "type": "n8n-nodes-base.httpRequestTool"
+      },
+      {
+        "name": "lojas",
+        "type": "@n8n/n8n-nodes-langchain.mcpClientTool"
+      },
+      {
+        "name": "Mapa - Comunicacao",
+        "type": "n8n-nodes-base.stickyNote"
+      },
+      {
+        "name": "Mapa - Catalogos",
+        "type": "n8n-nodes-base.stickyNote"
+      },
+      {
+        "name": "Mapa - Search Console",
+        "type": "n8n-nodes-base.stickyNote"
+      },
+      {
+        "name": "Mapa - Conectores",
+        "type": "n8n-nodes-base.stickyNote"
+      },
+      {
+        "name": "Mapa - Credenciais",
+        "type": "n8n-nodes-base.stickyNote"
+      },
+      {
+        "name": "Mapa - Cofre",
+        "type": "n8n-nodes-base.stickyNote"
+      },
+      {
+        "name": "Sticky Note",
+        "type": "n8n-nodes-base.stickyNote"
+      },
+      {
+        "name": "Sticky Note1",
+        "type": "n8n-nodes-base.stickyNote"
+      },
+      {
+        "name": "Sticky Note2",
+        "type": "n8n-nodes-base.stickyNote"
+      },
+      {
+        "name": "gsc_analise_seo",
+        "type": "@n8n/n8n-nodes-langchain.mcpClientTool"
+      }
+    ],
+    "description": "WF-014 | MCP central da Avila Ops: WhatsApp/posts, Meta, Search Console, Infisical, Fiscal, Notas, CMS e Lojas. CRM/Auth/TMS exigem adaptadores; ERP aguarda credencial OAuth.",
+    "evidence": "Grafo publicado consultado via n8n; nao e uma sessao MCP autenticada no endpoint central."
+  },
+  "modules": [
+    {
+      "module": "CMS",
+      "status": "CONFIGURADO_NO_GRAFO",
+      "node": "cms",
+      "functional_read": "NAO_TESTADA"
+    },
+    {
+      "module": "Notas",
+      "status": "CONFIGURADO_NO_GRAFO",
+      "node": "notas",
+      "functional_read": "NAO_TESTADA"
+    },
+    {
+      "module": "Lojas",
+      "status": "CONFIGURADO_NO_GRAFO",
+      "node": "lojas",
+      "functional_read": "NAO_TESTADA"
+    },
+    {
+      "module": "CRM",
+      "status": "ADAPTADOR_AUSENTE_NO_GRAFO_CONSULTADO",
+      "functional_read": "NAO_TESTADA"
+    },
+    {
+      "module": "TMS",
+      "status": "ADAPTADOR_AUSENTE_NO_GRAFO_CONSULTADO",
+      "functional_read": "NAO_TESTADA"
+    },
+    {
+      "module": "Mail",
+      "status": "ADAPTADOR_AUSENTE_NO_GRAFO_CONSULTADO",
+      "functional_read": "NAO_TESTADA"
+    }
+  ],
+  "app_reference": {
+    "id": "asdk_app_6ad0a0086b188191928c20e0cf70d6fe",
+    "status": "REFERENCIA_LOCAL_PRESERVADA",
+    "function": "NAO_IDENTIFICADA",
+    "availability": "NAO_VERIFICADA"
+  }
+}

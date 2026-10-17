@@ -1,0 +1,11 @@
+interface:
+  display_name: coolify operator
+  short_description: Master Coolify operator for self-hosted deployment platform.
+    Use when the user mentions 'coolify', 'deploy on coolify', 'list/restart/redeploy
+    applications', 'view coolify logs', 'coolify API/CLI', 'manage coolify servers/databases/apps',
+    or 'coolify context'. Automates deployments and management via REST API or official
+    CLI.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true

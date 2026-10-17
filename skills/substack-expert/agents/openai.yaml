@@ -1,0 +1,10 @@
+interface:
+  display_name: substack expert
+  short_description: This skill should be used when creating, formatting, or optimizing
+    content for a Substack newsletter. Covers post structure, SEO metadata (titles,
+    slugs, meta descriptions), native engagement features (Notes, Polls, Chat), monetization
+    tactics, and free-to-paid conversion strategies.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true

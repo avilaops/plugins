@@ -1,0 +1,32 @@
+interface:
+  display_name: astro sites manager
+  short_description: 'Comprehensive skill for building, migrating, and maintaining
+    Astro v7
+
+    projects. Covers best practices from the official AGENTS.md, the v6→v7
+
+    migration path, validation of breaking/deprecated patterns, AI-enhanced dev
+
+    server usage (background mode, JSON logging), advanced routing with
+
+    src/fetch.ts, route caching, Sätteri Markdown, and the Rust compiler. Use
+
+    when the user mentions ''Astro'', ''.astro files'', ''astro dev'', ''astro build'',
+
+    ''islands architecture'', ''content collections'', ''SSG'', ''SSR adapter'',
+
+    ''upgrade to Astro 7'', ''migrate Astro'', ''Astro v7'', ''Astro v6'', ''Sätteri'',
+
+    ''route caching'', ''Astro.cache'', ''astro dev --background'', ''src/fetch.ts'',
+
+    ''advanced routing'', ''Hono + Astro'', ''Rolldown'', ''Vite 8'', ''queued
+
+    rendering'', ''CDN cache provider'', ''Astro AI'', ''related content'',
+
+    ''related posts'', ''vector embeddings Astro'', ''astro-related-content'',
+
+    or asks about static site generation with Astro.'
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true

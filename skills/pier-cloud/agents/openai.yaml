@@ -1,0 +1,11 @@
+interface:
+  display_name: pier cloud
+  short_description: This skill should be used when the user needs to consume the
+    Pier Cloud (Lighthouse) API for cloud cost management — including JWT authentication,
+    listing contexts, workspaces, workspace groups, and FinOps data views. Trigger
+    whenever there is a need to integrate, automate, or debug calls to the Pier Cloud
+    platform via Python, Node.js, or cURL.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true

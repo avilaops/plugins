@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title id="title">Avila Notas</title>
+  <rect width="256" height="256" rx="48" fill="#10243A"/>
+  <g fill="none" stroke="#F8FAFC" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M154 48H72v160h112V78l-30-30Z"/>
+    <path d="M150 48v34h34M96 112h38M96 140h64M96 168h44"/>
+  </g>
+  <path d="M158 104h28v62l-14-10-14 10Z" fill="#38BDF8"/>
+</svg>

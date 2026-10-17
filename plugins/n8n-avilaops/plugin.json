@@ -1,0 +1,25 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "avilacargasrapidas@gmail.com",
+    "name": "Nicolas"
+  },
+  "description": "Conecta ao servidor MCP autenticado do n8n da Avila Ops. Recursos dependem das permissões concedidas e dos workflows habilitados.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "category": "Productivity",
+        "defaultPrompt": "Mostre os workflows disponíveis no meu n8n, sem executá-los.",
+        "developerName": "Nicolas",
+        "displayName": "n8n Avila Ops",
+        "longDescription": "Acesso ao MCP da instância n8n.avilaops.com com autenticação do próprio n8n. A conexão requer autorização e os recursos disponíveis dependem das permissões concedidas.",
+        "shortDescription": "Automações da Avila Ops",
+        "capabilities": [],
+        "logo": "./assets/plugin-icon.svg",
+        "composerIcon": "./assets/plugin-icon.svg"
+      }
+    }
+  },
+  "name": "n8n-avilaops",
+  "version": "0.1.1"
+}

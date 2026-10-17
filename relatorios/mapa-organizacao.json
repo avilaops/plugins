@@ -1,0 +1,290 @@
+[
+  {
+    "anterior": "agent-plugin-eval",
+    "acervo": "avaliar-plugins",
+    "origem": "D:\\Projetos\\Plugins\\avaliar-plugins",
+    "destino": "D:\\Projetos\\Plugins\\skills\\agent-plugin-eval",
+    "tipo": "skill",
+    "funcao": "Auditoria e pontuacao de pacotes Agent Plugins.",
+    "name": "agent-plugin-eval"
+  },
+  {
+    "anterior": "agent-ready-cloudflare",
+    "acervo": "auditar-prontidao-agentes",
+    "origem": "D:\\Projetos\\Plugins\\auditar-prontidao-agentes",
+    "destino": "D:\\Projetos\\Plugins\\skills\\agent-ready-cloudflare",
+    "tipo": "skill",
+    "funcao": "Scanner de prontidao de sites para agentes e guias de implementacao.",
+    "name": "agent-ready-cloudflare"
+  },
+  {
+    "anterior": "apple-avila",
+    "acervo": "avila-apple",
+    "origem": "D:\\Projetos\\Plugins\\avila-apple",
+    "destino": "D:\\Projetos\\Plugins\\plugins\\apple-avila",
+    "tipo": "plugin",
+    "funcao": "Arquitetura iOS, design Apple, app builder e distribuicao.",
+    "name": "apple-avila"
+  },
+  {
+    "anterior": "astro-sites-manager",
+    "acervo": "gerenciar-sites-astro",
+    "origem": "D:\\Projetos\\Plugins\\gerenciar-sites-astro",
+    "destino": "D:\\Projetos\\Plugins\\skills\\astro-sites-manager",
+    "tipo": "skill",
+    "funcao": "Desenvolvimento, migracao e manutencao de sites Astro.",
+    "name": "astro-sites-manager"
+  },
+  {
+    "anterior": "auth-md",
+    "acervo": "autenticacao-agentes-auth-md",
+    "origem": "D:\\Projetos\\Plugins\\autenticacao-agentes-auth-md\\auth-md",
+    "destino": "D:\\Projetos\\Plugins\\skills\\auth-md",
+    "tipo": "skill",
+    "funcao": "Geracao e validacao de auth.md e descoberta de autenticacao de agentes.",
+    "name": "auth-md"
+  },
+  {
+    "anterior": "automador-puro",
+    "acervo": "automatizar-operacoes",
+    "origem": "D:\\Projetos\\Plugins\\automatizar-operacoes\\automador-puro",
+    "destino": "D:\\Projetos\\Plugins\\skills\\automador-puro",
+    "tipo": "skill",
+    "funcao": "Workflows, jobs, filas, webhooks e automacoes operacionais.",
+    "name": "automador-puro"
+  },
+  {
+    "anterior": "avila-cms",
+    "acervo": "avila-cms",
+    "origem": "D:\\Projetos\\Plugins\\avila-cms",
+    "destino": "D:\\Projetos\\Plugins\\plugins\\avila-cms",
+    "tipo": "plugin",
+    "funcao": "Conteudo e sites no CMS pelo MCP central.",
+    "name": "avila-cms"
+  },
+  {
+    "anterior": "avila-crm",
+    "acervo": "avila-crm",
+    "origem": "D:\\Projetos\\Plugins\\avila-crm",
+    "destino": "D:\\Projetos\\Plugins\\plugins\\avila-crm",
+    "tipo": "plugin",
+    "funcao": "Relacionamento com clientes; a skill registra adaptador pendente.",
+    "name": "avila-crm"
+  },
+  {
+    "anterior": "avila-design",
+    "acervo": "avila-design",
+    "origem": "D:\\Projetos\\Plugins\\avila-design",
+    "destino": "D:\\Projetos\\Plugins\\plugins\\avila-design",
+    "tipo": "plugin",
+    "funcao": "Identidade visual, interfaces e materiais comerciais.",
+    "name": "avila-design"
+  },
+  {
+    "anterior": "avila-lojas",
+    "acervo": "avila-lojas",
+    "origem": "D:\\Projetos\\Plugins\\avila-lojas",
+    "destino": "D:\\Projetos\\Plugins\\plugins\\avila-lojas",
+    "tipo": "plugin",
+    "funcao": "Operacao de lojas, produtos, pedidos e estoque.",
+    "name": "avila-lojas"
+  },
+  {
+    "anterior": "avila-mail",
+    "acervo": "avila-mail",
+    "origem": "D:\\Projetos\\Plugins\\avila-mail",
+    "destino": "D:\\Projetos\\Plugins\\plugins\\avila-mail",
+    "tipo": "plugin",
+    "funcao": "E-mail corporativo; a skill registra integracao nao confirmada.",
+    "name": "avila-mail"
+  },
+  {
+    "anterior": "avila-notas",
+    "acervo": "avila-notas",
+    "origem": "D:\\Projetos\\Plugins\\avila-notas",
+    "destino": "D:\\Projetos\\Plugins\\plugins\\avila-notas",
+    "tipo": "plugin",
+    "funcao": "Consulta e organizacao de documentos e colecoes.",
+    "name": "avila-notas"
+  },
+  {
+    "anterior": "avila-ops-skills",
+    "acervo": "avila-engenharia-operacoes",
+    "origem": "D:\\Projetos\\Plugins\\avila-engenharia-operacoes",
+    "destino": "D:\\Projetos\\Plugins\\plugins\\avila-ops-skills",
+    "tipo": "plugin",
+    "funcao": "Cinco skills de engenharia, design, infraestrutura e integracoes.",
+    "name": "avila-ops-skills"
+  },
+  {
+    "anterior": "avila-tms",
+    "acervo": "avila-tms",
+    "origem": "D:\\Projetos\\Plugins\\avila-tms",
+    "destino": "D:\\Projetos\\Plugins\\plugins\\avila-tms",
+    "tipo": "plugin",
+    "funcao": "Transportes; a skill registra adaptador pendente.",
+    "name": "avila-tms"
+  },
+  {
+    "anterior": "catalogue",
+    "acervo": "catalogar-documentacao",
+    "origem": "D:\\Projetos\\Plugins\\catalogar-documentacao",
+    "destino": "D:\\Projetos\\Plugins\\skills\\catalogue",
+    "tipo": "skill",
+    "funcao": "Catalogacao rastreavel de documentacao tecnica e referencias.",
+    "name": "catalogue"
+  },
+  {
+    "anterior": "coder-puro",
+    "acervo": "desenvolver-software",
+    "origem": "D:\\Projetos\\Plugins\\desenvolver-software",
+    "destino": "D:\\Projetos\\Plugins\\skills\\coder-puro",
+    "tipo": "skill",
+    "funcao": "Implementacao, correcao e validacao de software.",
+    "name": "coder-puro"
+  },
+  {
+    "anterior": "coolify-operator",
+    "acervo": "operar-infraestrutura-coolify",
+    "origem": "D:\\Projetos\\Plugins\\operar-infraestrutura-coolify",
+    "destino": "D:\\Projetos\\Plugins\\skills\\coolify-operator",
+    "tipo": "skill",
+    "funcao": "Deploys, logs, servidores e bancos via Coolify.",
+    "name": "coolify-operator"
+  },
+  {
+    "anterior": "dev-6ad0a0086b188191928c20e0cf70d6fe",
+    "acervo": "app-conectado-6ad0a008",
+    "origem": "D:\\Projetos\\Plugins\\app-conectado-6ad0a008",
+    "destino": "D:\\Projetos\\Plugins\\plugins\\dev-6ad0a0086b188191928c20e0cf70d6fe",
+    "tipo": "plugin-com-app",
+    "funcao": "Referencia a app registrado; manifesto descreve apenas app, sem funcao identificavel.",
+    "name": "dev-6ad0a0086b188191928c20e0cf70d6fe"
+  },
+  {
+    "anterior": "explica",
+    "acervo": "explicar-documentacao",
+    "origem": "D:\\Projetos\\Plugins\\explicar-documentacao",
+    "destino": "D:\\Projetos\\Plugins\\skills\\explica",
+    "tipo": "skill",
+    "funcao": "Explicacao de conceitos e documentos tecnicos em portugues.",
+    "name": "explica"
+  },
+  {
+    "anterior": "human-ai",
+    "acervo": "editar-textos-ingles",
+    "origem": "D:\\Projetos\\Plugins\\editar-textos-ingles",
+    "destino": "D:\\Projetos\\Plugins\\skills\\human-ai",
+    "tipo": "skill",
+    "funcao": "Edicao de textos em ingles preservando significado e voz.",
+    "name": "human-ai"
+  },
+  {
+    "anterior": "integrador-de-apis",
+    "acervo": "integrar-apis",
+    "origem": "D:\\Projetos\\Plugins\\integrar-apis",
+    "destino": "D:\\Projetos\\Plugins\\skills\\integrador-de-apis",
+    "tipo": "skill",
+    "funcao": "Contratos REST e GraphQL, autenticacao e webhooks.",
+    "name": "integrador-de-apis"
+  },
+  {
+    "anterior": "lojas-clientes",
+    "acervo": "avila-lojas-clientes",
+    "origem": "D:\\Projetos\\Plugins\\avila-lojas-clientes",
+    "destino": "D:\\Projetos\\Plugins\\plugins\\lojas-clientes",
+    "tipo": "plugin",
+    "funcao": "Preenchimento de loja e catalogo pelo cliente autorizado.",
+    "name": "lojas-clientes"
+  },
+  {
+    "anterior": "monitor-brave",
+    "acervo": "diagnosticar-monitor-brave",
+    "origem": "D:\\Projetos\\Plugins\\diagnosticar-monitor-brave",
+    "destino": "D:\\Projetos\\Plugins\\skills\\monitor-brave",
+    "tipo": "skill",
+    "funcao": "Manutencao da extensao de monitoramento de video, buffer, RAM e n8n.",
+    "name": "monitor-brave"
+  },
+  {
+    "anterior": "motion-ad",
+    "acervo": "produzir-anuncios-video",
+    "origem": "D:\\Projetos\\Plugins\\produzir-anuncios-video",
+    "destino": "D:\\Projetos\\Plugins\\skills\\motion-ad",
+    "tipo": "skill",
+    "funcao": "Anuncios curtos em MP4 renderizados com GSAP, Playwright e ffmpeg.",
+    "name": "motion-ad"
+  },
+  {
+    "anterior": "n8n-avilaops",
+    "acervo": "avila-n8n",
+    "origem": "D:\\Projetos\\Plugins\\avila-n8n",
+    "destino": "D:\\Projetos\\Plugins\\plugins\\n8n-avilaops",
+    "tipo": "plugin",
+    "funcao": "Conexao MCP autenticada com o n8n, sem skills no pacote.",
+    "name": "n8n-avilaops"
+  },
+  {
+    "anterior": "pier-cloud",
+    "acervo": "integrar-pier-cloud",
+    "origem": "D:\\Projetos\\Plugins\\integrar-pier-cloud",
+    "destino": "D:\\Projetos\\Plugins\\skills\\pier-cloud",
+    "tipo": "skill",
+    "funcao": "Integracao com API Lighthouse para gestao de custos de nuvem.",
+    "name": "pier-cloud"
+  },
+  {
+    "anterior": "sincronizador-puro",
+    "acervo": "sincronizar-dados",
+    "origem": "D:\\Projetos\\Plugins\\sincronizar-dados",
+    "destino": "D:\\Projetos\\Plugins\\skills\\sincronizador-puro",
+    "tipo": "skill",
+    "funcao": "Sincronizacao incremental, idempotencia e reconciliacao entre sistemas.",
+    "name": "sincronizador-puro"
+  },
+  {
+    "anterior": "slop-eval",
+    "acervo": "auditar-design-generico",
+    "origem": "D:\\Projetos\\Plugins\\auditar-design-generico",
+    "destino": "D:\\Projetos\\Plugins\\skills\\slop-eval",
+    "tipo": "skill",
+    "funcao": "Avaliacao de padroes visuais genericos com evidencias e pontuacao.",
+    "name": "slop-eval"
+  },
+  {
+    "anterior": "startup-idea",
+    "acervo": "validar-ideias-negocio",
+    "origem": "D:\\Projetos\\Plugins\\validar-ideias-negocio",
+    "destino": "D:\\Projetos\\Plugins\\skills\\startup-idea",
+    "tipo": "skill",
+    "funcao": "Analise de negocio, publico, monetizacao, distribuicao e MVP.",
+    "name": "startup-idea"
+  },
+  {
+    "anterior": "substack-expert",
+    "acervo": "gerenciar-newsletter-substack",
+    "origem": "D:\\Projetos\\Plugins\\gerenciar-newsletter-substack",
+    "destino": "D:\\Projetos\\Plugins\\skills\\substack-expert",
+    "tipo": "skill",
+    "funcao": "Conteudo, formatacao, SEO, engajamento e monetizacao no Substack.",
+    "name": "substack-expert"
+  },
+  {
+    "anterior": "ultimate-design-system-master",
+    "acervo": "criar-design-systems",
+    "origem": "D:\\Projetos\\Plugins\\criar-design-systems",
+    "destino": "D:\\Projetos\\Plugins\\skills\\ultimate-design-system-master",
+    "tipo": "skill",
+    "funcao": "Dez fluxos de identidade, componentes, interfaces, acessibilidade e apresentacoes.",
+    "name": "ultimate-design-system-master"
+  },
+  {
+    "anterior": "vigia-de-integracoes",
+    "acervo": "monitorar-integracoes",
+    "origem": "D:\\Projetos\\Plugins\\monitorar-integracoes",
+    "destino": "D:\\Projetos\\Plugins\\skills\\vigia-de-integracoes",
+    "tipo": "skill",
+    "funcao": "Diagnostico, alertas e recuperacao de integracoes existentes.",
+    "name": "vigia-de-integracoes"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "author": {
+    "email": "avilacargasrapidas@gmail.com",
+    "name": "Nicolas"
+  },
+  "description": "Skill de design visual e UI/UX adaptada aos projetos da Ávila Ops.",
+  "interface": {
+    "capabilities": [],
+    "category": "Design",
+    "defaultPrompt": "Use a skill Design Puro para criar ou melhorar este design.",
+    "developerName": "Nicolas",
+    "displayName": "Ávila Design",
+    "longDescription": "Cria e revisa identidades, interfaces, posts e imagens com contexto das marcas e verificação visual.",
+    "shortDescription": "Design para marcas e produtos",
+    "logo": "./assets/plugin-icon.svg",
+    "composerIcon": "./assets/plugin-icon.svg"
+  },
+  "keywords": [],
+  "name": "avila-design",
+  "skills": "./skills",
+  "version": "0.1.1"
+}

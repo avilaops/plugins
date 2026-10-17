@@ -1,0 +1,19 @@
+{
+  "apps": "./.app.json",
+  "author": {
+    "name": "App developer"
+  },
+  "description": "Referência ao app existente 6ad0a008; função de negócio ainda não identificada.",
+  "interface": {
+    "capabilities": [],
+    "category": "Other",
+    "developerName": "App developer",
+    "displayName": "App conectado 6ad0a008",
+    "longDescription": "Mantém a referência ao app registrado. O pacote original não informa sua função; disponibilidade e identidade precisam ser confirmadas no host antes de utilizá-lo.",
+    "shortDescription": "App com função a identificar",
+    "logo": "./assets/plugin-icon.svg",
+    "composerIcon": "./assets/plugin-icon.svg"
+  },
+  "name": "dev-6ad0a0086b188191928c20e0cf70d6fe",
+  "version": "1.0.1"
+}

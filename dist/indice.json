@@ -1,0 +1,290 @@
+[
+  {
+    "path": "dist/skills/agent-plugin-eval.zip",
+    "sha256": "8e05789165e9031fbe5826d56136c4652f98128e1252ef76146b8fe6dd678146",
+    "files": 12,
+    "status": "ARQUIVO_VERIFICADO",
+    "installation_layout": "EXTRACAO_E_DESCOBERTA_VALIDADA",
+    "host_execution": "NAO_TESTADA",
+    "public_submission": "NAO_PREPARADO"
+  },
+  {
+    "path": "dist/skills/agent-ready-cloudflare.zip",
+    "sha256": "5d477a2d5e6317ca908cdd392c6d67866e569bc004b29fb2a9a72b5da9557b49",
+    "files": 29,
+    "status": "ARQUIVO_VERIFICADO",
+    "installation_layout": "EXTRACAO_E_DESCOBERTA_VALIDADA",
+    "host_execution": "NAO_TESTADA",
+    "public_submission": "NAO_PREPARADO"
+  },
+  {
+    "path": "dist/skills/astro-sites-manager.zip",
+    "sha256": "573a39aaa38ed81673837d14bc188d4b67587e9b1ce5a2e4f38778705a7d48db",
+    "files": 16,
+    "status": "ARQUIVO_VERIFICADO",
+    "installation_layout": "EXTRACAO_E_DESCOBERTA_VALIDADA",
+    "host_execution": "NAO_TESTADA",
+    "public_submission": "NAO_PREPARADO"
+  },
+  {
+    "path": "dist/skills/auth-md.zip",
+    "sha256": "b03c9ea3c239106b87cd22af397deca8f5104fb6ccddae297a4826f1c0801d13",
+    "files": 10,
+    "status": "ARQUIVO_VERIFICADO",
+    "installation_layout": "EXTRACAO_E_DESCOBERTA_VALIDADA",
+    "host_execution": "NAO_TESTADA",
+    "public_submission": "NAO_PREPARADO"
+  },
+  {
+    "path": "dist/skills/automador-puro.zip",
+    "sha256": "b2b648ff149644ec09f8c6e3ccdb9009469f66e746da7dd9992c29832ebede8b",
+    "files": 2,
+    "status": "ARQUIVO_VERIFICADO",
+    "installation_layout": "EXTRACAO_E_DESCOBERTA_VALIDADA",
+    "host_execution": "NAO_TESTADA",
+    "public_submission": "NAO_PREPARADO"
+  },
+  {
+    "path": "dist/skills/catalogue.zip",
+    "sha256": "fa74727126d39265a4f0db8fdb1b346924e502bfbd02a06be175767d8b7669e0",
+    "files": 4,
+    "status": "ARQUIVO_VERIFICADO",
+    "installation_layout": "EXTRACAO_E_DESCOBERTA_VALIDADA",
+    "host_execution": "NAO_TESTADA",
+    "public_submission": "NAO_PREPARADO"
+  },
+  {
+    "path": "dist/skills/coder-puro.zip",
+    "sha256": "16e1e64d9c5e5c6541615da1cabd817f14e54c6bb27462f77e928424695265c4",
+    "files": 2,
+    "status": "ARQUIVO_VERIFICADO",
+    "installation_layout": "EXTRACAO_E_DESCOBERTA_VALIDADA",
+    "host_execution": "NAO_TESTADA",
+    "public_submission": "NAO_PREPARADO"
+  },
+  {
+    "path": "dist/skills/coolify-operator.zip",
+    "sha256": "1ba0c36bb614eaa73ea2d16c7e429e1d6d3ab3f2deee44290c133ef5888bc6d9",
+    "files": 6,
+    "status": "ARQUIVO_VERIFICADO",
+    "installation_layout": "EXTRACAO_E_DESCOBERTA_VALIDADA",
+    "host_execution": "NAO_TESTADA",
+    "public_submission": "NAO_PREPARADO"
+  },
+  {
+    "path": "dist/skills/explica.zip",
+    "sha256": "293cba5a45cbf346953aeb257e1d3fac9e3d5d9325d7460c636e3b5f4c29fbef",
+    "files": 4,
+    "status": "ARQUIVO_VERIFICADO",
+    "installation_layout": "EXTRACAO_E_DESCOBERTA_VALIDADA",
+    "host_execution": "NAO_TESTADA",
+    "public_submission": "NAO_PREPARADO"
+  },
+  {
+    "path": "dist/skills/human-ai.zip",
+    "sha256": "b23683a143dda33f23515a27b6af41afc2014838c371093fa90c399152cf16ca",
+    "files": 17,
+    "status": "ARQUIVO_VERIFICADO",
+    "installation_layout": "EXTRACAO_E_DESCOBERTA_VALIDADA",
+    "host_execution": "NAO_TESTADA",
+    "public_submission": "NAO_PREPARADO"
+  },
+  {
+    "path": "dist/skills/integrador-de-apis.zip",
+    "sha256": "616ab98db2c1407a2e8634f4ed00791da5748cb9820c0442b2467772abcacb79",
+    "files": 2,
+    "status": "ARQUIVO_VERIFICADO",
+    "installation_layout": "EXTRACAO_E_DESCOBERTA_VALIDADA",
+    "host_execution": "NAO_TESTADA",
+    "public_submission": "NAO_PREPARADO"
+  },
+  {
+    "path": "dist/skills/monitor-brave.zip",
+    "sha256": "52ca229294f9b111d3badaaf04df2ae0ec0e6e287c2ff8b5811ce6d0b6b9c06e",
+    "files": 3,
+    "status": "ARQUIVO_VERIFICADO",
+    "installation_layout": "EXTRACAO_E_DESCOBERTA_VALIDADA",
+    "host_execution": "NAO_TESTADA",
+    "public_submission": "NAO_PREPARADO"
+  },
+  {
+    "path": "dist/skills/motion-ad.zip",
+    "sha256": "fb94996d14728090d3bef9cc1ea194a07e9ab924c1abc8b1e88696afa3888850",
+    "files": 12,
+    "status": "ARQUIVO_VERIFICADO",
+    "installation_layout": "EXTRACAO_E_DESCOBERTA_VALIDADA",
+    "host_execution": "NAO_TESTADA",
+    "public_submission": "NAO_PREPARADO"
+  },
+  {
+    "path": "dist/skills/pier-cloud.zip",
+    "sha256": "26cae719107afdabec6ebd2aefad6aee5542d79fc996d9ba11f3fe1cc40f4fec",
+    "files": 19,
+    "status": "ARQUIVO_VERIFICADO",
+    "installation_layout": "EXTRACAO_E_DESCOBERTA_VALIDADA",
+    "host_execution": "NAO_TESTADA",
+    "public_submission": "NAO_PREPARADO"
+  },
+  {
+    "path": "dist/skills/sincronizador-puro.zip",
+    "sha256": "4fe2e6abceb7bd91e621d3d2366dd34f32df5176c7db48f198caf5b0f546fe59",
+    "files": 2,
+    "status": "ARQUIVO_VERIFICADO",
+    "installation_layout": "EXTRACAO_E_DESCOBERTA_VALIDADA",
+    "host_execution": "NAO_TESTADA",
+    "public_submission": "NAO_PREPARADO"
+  },
+  {
+    "path": "dist/skills/slop-eval.zip",
+    "sha256": "a01a2e13efb0a90e5e00ad34797f293a742cf07b5ad54654f3f6c9e4f262f587",
+    "files": 11,
+    "status": "ARQUIVO_VERIFICADO",
+    "installation_layout": "EXTRACAO_E_DESCOBERTA_VALIDADA",
+    "host_execution": "NAO_TESTADA",
+    "public_submission": "NAO_PREPARADO"
+  },
+  {
+    "path": "dist/skills/startup-idea.zip",
+    "sha256": "2bd3f88e6614b5faaf7e18613ef53a23e554dacb0765e7d4a95354df6ccf6b64",
+    "files": 5,
+    "status": "ARQUIVO_VERIFICADO",
+    "installation_layout": "EXTRACAO_E_DESCOBERTA_VALIDADA",
+    "host_execution": "NAO_TESTADA",
+    "public_submission": "NAO_PREPARADO"
+  },
+  {
+    "path": "dist/skills/substack-expert.zip",
+    "sha256": "92360d4506527a3dba3c180e7af8babe5a0beadfe362a56a5c5b97f40b74deed",
+    "files": 6,
+    "status": "ARQUIVO_VERIFICADO",
+    "installation_layout": "EXTRACAO_E_DESCOBERTA_VALIDADA",
+    "host_execution": "NAO_TESTADA",
+    "public_submission": "NAO_PREPARADO"
+  },
+  {
+    "path": "dist/skills/ultimate-design-system-master.zip",
+    "sha256": "8f4fb67f30d1a02cf5324b7e929080eb5cc1d51fcc14058389d7a2b3c1564e5d",
+    "files": 15,
+    "status": "ARQUIVO_VERIFICADO",
+    "installation_layout": "EXTRACAO_E_DESCOBERTA_VALIDADA",
+    "host_execution": "NAO_TESTADA",
+    "public_submission": "NAO_PREPARADO"
+  },
+  {
+    "path": "dist/skills/vigia-de-integracoes.zip",
+    "sha256": "d7157adaccdebeb8b3a32153e23f471a29d3279c7342054be1e488ade8be17c7",
+    "files": 2,
+    "status": "ARQUIVO_VERIFICADO",
+    "installation_layout": "EXTRACAO_E_DESCOBERTA_VALIDADA",
+    "host_execution": "NAO_TESTADA",
+    "public_submission": "NAO_PREPARADO"
+  },
+  {
+    "path": "dist/plugins/apple-avila.zip",
+    "sha256": "dd7ce47e0ff96f3a48933e779f25c6425f32f71a2be60db93b8b74676db687e6",
+    "files": 8,
+    "status": "ARQUIVO_VERIFICADO",
+    "installation_layout": "EXTRACAO_E_DESCOBERTA_VALIDADA",
+    "host_execution": "NAO_TESTADA",
+    "public_submission": "NAO_PREPARADO"
+  },
+  {
+    "path": "dist/plugins/avila-cms.zip",
+    "sha256": "ab728b8c7e4bd99b0c84309eb88763fa2f29ddd1b1c8db2f3055f7857e30951b",
+    "files": 8,
+    "status": "ARQUIVO_VERIFICADO",
+    "installation_layout": "EXTRACAO_E_DESCOBERTA_VALIDADA",
+    "host_execution": "NAO_TESTADA",
+    "public_submission": "NAO_PREPARADO"
+  },
+  {
+    "path": "dist/plugins/avila-crm.zip",
+    "sha256": "2cab3a08bb79fed3ba6bfc54e49e74c560d91a4bc8c64f8eb9e8d93043c2bd1e",
+    "files": 8,
+    "status": "ARQUIVO_VERIFICADO",
+    "installation_layout": "EXTRACAO_E_DESCOBERTA_VALIDADA",
+    "host_execution": "NAO_TESTADA",
+    "public_submission": "NAO_PREPARADO"
+  },
+  {
+    "path": "dist/plugins/avila-design.zip",
+    "sha256": "69647ab5cddd65c170480ece5bf116ada8226f566381cc8c32ff758beb1454fa",
+    "files": 7,
+    "status": "ARQUIVO_VERIFICADO",
+    "installation_layout": "EXTRACAO_E_DESCOBERTA_VALIDADA",
+    "host_execution": "NAO_TESTADA",
+    "public_submission": "NAO_PREPARADO"
+  },
+  {
+    "path": "dist/plugins/avila-lojas.zip",
+    "sha256": "c5e5b66be50662c67ed388f299adf96aacf1018f32227767604777d5411c72de",
+    "files": 8,
+    "status": "ARQUIVO_VERIFICADO",
+    "installation_layout": "EXTRACAO_E_DESCOBERTA_VALIDADA",
+    "host_execution": "NAO_TESTADA",
+    "public_submission": "NAO_PREPARADO"
+  },
+  {
+    "path": "dist/plugins/avila-mail.zip",
+    "sha256": "81e1df85eef703dfc13959a5a7749100538b1d128f2ab82ed4d846551e7f99fc",
+    "files": 8,
+    "status": "ARQUIVO_VERIFICADO",
+    "installation_layout": "EXTRACAO_E_DESCOBERTA_VALIDADA",
+    "host_execution": "NAO_TESTADA",
+    "public_submission": "NAO_PREPARADO"
+  },
+  {
+    "path": "dist/plugins/avila-notas.zip",
+    "sha256": "fe83849fc304f8f54c243febba0b361a2dafe452085b792d0ed3ded3632a2e8b",
+    "files": 8,
+    "status": "ARQUIVO_VERIFICADO",
+    "installation_layout": "EXTRACAO_E_DESCOBERTA_VALIDADA",
+    "host_execution": "NAO_TESTADA",
+    "public_submission": "NAO_PREPARADO"
+  },
+  {
+    "path": "dist/plugins/avila-ops-skills.zip",
+    "sha256": "33271016dba8885695afe19277879b62087c09722045ddb609d5a122bd06e34f",
+    "files": 60,
+    "status": "ARQUIVO_VERIFICADO",
+    "installation_layout": "EXTRACAO_E_DESCOBERTA_VALIDADA",
+    "host_execution": "NAO_TESTADA",
+    "public_submission": "NAO_PREPARADO"
+  },
+  {
+    "path": "dist/plugins/avila-tms.zip",
+    "sha256": "6ff1ca81beacff7396b6b134ca51495bf42056be425117be970253671af3cdbc",
+    "files": 8,
+    "status": "ARQUIVO_VERIFICADO",
+    "installation_layout": "EXTRACAO_E_DESCOBERTA_VALIDADA",
+    "host_execution": "NAO_TESTADA",
+    "public_submission": "NAO_PREPARADO"
+  },
+  {
+    "path": "dist/plugins/dev-6ad0a0086b188191928c20e0cf70d6fe.zip",
+    "sha256": "361d62690a032756e8ce84b13ffb557a04c560a3b283aa552e321257dd0cb0ce",
+    "files": 5,
+    "status": "ARQUIVO_VERIFICADO",
+    "installation_layout": "EXTRACAO_E_DESCOBERTA_VALIDADA",
+    "host_execution": "NAO_TESTADA",
+    "public_submission": "NAO_PREPARADO"
+  },
+  {
+    "path": "dist/plugins/lojas-clientes.zip",
+    "sha256": "625c6f255532bad4be7037873fd95cae794f04f6ac4691b9d5675616b22e404d",
+    "files": 7,
+    "status": "ARQUIVO_VERIFICADO",
+    "installation_layout": "EXTRACAO_E_DESCOBERTA_VALIDADA",
+    "host_execution": "NAO_TESTADA",
+    "public_submission": "NAO_PREPARADO"
+  },
+  {
+    "path": "dist/plugins/n8n-avilaops.zip",
+    "sha256": "7ec0d4f0ec1d5084725a8442dc250cadba55a11408ee0eaa8a43cd6b6977a6b3",
+    "files": 6,
+    "status": "ARQUIVO_VERIFICADO",
+    "installation_layout": "EXTRACAO_E_DESCOBERTA_VALIDADA",
+    "host_execution": "NAO_TESTADA",
+    "public_submission": "NAO_PREPARADO"
+  }
+]

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title id="title">Lojas Clientes</title>
+  <rect width="256" height="256" rx="48" fill="#10243A"/>
+  <g fill="none" stroke="#F8FAFC" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M57 115v83h80M57 74h128l16 41H41l16-41ZM81 115v-19M121 115V96M161 115V96M77 144h40v54"/>
+  </g>
+  <circle cx="178" cy="153" r="19" fill="#38BDF8"/>
+  <path d="M143 207v-10a35 35 0 0 1 70 0v10" fill="none" stroke="#38BDF8" stroke-width="12" stroke-linecap="round"/>
+</svg>

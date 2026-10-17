@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title id="title">Relacionamento com clientes</title>
+  <rect width="256" height="256" rx="56" fill="#10243A"/>
+  <g fill="none" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m90 114-25 43m101-43 25 43M92 184h72" stroke="#38BDF8"/>
+    <circle cx="128" cy="80" r="26" stroke="#F8FAFC"/>
+    <path d="M84 136c0-24 20-38 44-38s44 14 44 38" stroke="#F8FAFC"/>
+    <circle cx="66" cy="178" r="22" stroke="#F8FAFC"/>
+    <circle cx="190" cy="178" r="22" stroke="#F8FAFC"/>
+  </g>
+  <circle cx="128" cy="184" r="8" fill="#FBBF24"/>
+</svg>

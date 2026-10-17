@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title id="title">Avila Ops Skills</title>
+  <rect width="256" height="256" rx="48" fill="#10243A"/>
+  <g fill="none" stroke="#F8FAFC" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m110 48-4 24-21 12-23-8-18 32 19 16v24l-19 16 18 32 23-8 21 12 4 24h36l4-24 21-12 23 8 18-32-19-16v-24l19-16-18-32-23 8-21-12-4-24Z"/>
+    <circle cx="128" cy="136" r="34"/>
+  </g>
+  <path d="m112 136 12 12 24-26" fill="none" stroke="#38BDF8" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,9 @@
+interface:
+  display_name: Explica
+  short_description: Entenda documentação técnica com exemplos práticos
+  default_prompt: Use $explica para explicar este material em português, com um exemplo
+    aplicado à minha operação.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true

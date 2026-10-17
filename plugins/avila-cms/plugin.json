@@ -1,0 +1,25 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "avilacargasrapidas@gmail.com",
+    "name": "Nicolas"
+  },
+  "description": "Apoio editorial aos sites e páginas gerenciados no CMS.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [],
+        "category": "Productivity",
+        "composerIcon": "./assets/plugin-icon.svg",
+        "defaultPrompt": "Verifique as ferramentas de Ávila CMS disponíveis e apresente o que é possível fazer sem alterar dados.",
+        "developerName": "Nicolas",
+        "displayName": "Ávila CMS",
+        "logo": "./assets/plugin-icon.svg",
+        "longDescription": "Apoio editorial aos sites e páginas gerenciados no CMS. Ligação ao MCP central, sujeita à autenticação e às ferramentas realmente expostas.",
+        "shortDescription": "Conteúdo e sites"
+      }
+    }
+  },
+  "name": "avila-cms",
+  "version": "0.1.1"
+}

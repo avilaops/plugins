@@ -1,0 +1,7 @@
+interface:
+  display_name: Automador Puro
+  short_description: "Automa\xE7\xF5es, gatilhos, logs e testes"
+  default_prompt: "Use $automador-puro para criar, corrigir ou validar uma automa\xE7\
+    \xE3o operacional."
+policy:
+  allow_implicit_invocation: true
